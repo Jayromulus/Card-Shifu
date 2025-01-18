@@ -1,0 +1,17 @@
+{
+  "name": "yi-xian-helper",
+  "version": "0.0.1",
+  "description": "a discord helper bot to provide information about cards, fates, and mechanics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "jayromulus",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
