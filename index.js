@@ -1,11 +1,11 @@
-require('dotenv')
+require('dotenv').config()
 const fs = require('node:fs')
 const path = require('node:path')
 const { Client, Events, GatewayIntentBits, Collection } = require('discord.js')
 const { log, warn } = require('node:console')
 const token = process.env.TOKEN
 
-const client = new Client({ intents: [GatewayIntentBits.Guild] })
+const client = new Client({ intents: [GatewayIntentBits.Guilds] })
 
 client.once(Events.ClientReady, c => {
   log(`Ready! Logged in as ${c.user.tag}`)
@@ -18,7 +18,7 @@ const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('
 
 for (const file of commandFiles) {
   const filePath = path.join(commandsPath, file)
-  const command = require(filepath)
+  const command = require(filePath)
 
   if('data' in command && 'execute' in command) {
     client.commands.set(command.data.name, command)
