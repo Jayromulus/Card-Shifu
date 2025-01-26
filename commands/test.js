@@ -11,6 +11,6 @@ module.exports = {
         .setRequired(true)
     ),
   async execute(interaction) {
-    await interaction.reply(`test command featuring input ${interaction.options.getString('test')}`)
+    await interaction.reply(`test command featuring input \`${interaction.options.getString('test')}\``)
   }
 }
