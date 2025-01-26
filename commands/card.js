@@ -54,7 +54,7 @@ module.exports = {
       .addFields(
         ...fields
       )
-      .setImage('https://i.imgur.com/AfFp7pu.png')
+      .setImage(selected.image)
       // .setTimestamp()
       .setFooter({
         text: selected.sect,
