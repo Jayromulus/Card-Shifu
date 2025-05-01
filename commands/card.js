@@ -33,10 +33,6 @@ const sectIcons = {
 const cards = require('../assets/cardData')
 const cardNames = Object.keys(cards)
 
-// log(cardNames.length)
-
-// const initialValues = cardNames.map((card, index) => { if(index < 25) return { name: card, value: card } }).filter(v => v ?? v);
-
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('card')
@@ -46,12 +42,12 @@ module.exports = {
         .setName('name')
         .setDescription('card name')
         .setRequired(true)
-        // .setChoices(initialValues)
         .setAutocomplete(true)
       ),
   async autocomplete(interaction) {
     const focusedValue = interaction.options.getFocused()
     const filtered = cardNames.filter(choice => choice.toLowerCase().replace(/\s+/, '').includes(focusedValue.toLowerCase().replace(/\s+/, '')))
+    // fails AFTER the space when additional characters are added
     if (filtered.length > 25) filtered.splice(24, filtered.length)
     await interaction.respond(
       filtered.map(choice => { return { name: choice, value: choice } })
@@ -67,12 +63,6 @@ module.exports = {
     fields.shift()
     fields.shift()
 
-    // log(...fields)
-    // log(interaction.options.getString('name'))
-    // log(sectIcons[selected.sect])
-
-    // log({ author: interaction })
-
     const cardEmbed = new EmbedBuilder()
       .setColor(sectColors[selected.sect])
       .setTitle(interaction.options.getString('name'))
@@ -80,11 +70,8 @@ module.exports = {
       .addFields(
         ...fields
       )
-      .setImage(selected.image)
-      .setFooter({
-        text: selected.sect,
-        // iconURL: 'https://i.imgur.com/AfFp7pu.png',
-      })
+      // .setImage(selected.image)
+      .setFooter({ text: selected.sect })
 
     await interaction.reply({ embeds: [cardEmbed] })
   },
