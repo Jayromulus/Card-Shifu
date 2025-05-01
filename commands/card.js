@@ -1,31 +1,60 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js')
 const { log, warn } = require('node:console')
 const sectColors = {
-  'Cloud Sword Sect': 0x2d4d8a,
+  'Cloud Spirit Sword Sect': 0x2d4d8a,
   'Heptastar Pavillion': 0x3f2d79,
   'Five Elements Alliance': 0xb56423,
-  'Duan Xuan Sect': 0x6b2121
+  'Duan Xuan Sect': 0x6b2121,
+  'Elixirist': 0x2b2b2b,
+  'Formation Master': 0x2b2b2b,
+  'Fortune Teller': 0x2b2b2b,
+  'Fuluist': 0x2b2b2b,
+  'Musician': 0x2b2b2b,
+  'Painter': 0x2b2b2b,
+  'Plant Master': 0x2b2b2b,
+  'Spiritual Pet': 0x2b2b2b,
+  'Talisman': 0x2b2b2b,
+}
+const sectIcons = {
+  'Cloud Spirit Sword Sect': 'https://i.imgur.com/e4hQlwX.png',
+  'Heptastar Pavillion': 'https://i.imgur.com/b7pCmgi.png',
+  'Five Elements Alliance': 'https://i.imgur.com/0Va1Ytk.png',
+  'Duan Xuan Sect': 'https://i.imgur.com/s2jOXFc.png',
+  'Elixirist': 'https://i.imgur.com/mQR79bZ.png',
+  'Formation Master': 'https://i.imgur.com/0Kdp0GD.png',
+  'Fortune Teller': 'https://i.imgur.com/tOhBEHl.png',
+  'Fuluist': 'https://i.imgur.com/qxcQD70.png',
+  'Musician': 'https://i.imgur.com/prG9aOE.png',
+  'Painter': 'https://i.imgur.com/xatQzNe.png',
+  'Plant Master': 'https://i.imgur.com/HugEJTj.png',
+  'Spiritual Pet': 'https://i.imgur.com/bDAsdBl.png',
+  'Talisman': 'https://i.imgur.com/FSwBnsF.png',
 }
 const cards = require('../assets/cardData')
 const cardNames = Object.keys(cards)
-const initialValues = cardNames.filter((card, index) => { if(index <= 25) return { name: card, value: card } })
+
+// log(cardNames.length)
+
+// const initialValues = cardNames.map((card, index) => { if(index < 25) return { name: card, value: card } }).filter(v => v ?? v);
 
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('card')
     .setDescription('View information on a provided card')
-    .addStringOption((option) =>
+    .addStringOption(option =>
       option
         .setName('name')
         .setDescription('card name')
         .setRequired(true)
-        .setChoices(initialValues)
+        // .setChoices(initialValues)
+        .setAutocomplete(true)
       ),
   async autocomplete(interaction) {
     const focusedValue = interaction.options.getFocused()
-    const filtered = cardNames.filter(choice => choice.toLowerCase().replace(/\s+/, '').startsWith(focusedValue.toLowerCase().replace(/\s+/, '')))
+    const filtered = cardNames.filter(choice => choice.toLowerCase().replace(/\s+/, '').includes(focusedValue.toLowerCase().replace(/\s+/, '')))
+    if (filtered.length > 25) filtered.splice(24, filtered.length)
     await interaction.respond(
-      await filtered.filter((choice, index) => { if(index <= 25) return { name: choice, value: choice }})
+      filtered.map(choice => { return { name: choice, value: choice } })
     )
   },
   async execute(interaction) {
@@ -36,15 +65,18 @@ module.exports = {
 
     const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}` }))
     fields.shift()
+    fields.shift()
 
-    log(...fields)
+    // log(...fields)
+    // log(interaction.options.getString('name'))
+    // log(sectIcons[selected.sect])
 
-    log({ author: interaction.message.author })
+    // log({ author: interaction })
 
     const cardEmbed = new EmbedBuilder()
       .setColor(sectColors[selected.sect])
       .setTitle(interaction.options.getString('name'))
-      .setThumbnail('https://i.imgur.com/AfFp7pu.png')
+      .setThumbnail(sectIcons[selected.sect])
       .addFields(
         ...fields
       )
