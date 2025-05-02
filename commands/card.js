@@ -1,5 +1,4 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js')
-const { log, warn } = require('node:console')
 
 const sectColors = {
   'Cloud Spirit Sword Sect': 0x2d4d8a,
