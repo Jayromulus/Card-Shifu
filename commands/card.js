@@ -1,5 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js')
 const { log, warn } = require('node:console')
+
 const sectColors = {
   'Cloud Spirit Sword Sect': 0x2d4d8a,
   'Heptastar Pavillion': 0x3f2d79,
@@ -46,8 +47,8 @@ module.exports = {
       ),
   async autocomplete(interaction) {
     const focusedValue = interaction.options.getFocused()
-    const filtered = cardNames.filter(choice => choice.toLowerCase().replace(/\s+/, '').includes(focusedValue.toLowerCase().replace(/\s+/, '')))
-    // fails AFTER the space when additional characters are added
+    const filtered = cardNames.filter(choice => choice.toLowerCase().replaceAll(/\W+/g, '').includes(focusedValue.toLowerCase().replaceAll(/\W+/g, '')))
+
     if (filtered.length > 25) filtered.splice(24, filtered.length)
     await interaction.respond(
       filtered.map(choice => { return { name: choice, value: choice } })
