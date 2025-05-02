@@ -2,9 +2,13 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js')
 
 const sectColors = {
   'Cloud Spirit Sword Sect': 0x2d4d8a,
-  'Heptastar Pavillion': 0x3f2d79,
+  'Secret Enchantment - Cloud Spirit Sword Sect': 0x2d4d8a,
   'Five Elements Alliance': 0xb56423,
+  'Secret Enchantment - Five Elements Alliance': 0xb56423,
+  'Heptastar Pavillion': 0x3f2d79,
+  'Secret Enchantment - Heptastar Pavillion': 0x3f2d79,
   'Duan Xuan Sect': 0x6b2121,
+  'Secret Enchantment - Duan Xuan Sect': 0x6b2121,
   'Elixirist': 0x2b2b2b,
   'Formation Master': 0x2b2b2b,
   'Fortune Teller': 0x2b2b2b,
@@ -14,12 +18,37 @@ const sectColors = {
   'Plant Master': 0x2b2b2b,
   'Spiritual Pet': 0x2b2b2b,
   'Talisman': 0x2b2b2b,
+  'Mu Yifeng': 0x2d4d8a,
+  'Yan Xue': 0x2d4d8a,
+  'Lin Xiaoyue': 0x2d4d8a,
+  'Long Yao': 0x2d4d8a,
+  'Lu Jianxin': 0x2d4d8a,
+  'Li Chengyun': 0x2d4d8a,
+  'Du Lingyuan': 0xb56423,
+  'Hua Qinrui': 0xb56423,
+  'Mu Hu': 0xb56423,
+  'Wu Xingzhe': 0xb56423,
+  'Nangong Shen': 0xb56423,
+  'Tan Shuyan': 0x3f2d79,
+  'Yan Chen': 0x3f2d79,
+  'Wu Ce': 0x3f2d79,
+  'Jiang Ximing': 0x3f2d79,
+  'Yao Ling': 0x3f2d79,
+  'Xiao Bu': 0x6b2121,
+  'Tu Kui': 0x6b2121,
+  'Ye Mingming': 0x6b2121,
+  'Ji Fangsheng': 0x6b2121,
+  'Li Man': 0x6b2121,
 }
 const sectIcons = {
   'Cloud Spirit Sword Sect': 'https://i.imgur.com/e4hQlwX.png',
   'Heptastar Pavillion': 'https://i.imgur.com/b7pCmgi.png',
   'Five Elements Alliance': 'https://i.imgur.com/0Va1Ytk.png',
   'Duan Xuan Sect': 'https://i.imgur.com/s2jOXFc.png',
+  'Secret Enchantment - Cloud Spirit Sword Sect': 'https://i.imgur.com/ex7uBrJ.png',
+  'Secret Enchantment - Heptastar Pavillion': 'https://i.imgur.com/ex7uBrJ.png',
+  'Secret Enchantment - Five Elements Alliance': 'https://i.imgur.com/ex7uBrJ.png',
+  'Secret Enchantment - Duan Xuan Sect': 'https://i.imgur.com/ex7uBrJ.png',
   'Elixirist': 'https://i.imgur.com/mQR79bZ.png',
   'Formation Master': 'https://i.imgur.com/0Kdp0GD.png',
   'Fortune Teller': 'https://i.imgur.com/tOhBEHl.png',
@@ -29,6 +58,27 @@ const sectIcons = {
   'Plant Master': 'https://i.imgur.com/HugEJTj.png',
   'Spiritual Pet': 'https://i.imgur.com/bDAsdBl.png',
   'Talisman': 'https://i.imgur.com/FSwBnsF.png',
+  'Mu Yifeng': 'https://i.imgur.com/PrDSnSN.png',
+  'Yan Xue': 'https://i.imgur.com/eMG8aEg.png',
+  'Lin Xiaoyue': 'https://i.imgur.com/sJqMNae.png',
+  'Long Yao': 'https://i.imgur.com/lgB7NwO.png',
+  'Lu Jianxin': 'https://i.imgur.com/Z6Y7eXx.png',
+  'Li Chengyun': 'https://i.imgur.com/WmPAt3q.png',
+  'Du Lingyuan': 'https://i.imgur.com/yD8LLsU.png',
+  'Hua Qinrui': 'https://i.imgur.com/d1cnZGp.png',
+  'Mu Hu': 'https://i.imgur.com/wkHJmTU.png',
+  'Wu Xingzhi': 'https://i.imgur.com/FRhJsJF.png',
+  'Nangong Shen': 'https://i.imgur.com/Gqo6Ape.png',
+  'Tan Shuyan': 'https://i.imgur.com/pCQKGFP.png',
+  'Yan Chen': 'https://i.imgur.com/NP3z0Xp.png',
+  'Wu Ce': 'https://i.imgur.com/kyVvZ0T.png',
+  'Jiang Ximing': 'https://i.imgur.com/bDJE7P4.png',
+  'Yao Ling': 'https://i.imgur.com/a6390w3.png',
+  'Xiao Bu': 'https://i.imgur.com/HHifHKr.png',
+  'Tu Kui': 'https://i.imgur.com/gwJl2x0.png',
+  'Ye Mingming': 'https://i.imgur.com/t8bMlIj.png',
+  'Ji Fangsheng': 'https://i.imgur.com/Fzj0ZTc.png',
+  'Li Man': 'https://i.imgur.com/d2vfd7s.png',
 }
 const cards = require('../assets/cardData')
 const cardNames = Object.keys(cards)
@@ -54,7 +104,18 @@ module.exports = {
     )
   },
   async execute(interaction) {
-    const selected = cards[interaction.options.getString('name')]
+    let selected;
+    let selectedName;
+    
+    if (interaction.options.getString('name') === 'random') {
+      const randIndex = Math.floor(Math.random() * (cardNames.length - 1 + 1))
+      
+      selectedName = cardNames[randIndex]
+      selected = cards[selectedName]
+    } else {
+      selectedName = interaction.options.getString('name')
+      selected = cards[selectedName]
+    }
     // const level = parseInt(interaction.options.getNumber('level'))
     const level = 0
     const keys = Object.keys(selected)
@@ -65,7 +126,7 @@ module.exports = {
 
     const cardEmbed = new EmbedBuilder()
       .setColor(sectColors[selected.sect])
-      .setTitle(interaction.options.getString('name'))
+      .setTitle(selectedName)
       .setThumbnail(sectIcons[selected.sect])
       .addFields(
         ...fields

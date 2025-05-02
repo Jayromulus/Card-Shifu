@@ -2487,28 +2487,28 @@ module.exports = {
   //* Cloud Spirit Sword Sect
   //? Meditation
   "Rhyme Spirit Sword": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["4/5/6 ATK"],
     "Injured": ["Add Qi for each damage dealt to HP"]
   },
   "Diligent Sword": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["6 ATK\nAdd 1 ATK for every 5/4/3 points of cultivation"]
   },
   //? Foundation
   "Cloud Sword - Dawn": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["DEF+4/6/8"],
     "Cloud Hit": ["2/3/4 ATK x 3"]
   },
   "Giant Ape Spirit Sword": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Cost": ["2 Qi"],
@@ -2516,65 +2516,65 @@ module.exports = {
   },
   //? Virtuoso
   "Unrestrained Sword - Dragon Coiled": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["DEF+6/8/10\nFor each \"Unrestrained Sword\" you played in this battle, add 6/8/10 more DEF"]
   },
   "One Heart One Sword": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["6 ATK\nThis card receives a 4/5/6x bonus from Sword Intent and is not affected by Weakened"]
   },
   "Synergy Sword Formation": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["4 ATK\nDEF+4\nFor each other \"Sword Formation\" in the deck, this card has 3/4/5 more ATK and 3/4/5 more DEF"]
   },
   //? Immortality
   "Sword Intent Flow": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["Sword Intent+2/3/4\nKeep the Sword Intent after the next card attack"]
   },
   "Emptiness Sword Formation": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Continuous": ["After each time you play a \"Sword Formation\" card, make an additional 7/10/13 ATK"]
   },
   //? Incarnation
   "Apex Sword Citta-Dharma": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Continuous": ["Add 2/3/4 stacks of Sword Intent at the start of your turn"]
   },
   "Step Moon Into Cloud": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Continuous": ["After each time you play a \"Cloud Sword\", add 1/1/2 stack(s) of Increase Attack\n-/Chase/Chase"]
   },
   "Unrestrained Sword - Twin Dragons": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["2/8/14 ATK\nNext \"Unrestrained Sword\" will trigger twice"]
   },
   //? Divinity
   "Remnant Cloud Sky Sealing Sword": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Divinity",
     "Cost": ["1 Qi"],
     "Effect": ["8/10/12 ATK\nAdd 8/10/12 ATK for each \"Cloud Sword\" remaining in your hand"]
   },
   "Secret Sword - Spirit Cloud": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Divinity",
     "Effect": ["4/6/8 ATK\nMake an additional attack for each Qi"],
@@ -2584,27 +2584,27 @@ module.exports = {
   //* Heptastar Pavillion
   //? Meditation
   "Hexagrams Spirit Resurrection": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["Exhaust Hexagram and Qi, add 4/5/6 HP for each point exhausted"]
   },
   "Throwing Stones for Directions": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["6 ATK\nApply 0~2/0~2/0~3 stack(s) of Weakened\nApply 0~2/0~3/0~3 stack(s) of Flaw"]
   },
   //? Foundation
   "Vitality Blossom": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["HP and Max HP+7/11/15"],
     "Continuous": ["When the added HP exceeds the Max HP, the Max HP increses with the HP"]
   },
   "Star Born Rhythm": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["Star Power+2/3/4"],
@@ -2612,14 +2612,14 @@ module.exports = {
   },
   //? Virtuoso
   "Sun And Moon For Glory": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Cost": ["1 Qi"],
     "Effect": ["Deal 13/17/17 DMG (for every 2/2/1 Max HP higher than your opponent, deal 1 more DMG"]
   },
   "All-Or-Nothing": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Cost": ["2 Qi"],
@@ -2627,20 +2627,20 @@ module.exports = {
   },
   //? Immortality
   "Flowers And Water": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["Apply 1/2/3 stack(s) of Internal Injury\nMake an additional 1 ATK for each stack of your opponent's Debuff"]
   },
   "Astral Move - Dragon Slay": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["10/12/14 ATK"],
     "Star Point": ["This card receives a 5/6/7x bonus from Star Power"]
   },
   "Thunder Citta-Dharma": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["Hexagram+1/2/3"],
@@ -2648,34 +2648,34 @@ module.exports = {
   },
   //? Incarnation
   "Thin On The Ground": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Consumption": ["Max HP+2/3/4 in this game\nHP+15/20/25\n1% chance to get doubled effect"]
   },
   "Preemptive Strike": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["4/10/16 ATK"],
     "Continuous": ["Post Action can be triggered when first time play it"]
   },
   "Meteorite Meteor": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["Lost all Star Power, for each: Deal 8/9/10 DMG to the opponent"]
   },
   //? Divinity
-  "Destiny Catastrophe": { //! need level up
-    "sect": "Heptastar Pavillion",
+  "Destiny Catastrophe": {
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Divinity",
     "Cost": ["2/1/0 Qi"],
     "Effect": ["If your Hexagram is exactly 8 stacks, change your opponent's HP to 8/4/1"]
   },
-  "Covert Shift": { //! need level up
-    "sect": "Heptastar Pavillion",
+  "Covert Shift": {
+    "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Divinity",
     "Cost": ["1 Qi"],
@@ -2685,52 +2685,52 @@ module.exports = {
   //* Five Elements Alliance
   //? Meditation
   "Wood Spirit Secret Seal": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["Gain 2/3/4 stacks of Increase ATK\nActivate Wood Spirit"]
   },
   "Fire Spirit Secret Seal": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["Opponent loses 8/12/16 HP and Max HP\nActivate Fire Spirit"]
   },
   "Earth Spirit Secret Seal": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["DEF+6/9/12\nAdd 6/9/12 DEF in next turn\nActivate Earth Spirit"]
   },
   "Metal Spirit Secret Seal": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["Penetrate+8/11/14\nActivate Metal Spirit"]
   },
   "Water Spirit Secret Seal": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["Gain 2/3/4 stacks of Force of Water\nActivate Water Spirit"]
   },
   //? Foundation
   "Metal Spirit - Chokehold": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["8/12/16 ATK"],
     "Metal Spirit": ["Make the opponent cannot add HP for 2/3/4 turns"]
   },
   "Water Spirit - Rhythm Wood": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Water Spirit": ["Qi+2/3/4"],
     "Wood Spirit": ["Add 2 HP for each Qi you have"]
   },
   "Fire Spirit - Rhythm Earth": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Fire Spirit": ["Opponent loses 8/12/16 HP and Max HP"],
@@ -2738,42 +2738,42 @@ module.exports = {
   },
   //? Virtuoso
   "Wood Spirit - Vine": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["4 ATK x 2"],
     "Wood Spirit": ["For every 5 HP was added, make an additional ATK (Up to 3/4/5 times)"]
   },
   "Metal Spirit - Rhythm Water": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Metal Spirit": ["Penetrate+4/6/8"],
     "Water Spirit": ["Penetrate Halved, for each reduced point you gain 1 stack of Force of Water"]
   },
   "Five Elements Escape": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["DEF+8/13/18\nIf at least 2 types of Five Elements have been activated, Chase"]
   },
   //? Immortality
   "Earth Spirit - Earthquake": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["6/9/12 ATK\nDEF+6/9/12"],
     "Earth Spirit": ["Halve the opponent's Qi and DEF"]
   },
   "Wood Spirit - Rhythm Fire": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Wood Spirit": ["HP+16/22/28"],
     "Fire Spirit": ["1 ATK (The rest of HP halved, for each reduced HP you gain 1 ATK)"]
   },
   "Earth Spirit - Rhythm Metal": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Earth Spirit": ["DEF+10/15/20, then lose all DEF and add it back"],
@@ -2781,7 +2781,7 @@ module.exports = {
   },
   //? Incarnation
   "Fire Spirit - Burning Sky": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Cost": ["3/2/1 Qi"],
@@ -2789,7 +2789,7 @@ module.exports = {
     "Fire Spirit": ["For every 3 Max HP of the opponent has been reduced, this card add 1 ATK"]
   },
   "Water Spirit - Tsunami": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Cost": ["4/3/2 Qi"],
@@ -2798,7 +2798,7 @@ module.exports = {
   },
   //? Divinity
   "Five Elements Spirit Blast": { //! need level up
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Divinity",
     "Cost": ["3 Qi"],
@@ -2809,7 +2809,7 @@ module.exports = {
     "Water Spirit": ["25/28/31 ATK"]
   },
   "Five Elements Blossom": {
-    "sect": "Five Elements Alliance",
+    "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Divinity",
     "Consumption": ["Play all Five Elements Spirit Seal cards\nChase"]
@@ -2818,87 +2818,87 @@ module.exports = {
   //* Duan Xuan Sect
   //? Meditation
   "Endless Force": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Continuous": ["Whenever you have no Force, gain 4/5/6 Force"]
   },
   "Endless Entanglement": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["Physique+2\nBoth players reduce 14/20/26 Max HP"]
   },
   //? Foundation
   "Toxin Immunity": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["HP and MAx HP+5/9/13"],
     "Continuous": ["At the end of your turn, heal 1 HP for each stack of Debuff (up to 6/9/12)"]
   },
   "Lying Drunk": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["3 ATK\nAgility+8/10/12\nNext Normal Attack makes 3/4/5 additional attacks"]
   },
   //? Virtuoso
   "Herbal Bath": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Absorb": ["Physique Cap+4/8/16\nPhysique+4/8/16"]
   },
   "Break Pots and Sink Boats": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["Lost 80% MAx HP\nGain 3/4/5 stacks of Force, Guard Up and Increase ATK"]
   },
   //? Immortality
   "Strength Driven Mad": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["Gain 1 stack of Increase ATK and Internal Injury for each 10/9/8 Physique"]
   },
   "Crash Fist - Double": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Cost": ["7 HP"],
     "Effect": ["10/15/20 ATK\nNext \"Crash Fist\" will trigger twice"]
   },
   "Styx Three Hit": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["2 ATK x 3\n1 more ATK for each 30/22/16 Max HP"]
   },
   //? Incarnation
   "Break Cocoon": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["Agility+5/10/15\nClear Debuff. Add 2 Physique and 2 HP for each stack of Debuff cleared"]
   },
   "Eerie Melody Buries Soul": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["Both players gain 3/4/5 stacks of Internal Injury, Flaw, Weakened, Entangled and Wound"]
   },
   //? Divinity
   "Endless Crash": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Divinity",
     "Cost": ["9 HP"],
     "Effect": ["Trigger the effects of 5 Lv.1/2/3 Crash Fist cards (without Cost HP)"]
   },
   "Return to Simplicity": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Divinity",
     "Effect": ["Physique+5/10/15"],
@@ -2907,82 +2907,82 @@ module.exports = {
 
   //! Character Specific Cards - redo the sect to reflect each specific character icon
   "Spring Course Tea": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Mu Yifeng",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["Can be dragged to any Level 1 card to upgrade it"]
   },
   "Cloud Sword - Avalanche": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Yan Xue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["4 ATK"],
     "Cloud Hit": ["For every successive \"Cloud Sword\" played before this card, add 4/5/6 more ATK"]
   },
   "Unrestrained Sword - Flame Dance": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Yan Xue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["2 ATK\nIf you have played \"Unrestrained Sword\" card in this battle, Chase"],
     "Injured": ["Apply 1/2/3 stacks of Wound"]
   },
   "Cloud Sword - Pray Rain": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Long Yao",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["2 ATK x 3/4/5\nQi+1\nGain 2 stacks of Regeneration"]
   },
   "Sky Delicate Bracelet": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Long Yao",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["DEF+9\nGain 1/2/3 stacks of Guard Up\nChase"]
   },
   "Cloud Sword - Flying Sand": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Lin Xiaoyue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["5/8/9 ATK"],
     "Cloud Hit": ["Apply 2/2/3 stacks of Flaw"]
   },
   "Bronze Cat": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Lin Xiaoyue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation Phase",
     "Effect": ["DEF+5\nFor each Sword Intent add 2/3/4 DEF"]
   },
   "Dried small fish": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Lin Xiaoyue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Absorb": ["Max HP+1/2/4, Destiny+2/4/8"]
   },
   "Catnip": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Lin Xiaoyue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Absorb": ["Upgrade 1/2/2 Level 1/1/2 card(s) in your hand or deck randomly (Prioritize upgrading cards with \"Cat\" in their name)"]
   },
   "Cat Teaser": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Lin Xiaoyue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Absorb": ["Exchange Card Chance+1/2/4"]
   },
   "Cloud Sword - Cat Paw": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Lin Xiaoyue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["4/6/8 ATK x 2\nThis card's attacks Ignore DEF"]
   },
   "Spirit Cat Chaos Sword": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Lin Xiaoyue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["2 ATK x 2/3/4\nMake an additional attack for every remaining card in hand (up to 3)"]
   },
   "Clear Heart Embryo Sword": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Lu Jianxin",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["7 ATK"],
@@ -2992,63 +2992,63 @@ module.exports = {
     "Incarnation": ["Unrestrained Sword - Clear Heart: Increase 3 ATK, and next card count as Unrestrained Sword\nCloud Sword - Clear Heart: Reduce 7 ATK, and next Cloud Sword gain Chase\nClear Heart - Ultimate: All numerical values in this card's effect are increased by 1"]
   },
   "Yeying Sword Formation": {
-    "sect": "Cloud Spirit Sword Sect",
+    "sect": "Li Chengyun",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["2 ATK x 2/2/3\nMake an additional attack for every other \"Sword Formation\" in the deck (up to 3/4/4)\nAdd 3 DEF for every attack that Injured the opponent"]
   },
   "Only Traces": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Tan Shuyan",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["Qi+3/3/4\n-/Chase/Chase"],
     "Post Action": ["Chase/HP+1/HP+1"]
   },
   "Ultimage Hexagram Base": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Yan Chen",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["Hexagram+0/2/4"],
     "Continuous": ["At the beginning of your turn, add 1 Hexagram"]
   },
   "Within Reach": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Yan Chen",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["9 ATK\nFor each stack of Debuff the opponent has, this card gets 2/3/4 ATK"]
   },
   "Fury Thunder": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Yan Chen",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["Apply 1/2/3 stack(s) of Flaw\nIf the name of the card in the next slot contains \"Thunder\", Chase"]
   },
   "Flame Flutter": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Yao Ling",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["3/4/5 ATK\nApply 1~3/2~4/3~5 stack(s) of Internal Injury"]
   },
   "Rotary Divination Hexagram": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Yao Ling",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["Hexagram+4/5/6\nOpponent lose 2/3/4 HP\nOpponent lose 1/2/3 Qi"]
   },
   "Starburst": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Jiang Ximing",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["8/10/12 ATK\nIf you have Star Power, remove 1 Star Power and this card has 8/10/13 more ATK"]
   },
   "Heptastar Soulstat": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Jiang Ximing",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["Opponent loses 4/9/14 HP\nMake the opponent unable to act for 1 turn"]
   },
   "Perfectly Planned": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Wu Ce",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["Qi+1\nHexagram+1\mThe next slot Become Star Point\nStar Power+0/1/1\nHP and Max HP+0/0/4"],
@@ -3056,38 +3056,38 @@ module.exports = {
     "Exchange": ["Card Exchange Chance+3"]
   },
   "Star Moon Folding Fan": {
-    "sect": "Heptastar Pavillion",
+    "sect": "Wu Ce",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["If Qi >= 1, Star Power+1/2/3\nIf Star Power >= 3, Chase"],
     "Continuous": ["The Qi cost of cards on Star Point are reduced by 1"]
   },
   "Gord Of Leisurely": {
-    "sect": "Five Elements Alliance",
+    "sect": "Wu Xingzhi",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+1/2/3\nHP+3/5/7\nIf any Five Elements has been activated, Chase"]
   },
   "Inheritance of Five Elements": {
-    "sect": "Five Elements Alliance",
+    "sect": "Wu Xingzhi",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Absorb": ["Draw 2 Five Elements cards (Above Virtuoso Phase and Priority is given to the first Five Elements card of the deck)"]
   },
   "Overcome with each other": {
-    "sect": "Five Elements Alliance",
+    "sect": "Du Lingyuan",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["Qi+1/2/3\nDEF+3/5/7\nIf the card in the previous slot has Overcoming Interaction of Five Elements with the next slot, Activate the Five Elements of the next slot and Chase"]
   },
   "Wood Spirit - Peach Blossom Seal": {
-    "sect": "Five Elements Alliance",
+    "sect": "Hua Qinrui",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["2 ATK x 2/3/4\nQi+2/3/4\nActivate Wood Spirit"]
   },
   "Water Spirit - Spring Rain": {
-    "sect": "Five Elements Alliance",
+    "sect": "Hua Qinrui",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
@@ -3095,61 +3095,109 @@ module.exports = {
     "Continuous": ["At the beginning of your turn, gain 1 stack of Force of Water"]
   },
   "Kun Wu Metal Ring": {
-    "sect": "Five Elements Alliance",
+    "sect": "Mu Hu",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["Activate Earth Spirit\nActivate Metal Spirit"],
     "Continuous": ["Whenever you gain DEF or Penetrate, gain 2/3/4 additional stacks"]
   },
   "Metal Spirit - Vigorous": {
-    "sect": "Five Elements Alliance",
+    "sect": "Mu Hu",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["5/10/15 ATK"],
     "Metal Spirit": ["For every stack of Penetrate this card add 1 ATK, but will not trigger the effect of Penetrate"]
   },
   "Earth Spirit - Landslide": {
-    "sect": "Five Elements Alliance",
+    "sect": "Mu Hu",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["8/15/15 ATK"],
     "Earth Spirit": ["DEF halved, for each reduced point add 3/3/4 more ATK"]
   },
   "Unceasing Exercise": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Xiao Bu",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["4/6/8 ATK\nPhysique+3/4/5\nHP+3/4/5"]
   },
   "Overwhelming Power": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Tu Kui",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["Force+2/3/4"],
     "Continuous": ["whenever you lose 1 Force, deal 2 damage to your opponent"]
   },
   "Gone Crazy": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Ye Mingming",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["Gain 2/3/4 Styx and 2/1/0 random Debuff\nPhysique+1 (increases by 1 for each stack of Debuff, up to 10/15/20)"]
   },
   "Crash Fist - Styx Night": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Ye Mingming",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["Gain 2/3/4 Styx"],
     "Continuous": ["When attacking with \"Crash Fist\", it increases 1 ATK for each stack of Debuff you have (up to 6/9/12)"]
   },
   "Styx Moon's Glow": {
-    "sect": "Duan Xuan Sect",
+    "sect": "Ye Mingming",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["Physique+1/2/3\nGain 2/3/4 Styx\nAgility+10/11/12"]
   },
-
+  "Meditation of Xuan": {
+    "sect": "Ji Fangsheng",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["Physique+2/3/4"],
+    "Continuous": ["At the start of each your turn, you gain 2/3/4 Internal Injury and 2/3/4 Regeneration"]
+  },
+  "Wan Xuan Demon Breaking Palm": {
+    "sect": "Ji Fangsheng",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Physique+2/3/4\nFor every 20 Physique, convert 1 stack Debuff to Increase ATK\n3 ATK x 3/4/5"]
+  },
+  "Double Stick": {
+    "sect": "Li Man",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Effect": ["6/9/12 ATK\nSwitch Stance"],
+    "Fist": ["Gain 1 DEF for every 5 Physique"],
+    "Stick": ["Make an additional 1 ATK (Gain 1 ATK for every 6 Physique)"]
+  },
+  "Red Gold Dragon Stick": {
+    "sect": "Li Man",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Switch Stance"],
+    "Fist": ["Force+4/5/6, gain 1 HP for every 5 Physique"],
+    "Stick": ["4/7/10 ATK x 2 (Gain 1 ATK for every 9 Physique)"]
+  },
+  "Counter Move": {
+    "sect": "Li Man",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Effect": ["DEF+7/12/17\nUntil the start of your next turn:"],
+    "Fist": ["Reduce incoming ATK and DMG by 50%"],
+    "Stick": ["Deal 6 DMG to the opponent each time you are attacked"]
+  },
+  "Shift Stance": {
+    "sect": "Li Man",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["Agility+8\nSwitch Stance"],
+    "Fist": ["Gain an additional 4/6/8 Agility"],
+    "Stick": ["8/12/16 ATK"]
+  },
+  
   //! Previous Season Cards
-
+  
   //! Event Cards
+
+  //! Get a Random Card
+  "random": {}
 }
-// Last Updated: 4/30/2025
+// Last Updated: 5/2/2025

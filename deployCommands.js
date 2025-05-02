@@ -20,10 +20,12 @@ const rest = new REST({ version: '10' }).setToken(TOKEN);
     console.log(`Started refreshing ${commands.length} application (/) commands.`);
 
     await rest.put(Routes.applicationGuildCommands(CLIENT, GUILD), { body: [] })
+    // await rest.put(Routes.applicationCommands(CLIENT), { body: [] })
       .then(() => console.log('Successfully deleted all guild commands.'))
       .catch(console.error);
 
     const data = await rest.put(Routes.applicationGuildCommands(CLIENT, GUILD), { body: commands });
+    // const data = await rest.put(Routes.applicationCommands(CLIENT), { body: commands });
 
     console.log(`Successfully reloaded ${data.length} application (/) commands.`);
   } catch (error) {
