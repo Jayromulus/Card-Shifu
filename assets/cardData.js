@@ -619,7 +619,7 @@ module.exports = {
     "Phase": "Immortality",
     "Effect": ["5/9/13 ATK\n10% chance to Chase"]
   },
-  "Thunder And Lightning": {
+  "Thunder And Lighting": {
     "sect": "Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",

@@ -1,4 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js')
+const uFuzzy = require('@leeoniya/ufuzzy')
 
 const sectColors = {
   'Cloud Spirit Sword Sect': 0x2d4d8a,
@@ -82,6 +83,7 @@ const sectIcons = {
 }
 const cards = require('../assets/cardData')
 const cardNames = Object.keys(cards)
+const uf = uFuzzy({})
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -96,12 +98,43 @@ module.exports = {
       ),
   async autocomplete(interaction) {
     const focusedValue = interaction.options.getFocused()
-    const filtered = cardNames.filter(choice => choice.toLowerCase().replaceAll(/\W+/g, '').includes(focusedValue.toLowerCase().replaceAll(/\W+/g, '')))
 
-    if (filtered.length > 25) filtered.splice(24, filtered.length)
-    await interaction.respond(
-      filtered.map(choice => { return { name: choice, value: choice } })
-    )
+    // const filtered = cardNames.filter(choice => choice.toLowerCase().replaceAll(/\W+/g, '').includes(focusedValue.toLowerCase().replaceAll(/\W+/g, '')))
+    
+    // if (filtered.length > 25) filtered.splice(24, filtered.length)
+    //   await interaction.respond(
+    //     filtered.map(choice => { return { name: choice, value: choice } })
+    //   )
+
+    //* uFuzzy testing
+    let idxs = uf.filter(cardNames, focusedValue);
+
+    if (idxs != null && idxs.length > 0) {
+      let infoThresh = 25
+
+      if (idxs.length <= infoThresh) {
+        let info = uf.info(idxs, cardNames, focusedValue)
+        let order = uf.sort(info, cardNames, focusedValue)
+
+        await interaction.respond(
+          order.map(i => { return { name: cardNames[info.idx[i]], value: cardNames[info.idx[i]] } })
+        )
+      } else {
+        // order.splice(24, order.length)
+
+        const newArr = [];
+
+        const limit = Math.min(idxs.length, 25)
+
+        for (let i = 0; i < limit; i++)
+          newArr.push(cardNames[idxs[i]])
+
+        await interaction.respond(
+          newArr.map(val => { return { name: val, value: val } })
+        )
+      }
+    }
+
   },
   async execute(interaction) {
     let selected;
