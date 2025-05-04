@@ -83,7 +83,7 @@ const sectIcons = {
 }
 const cards = require('../assets/cardData')
 const cardNames = Object.keys(cards)
-const uf = uFuzzy({})
+const uf = uFuzzy({ intraMode: 1 })
 
 module.exports = {
   data: new SlashCommandBuilder()
