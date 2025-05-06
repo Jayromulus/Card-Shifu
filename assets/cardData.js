@@ -817,7 +817,7 @@ module.exports = {
     "Effect": ["DEF+4/6/8"],
     "Continuous": ["Whenever you play an \"Earth Spirit\" card, add 2/3/4 DEF"]
   },
-  "Earth Spirit - Mountain": {
+  "Earth Spirit - Mountains": {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
@@ -1716,7 +1716,7 @@ module.exports = {
     "Phase": "Incarnation",
     "Continuous": ["Both player lose 4/5/6 HP when they attack"]
   },
-  "Chord in Tune": {
+  "Chord In Tune": {
     "sect": "Musician",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
@@ -1751,13 +1751,13 @@ module.exports = {
     "Phase": "Foundation",
     "Effect": ["DEF+5~16/10~21/15~26"]
   },
-  "Feed on Illusions": {
+  "Feed On Illusions": {
     "sect": "Painter",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Effect": ["Max HP+10/15/20\nQi+2/3/4"]
   },
-  "Gild the Lily": {
+  "Gild The Lily": {
     "sect": "Painter",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
@@ -1795,7 +1795,7 @@ module.exports = {
     "Phase": "Immortality",
     "Effect": ["DEF+4/6/8\nTrigger the effect of a random Card of your Sect"]
   },
-  "Falling Paper Cloud": {
+  "Falling Paper Clouds": {
     "sect": "Painter",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
@@ -2321,14 +2321,14 @@ module.exports = {
     "Cost": ["2 Qi"],
     "Effect": ["HP and Max HP+15\nGain 1/2/3 stack(s) of Regneration"]
   },
-  "Blood Crystal Wolf King": {
+  "Blood Crystal of Wolf King": {
     "sect": "Talisman",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["Lost 15% of current HP\nGain 4/5/6 stacks of Increase ATK"]
   },
   //? Immortality
-  "Cosmos Seal Orb": {
+  "Cosmos Seal Divine Orb": {
     "sect": "Talisman",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
@@ -2589,7 +2589,7 @@ module.exports = {
     "Phase": "Meditation",
     "Effect": ["Exhaust Hexagram and Qi, add 4/5/6 HP for each point exhausted"]
   },
-  "Throwing Stones for Directions": {
+  "Throwing Stones For Directions": {
     "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
@@ -2981,7 +2981,7 @@ module.exports = {
     "Phase": "Immortality",
     "Effect": ["2 ATK x 2/3/4\nMake an additional attack for every remaining card in hand (up to 3)"]
   },
-  "Clear Heart Embryo Sword": {
+  "Clear Heart Sword Embryo": {
     "sect": "Lu Jianxin",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
@@ -3004,7 +3004,7 @@ module.exports = {
     "Effect": ["Qi+3/3/4\n-/Chase/Chase"],
     "Post Action": ["Chase/HP+1/HP+1"]
   },
-  "Ultimage Hexagram Base": {
+  "Ultimate Hexagram Base": {
     "sect": "Yan Chen",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
