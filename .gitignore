@@ -4,4 +4,4 @@ node_modules
 assets/*
 assets/*/
 !assets/cardData.js
-!assets/lookup.js
+!assets/cardLookup.js

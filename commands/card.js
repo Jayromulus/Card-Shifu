@@ -82,7 +82,7 @@ const sectIcons = {
   'Li Man': 'https://i.imgur.com/d2vfd7s.png',
 }
 const cards = require('../assets/cardData')
-const lookup = require('../assets/lookup')
+const lookup = require('../assets/cardLookup')
 const cardNames = Object.keys(lookup)
 const uf = uFuzzy({ intraMode: 1 })
 
