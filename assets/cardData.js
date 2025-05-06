@@ -333,7 +333,7 @@ module.exports = {
     "Cost": ["1 Qi"],
     "Effect": ["Increase your existing Sword Intent stacks by 80/110/140%"]
   },
-  "Rule Sky Formation": {
+  "Rule Sky Sword Formation": {
     "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
@@ -3062,7 +3062,7 @@ module.exports = {
     "Effect": ["If Qi >= 1, Star Power+1/2/3\nIf Star Power >= 3, Chase"],
     "Continuous": ["The Qi cost of cards on Star Point are reduced by 1"]
   },
-  "Gord Of Leisurely": {
+  "Gourd Of Leisurely": {
     "sect": "Wu Xingzhi",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",

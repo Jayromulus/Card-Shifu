@@ -82,7 +82,8 @@ const sectIcons = {
   'Li Man': 'https://i.imgur.com/d2vfd7s.png',
 }
 const cards = require('../assets/cardData')
-const cardNames = Object.keys(cards)
+const lookup = require('../assets/lookup')
+const cardNames = Object.keys(lookup)
 const uf = uFuzzy({ intraMode: 1 })
 
 module.exports = {
@@ -99,13 +100,6 @@ module.exports = {
   async autocomplete(interaction) {
     const focusedValue = interaction.options.getFocused()
 
-    // const filtered = cardNames.filter(choice => choice.toLowerCase().replaceAll(/\W+/g, '').includes(focusedValue.toLowerCase().replaceAll(/\W+/g, '')))
-    
-    // if (filtered.length > 25) filtered.splice(24, filtered.length)
-    //   await interaction.respond(
-    //     filtered.map(choice => { return { name: choice, value: choice } })
-    //   )
-
     //* uFuzzy testing
     let idxs = uf.filter(cardNames, focusedValue);
 
@@ -117,17 +111,15 @@ module.exports = {
         let order = uf.sort(info, cardNames, focusedValue)
 
         await interaction.respond(
-          order.map(i => { return { name: cardNames[info.idx[i]], value: cardNames[info.idx[i]] } })
+          order.map(i => { return lookup[cardNames[info.idx[i]]] })
         )
       } else {
-        // order.splice(24, order.length)
-
         const newArr = [];
 
         const limit = Math.min(idxs.length, 25)
 
         for (let i = 0; i < limit; i++)
-          newArr.push(cardNames[idxs[i]])
+          newArr.push(lookup[cardNames[idxs[i]]].name)
 
         await interaction.respond(
           newArr.map(val => { return { name: val, value: val } })
@@ -149,7 +141,7 @@ module.exports = {
       selectedName = interaction.options.getString('name')
       selected = cards[selectedName]
     }
-    // const level = parseInt(interaction.options.getNumber('level'))
+    // const level = parseInt(interaction.options.getNumber('level')) //! potential future card level integration
     const level = 0
     const keys = Object.keys(selected)
 
@@ -164,7 +156,7 @@ module.exports = {
       .addFields(
         ...fields
       )
-      // .setImage(selected.image)
+      // .setImage(selected.image) //! future card image integration
       .setFooter({ text: selected.sect })
 
     await interaction.reply({ embeds: [cardEmbed] })
