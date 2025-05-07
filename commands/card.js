@@ -94,8 +94,8 @@ module.exports = {
       option
         .setName('name')
         .setDescription('card name')
-        .setRequired(true)
         .setAutocomplete(true)
+        .setRequired(true)
       ),
   async autocomplete(interaction) {
     const focusedValue = interaction.options.getFocused()
