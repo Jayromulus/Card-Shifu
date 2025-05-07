@@ -5,3 +5,5 @@ assets/*
 assets/*/
 !assets/cardData.js
 !assets/cardLookup.js
+!assets/fateData.js
+!assets/fateLookup.js
