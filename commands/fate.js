@@ -71,8 +71,8 @@ module.exports = {
       option
         .setName('name')
         .setDescription('fate name')
-        .setRequired(true)
         .setAutocomplete(true)
+        .setRequired(true)
       ),
   async autocomplete(interaction) {
     const focusedValue = interaction.options.getFocused()

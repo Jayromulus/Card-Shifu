@@ -1,9 +1,13 @@
 require('dotenv').config()
 const fs = require('node:fs')
 const path = require('node:path')
-const { Client, Events, GatewayIntentBits, Collection } = require('discord.js')
+const { Client, Events, GatewayIntentBits, Collection, MessageFlags } = require('discord.js')
 const { log, warn } = require('node:console')
 const token = process.env.TOKEN
+const fates = require('./assets/cardData')
+const fateNames = Object.keys(fates)
+const cards = require('./assets/cardData')
+const cardNames = Object.keys(cards)
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] })
 
@@ -36,7 +40,19 @@ client.on(Events.InteractionCreate, async interaction => {
     }
     
     try {
-      await command.execute(interaction);
+      if (interaction.commandName === 'card'){
+        if (cardNames.includes(interaction.options.getString('name')))
+          await command.execute(interaction)
+        else
+          await interaction.reply({ content: 'Please select a card from the autofill range', flags: MessageFlags.Ephemeral })
+      }
+
+      if (interaction.commandName === 'fate'){
+        if (fateNames.includes(interaction.options.getString('name')))
+          await command.execute(interaction)
+        else
+          await interaction.reply({ content: 'Please select a fate from the autofill range', flags: MessageFlags.Ephemeral })
+      }
     } catch (error) {
       console.error(error);
       await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
