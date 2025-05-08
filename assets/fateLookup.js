@@ -1,7 +1,7 @@
 module.exports = {
-  "Bodybuilding": { name: "Bodybuilding", value: "Bodybuilding" },
+  "Bodybuilding - thick - thickening - thickness - thiccness": { name: "Bodybuilding", value: "Bodybuilding" },
   "The Way of Adaptation - woa": { name: "The Way of Adaptation", value: "The Way of Adaptation" },
-  "Recuperate": { name: "Recuperate", value: "Recuperate" },
+  "Recuperate - cheating - cheater": { name: "Recuperate", value: "Recuperate" },
   "Solid Foundation": { name: "Solid Foundation", value: "Solid Foundation" },
   "Mental Perception": { name: "Mental Perception", value: "Mental Perception" },
   "Tool Governor": { name: "Tool Governor", value: "Tool Governor" },
@@ -11,7 +11,7 @@ module.exports = {
   "Epiphany": { name: "Epiphany", value: "Epiphany" },
   "Shattered Dao": { name: "Shattered Dao", value: "Shattered Dao" },
   "Fortunes and Luck": { name: "Fortunes and Luck", value: "Fortunes and Luck" },
-  "Additional Side Job - subnova": { name: "Additional Side Job", value: "Additional Side Job" },
+  "Additional Side Job - subnova - #deckthicking - deckthickening": { name: "Additional Side Job", value: "Additional Side Job" },
   "Inheritance of Cloud Sword - cs": { name: "Inheritance of Cloud Sword", value: "Inheritance of Cloud Sword" },
   "Inheritance of Spirit Sword - ss": { name: "Inheritance of Spirit Sword", value: "Inheritance of Spirit Sword" },
   "Inheritance of Sword Formation - sf": { name: "Inheritance of Sword Formation", value: "Inheritance of Sword Formation" },

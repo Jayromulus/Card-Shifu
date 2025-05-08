@@ -131,7 +131,7 @@ module.exports = {
   "Wood Spirit Formation": { name: "Wood Spirit Formation", value: "Wood Spirit Formation" },
   "Wood Spirit - Forest Guard": { name: "Wood Spirit - Forest Guard", value: "Wood Spirit - Forest Guard" },
   "Fire Spirit Formation": { name: "Fire Spirit Formation", value: "Fire Spirit Formation" },
-  "Fire Spirit - Blast": { name: "Fire Spirit - Blast", value: "Fire Spirit - Blast" },
+  "Fire Spirit - Blast - impact": { name: "Fire Spirit - Blast", value: "Fire Spirit - Blast" },
   "Earth Spirit - Dust": { name: "Earth Spirit - Dust", value: "Earth Spirit - Dust" },
   "Earth Spirit - Cliffchamp": { name: "Earth Spirit - Cliff", value: "Earth Spirit - Cliff" },
   "Metal Spirit - Charge": { name: "Metal Spirit - Charge", value: "Metal Spirit - Charge" },
