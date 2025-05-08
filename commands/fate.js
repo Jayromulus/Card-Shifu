@@ -116,13 +116,13 @@ module.exports = {
       selected = fates[selectedName]
     } else {
       selectedName = interaction.options.getString('name')
+      console.log({selectedName})
       selected = fates[selectedName]
+      console.log(selected)
     }
     // const level = parseInt(interaction.options.getNumber('level')) //! potential future card level integration
     const level = 0
     const keys = Object.keys(selected)
-
-    console.log({selectedName})
 
     const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}` }))
     fields.shift()
