@@ -2,7 +2,7 @@
 A discord bot for displaying general information about [Yi Xian: The Cultivation Card Game](https://store.steampowered.com/app/1948800/Yi_Xian_The_Cultivation_Card_Game/)
 
 ## Usage
-[Using this link](https://discord.com/oauth2/authorize?client_id=1283122235053314088), you can add this bot to your discord server. Please submit any issues to the bot using the feedback command, or send a message mentioning user jayromulus in the community discord. Alternatively, installation instructions for personal usage or setting up your own version of the bot can be [found here](#installation)
+[Using this link](https://discord.com/oauth2/authorize?client_id=1283122235053314088), you can add this bot to your discord server. Please submit any issues to the bot by sending<!-- future implementation of feedback command --> a message mentioning user jayromulus in the community discord. Alternatively, installation instructions for personal usage or setting up your own version of the bot can be [found here](#installation)
 
 ###### *Please note that this bot is being run on a Raspberry Pi currently, please forgive slow performance during early testing as the device running this program has not been test in this volume before
 
