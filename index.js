@@ -45,13 +45,13 @@ client.on(Events.InteractionCreate, async interaction => {
           await command.execute(interaction)
         else
           await interaction.reply({ content: 'Please select a card from the autofill range', flags: MessageFlags.Ephemeral })
-      }
-
-      if (interaction.commandName === 'fate'){
+      } else if (interaction.commandName === 'fate'){
         if (fateNames.includes(interaction.options.getString('name')))
           await command.execute(interaction)
         else
           await interaction.reply({ content: 'Please select a fate from the autofill range', flags: MessageFlags.Ephemeral })
+      } else {
+        await command.execute(interaction)
       }
     } catch (error) {
       console.error(error);
