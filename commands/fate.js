@@ -116,9 +116,7 @@ module.exports = {
       selected = fates[selectedName]
     } else {
       selectedName = interaction.options.getString('name')
-      console.warn({selectedName})
       selected = fates[selectedName]
-      console.warn(selected)
     }
     // const level = parseInt(interaction.options.getNumber('level')) //! potential future card level integration
     const level = 0
