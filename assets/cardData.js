@@ -2678,7 +2678,6 @@ module.exports = {
     "sect": "Secret Enchantment - Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Divinity",
-    "Cost": ["1 Qi"],
     "Effect": ["Reduce HP is reversed to add HP for next 2/3/4 times"]
   },
 

@@ -151,7 +151,7 @@ module.exports = {
   "Water Spirit - Dive": { name: "Water Spirit - Dive", value: "Water Spirit - Dive" },
   "World Smash - ws": { name: "World Smash", value: "World Smash" },
   "Wood Spirit - Willow Leaf": { name: "Wood Spirit - Willow Leaf", value: "Wood Spirit - Willow Leaf" },
-  "Fire Spirit - Blazing Prairie": { name: "Fire Spirit - Blazing Prairie", value: "Fire Spirit - Blazing Prairie" },
+  "Fire Spirit - Blazing Prairie - bazinga": { name: "Fire Spirit - Blazing Prairie", value: "Fire Spirit - Blazing Prairie" },
   "Earth Spirit - Combine World - cw": { name: "Earth Spirit - Combine World", value: "Earth Spirit - Combine World" },
   "Metal Spirit - Giant Tripod": { name: "Metal Spirit - Giant Tripod", value: "Metal Spirit - Giant Tripod" },
   "Water Spirit - Combine Rivers": { name: "Water Spirit - Combine Rivers", value: "Water Spirit - Combine Rivers" },
