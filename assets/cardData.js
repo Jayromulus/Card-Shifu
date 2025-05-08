@@ -1510,6 +1510,7 @@ module.exports = {
     "sect": "Elixirist",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
+    "Cost": ["1 Qi"],
     "Consumption": ["Gain 2/3/4 stacks of Guard Up"]
   },
   "Great Bodybuilding Elixir": {
