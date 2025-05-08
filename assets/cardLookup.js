@@ -11,7 +11,6 @@ module.exports = {
   "Sword Slash": { name: "Sword Slash", value: "Sword Slash" },
   "Sword Defence": { name: "Sword Defence", value: "Sword Defence" },
   "Flying Fang Sword - ffs": { name: "Flying Fang Sword", value: "Flying Fang Sword" },
-  "ffs": { name: "Fying Fang Sword", value: "Flying Fang Sword" },
   "Wind Sword": { name: "Wind Sword", value: "Wind Sword" },
   "cs - Cloud Sword - Reguard": { name: "Cloud Sword - Reguard", value: "Cloud Sword - Reguard" },
   "cs - Cloud Sword - Riddle": { name: "Cloud Sword - Riddle", value: "Cloud Sword - Riddle" },
