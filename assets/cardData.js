@@ -350,7 +350,7 @@ module.exports = {
     "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
-    "Continuous": ["Whenever \"Unrestrained Sword\" Injured the opponent, you gain 30/50/70% of damage as HP"]
+    "Continuous": ["Whenever \"Unrestrained Sword\" **Injured** the opponent, you gain 30/50/70% of damage as HP"]
   },
 
   //* Heptastar Pavillion
@@ -917,7 +917,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["6/9/12 ATK"],
-    "Metal Spirit": ["For every 2 HP Injured by this card, gain 1 stack of Penetrate"]
+    "Metal Spirit": ["For every 2 HP **Injured** by this card, gain 1 stack of Penetrate"]
   },
   "Water Spirit Formation": {
     "sect": "Five Elements Alliance",
@@ -931,7 +931,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+2/3/4"],
-    "Water Spirit": ["Gain 1 stack of Force of Water for every 5 Injured opponent's HP in the next 1 attack"]
+    "Water Spirit": ["Gain 1 stack of Force of Water for every 5 **Injured** opponent's HP in the next 1 attack"]
   },
   "Five Elements Circulation": {
     "sect": "Five Elements Alliance",
@@ -953,7 +953,7 @@ module.exports = {
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
     "Effect": ["4 ATK x 3/4/5"],
-    "Wood Spirit": ["For every 3 HP Injured by this card, add 1 HP"]
+    "Wood Spirit": ["For every 3 HP **Injured** by this card, add 1 HP"]
   },
   "Fire Spirit - Flash Fire": {
     "sect": "Five Elements Alliance",
@@ -967,7 +967,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["4/5/7 ATK x 2"],
-    "Fire Spirit": ["For every Injured HP by this card, decrease opponent's Max HP by 2"]
+    "Fire Spirit": ["For every **Injured** HP by this card, decrease opponent's Max HP by 2"]
   },
   "Earth Spirit - Steep": {
     "sect": "Five Elements Alliance",
@@ -1047,7 +1047,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["7/11/15 ATK"],
-    "Metal Spirit": ["If the opponent is Injured by this card, double the HP deduction"]
+    "Metal Spirit": ["If the opponent is **Injured** by this card, double the HP deduction"]
   },
   "Water Spirit - Combine Rivers": {
     "sect": "Five Elements Alliance",
@@ -2408,7 +2408,7 @@ module.exports = {
     "sect": "Spiritual Pet",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
-    "Continuous": ["After you attack your opponent, if Injured your opponent's HP is not greater than 5/7/9, you again an equal amount of HP"]
+    "Continuous": ["After you attack your opponent, if **Injured** your opponent's HP is not greater than 5/7/9, you again an equal amount of HP"]
   },
   "Lonely Night Wolf": {
     "sect": "Spiritual Pet",
