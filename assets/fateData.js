@@ -1,4 +1,4 @@
-const fateNames = {
+module.exports = {
   //! General
   "Bodybuilding": {
     "sect": "General",
@@ -1010,7 +1010,3 @@ const fateNames = {
 
   "random": {}
 }
-
-module.exports = fateNames
-
-// console.log(Object.keys(fateNames).splice(60))
