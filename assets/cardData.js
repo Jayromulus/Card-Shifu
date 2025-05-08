@@ -3051,7 +3051,7 @@ module.exports = {
     "sect": "Wu Ce",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
-    "Effect": ["Qi+1\nHexagram+1\mThe next slot Become Star Point\nStar Power+0/1/1\nHP and Max HP+0/0/4"],
+    "Effect": ["Qi+1\nHexagram+1\nThe next slot Become Star Point\nStar Power+0/1/1\nHP and Max HP+0/0/4"],
     "Absorb": ["Destiny+10"],
     "Exchange": ["Card Exchange Chance+3"]
   },

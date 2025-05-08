@@ -122,6 +122,8 @@ module.exports = {
     const level = 0
     const keys = Object.keys(selected)
 
+    console.log({selectedName})
+
     const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}` }))
     fields.shift()
     fields.shift()
