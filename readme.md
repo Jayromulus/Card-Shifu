@@ -4,6 +4,8 @@ A discord bot for displaying general information about [Yi Xian: The Cultivation
 ## Usage
 [Using this link](https://discord.com/oauth2/authorize?client_id=1283122235053314088), you can add this bot to your discord server. Please submit any issues to the bot using the feedback command, or send a message mentioning user jayromulus in the community discord. Alternatively, installation instructions for personal usage or setting up your own version of the bot can be [found here](#installation)
 
+###### *Please note that this bot is being run on a Raspberry Pi currently, please forgive slow performance during early testing as the device running this program has not been test in this volume before
+
 ## Commands
 All commands are Slash Commands, meaning everything is going to be called using the format `/command-name [options]`. Below is a list of commands with details of how to use them.j
 |Name|Options|Type|Description|
