@@ -3194,7 +3194,41 @@ module.exports = {
   },
   
   //! Previous Season Cards
-  
+
+  //! Spacetime Mirage (May 2025 Season)
+  "Light Sword+": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["8 ATK\nQi+1\nThis card counds as both Cloud Sword and Unrestrained Sword (also triggered to the next card played)"],
+  },
+  "Cutting Weeds+": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Cost": ["1 Qi"],
+    "Effect": ["Reduces the opponent's Max HP to their current HP minus 5 (Exhaust Qi and Hexagram, each reduces 3 more)"],
+  },
+  "Water Spirit - Billows+": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Gain 4 Force of Water.\nAt the end of your turn, Force of Water triggers an additional time (lasts 2 rounds)"],
+    "Water Spirit": ["Consumption of Qi is 0"]
+  },
+  "Rakshasa Pouncing+": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n6 ATK x 2"],
+  },
+  // "": {
+  //   "sect": "",
+  //   "image": "https://i.imgur.com/AfFp7pu.png",
+  //   "Phase": "",
+  //   "Effect": [""],
+  // },
+
   //! Event Cards
 
   //! Get a Random Card

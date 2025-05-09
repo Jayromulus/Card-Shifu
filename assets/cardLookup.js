@@ -476,4 +476,8 @@ module.exports = {
   "Red Gold Dragon Stick": { name: "Red Gold Dragon Stick", value: "Red Gold Dragon Stick" },
   "Counter Move": { name: "Counter Move", value: "Counter Move" },
   "Shift Stance": { name: "Shift Stance", value: "Shift Stance" },
+  "Light Sword+": { name: "Light Sword+", value: "Light Sword+" },
+  "Cutting Weeds+ - bazinga weeds": { name: "Cutting Weeds+", value: "Cutting Weeds+" },
+  "Water Spirit - Billows+": { name: "Water Spirit - Billows+", value: "Water Spirit - Billows+" },
+  "Rakshasa Pouncing+": { name: "Rakshasa Pouncing+", value: "Rakshasa Pouncing+" },
 }
