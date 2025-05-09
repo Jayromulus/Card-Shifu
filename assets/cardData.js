@@ -3402,7 +3402,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Effect": ["Opponent loses 10/15/20 HP and Max HP (1 more for each 1 DEF you have)"],
-    "Opening": ["**Activate Fire Spirit, Activate Earth Spirit"]
+    "Opening": ["**Activate Fire Spirit, Activate Earth Spirit**"]
   },
   "Boulder Seal": {
     "sect": "Miscellaneous Cards",
