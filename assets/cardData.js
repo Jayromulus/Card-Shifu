@@ -3230,8 +3230,217 @@ module.exports = {
   // },
 
   //! Event Cards
+  "Demonic Qi Haunt": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Effect": ["4 ATK\nApply 2/3/4 stacks of **Internal Injury**"],
+  },
+  "Magic Dragon's Paw": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Effect": ["2 ATK x 2/3/4\nApply 1 **Wound** for each attack"],
+  },
+  "Mirroring Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Level 3": ["Chase"],
+    "Effect": ["Gain a level 1/2/2 copy of the card in the next slot and lose 1 Cul.\n(only card of your own Sect or Side Job can be copied)"],
+  },
+  "Qi Gathering Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Qi**+1"],
+    "Continuous": ["At the beginning of each your turn, gain 1/2/3 **Qi**"]
+  },
+  "Frenzied Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Gain 2/3/4 stacks of **Increase ATK**and 1/2/3 stacks of **Wound**\nChase"],
+    "Level 3": ["Lose 1 Destiny"]
+  },
+  "Bewildering Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["HP and Max HP+8/13/18\nApply 1/2/3 stack(s) of **Weakened**"],
+  },
+  "Crystallized Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["DEF+6/18/30"],
+    "Continuous": ["When you injure the opponent by ATK, for every 2 HP **Injured**, you gain 1 DEF"]
+  },
+  "Cursed Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Lose 1/5/9 Destiny\nRepeat the effect of the card in previous slot 1/2/3 time(s)"],
+  },
+  "Abyssal Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Lose 0/1/3 Destiny\nApply 2/3/4 stacks of **Internal Injury** and 1/2/3 stack(s) of **Entangled**"],
+  },
+  "Multicolered Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Trigger effect of 1/2/3 random Card of your Sect"],
+  },
+  "Sneak Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Gain 1/1/2 stack(s) of **Guard Up**\nApply 2/4/4 stacks of **Flaw**"],
+  },
+  "Blood-cultivated Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Consumption": ["Lost 1/2/3 Destiny\mCul. + 1/1/2\nExchange Card Chance + 1/3/5"],
+  },
+  "Demonic Qi Burst": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Divinity",
+    "Effect": ["20/25/30 ATK\nFor each stack of **Internal Injury** the opponent has, this card adds 4/6/8 ATK"],
+  },
+  "Demonic Dragon's Chaotic Dance": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Divinity",
+    "Effect": ["3/4/5 ATK x 3/4/5\nFor each stack of **Wound** your opponent has, make an additional attack"],
+  },
+  "Loong": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Exorcism Event",
+    "Effect": ["Gain 2/3/4 **Increase ATK**\nGain 2/3/4 **Guard Up**"],
+    "Continuous": ["Chase won't be prevented by other effect. Chase can be triggered 1/2/3 more time in each turn."]
+  },
+  "Pure Merpeople Pearl": {
+    "sect": "Exorcism Event",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Can be dragged to any Merpeople Pearl Card with the same Level to upgrade it"],
+  },
 
+  //! Previous Secrets
+  "Azure Dragon Sword Formation": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["DEF+8/12/16\nAdd 1 **Sword Intent** for every 3 **DEF** you have"],
+  },
+  "Cloud Sword - Sunset Glow": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["**Sword Intent**+2/4/6"],
+    "Cloud Hit": ["For each successive\"Cloud Sword\" played before this card, gain 2 **Sword Intent**"]
+  },
+  "Dragon Devours Clouds": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Counts as 0/1/2 Unrestrained Sword has been played"],
+    "Continuous": ["Cloud Sword can be considered as Unrestrained Sword, and vice cersa"]
+  },
+  "Beast Spirit Sword Formation": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Qi+2/3/4"],
+    "Continuous": ["Once per turn, after playing a \"Sword Formation\" or \"Spirit Sword\" card, deal 1 **DMG** to the opponent for each **Qi** you havve"]
+  },
+  "Spiritual Divination": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["Hexagram+0/1/3"],
+    "Continuous": ["Whenever you gain 1 Qi, add 1 Hexagram"]
+  },
+  "Throw Petals": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Cost": ["1/0/0 Qi"],
+    "Effect": ["Qi+0/1/3"],
+    "Continuous": ["Apply 1 stack of **Internal Injury** each time you attack or are attacked by the oponent"]
+  },
+  "Astral Move - Twin Swallows": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["4/5/6 ATK\nChase"],
+    "Star Point": ["ATK+4/6/8"],
+    "Post Action": ["Make an additional attack"]
+  },
+  "Water Drop Erosion": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["1 ATK\nIf the opponent has Debuff, Chase"],
+    "Post Action": ["Apply 6/8/10 stacks of **Internal Injury**"]
+  },
+  "Wild Crossing Seal": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["Qi+2/4/6\nNext time you gain HP or Qi, Chase."],
+    "Opening": ["**Activate Water Spirit, Activate Wood Spirit**"]
+  },
+  "Lava Seal": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["Opponent loses 10/15/20 HP and Max HP (1 more for each 1 DEF you have)"],
+    "Opening": ["**Activate Fire Spirit, Activate Earth Spirit"]
+  },
+  "Boulder Seal": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["DEF+2/3/4 (2/3/4 more for each card you've played)\nChase"],
+    "Opening": ["**Activate Earth Spirit, Activate Metal Spirit**"]
+  },
+  "Wave Cutter Seal": {
+    "sect": "Miscellaneous Cards",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Qi+2/3/4\nAdd 3 **Penetrate** for each **Qi** you have"],
+    "Opening": ["**Activate Metal Spirit, Activate Water Spirit**"]
+  },
+
+  //! Fusion Cards
+  // "": {
+  //   "sect": "",
+  //   "image": "https://i.imgur.com/AfFp7pu.png",
+  //   "Phase": "",
+  //   "Effect": [""],
+  // },
+
+  "Normal Attack": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Effect": ["3/6/9 ATK"],
+  },
   //! Get a Random Card
+
+  // "": {
+  //   "sect": "",
+  //   "image": "https://i.imgur.com/AfFp7pu.png",
+  //   "Phase": "",
+  //   "Effect": [""],
+  // },
   "random": {}
 }
 // Last Updated: 5/2/2025

@@ -2,6 +2,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js')
 const uFuzzy = require('@leeoniya/ufuzzy')
 
 const sectColors = {
+  'General': 0xfafafa, // make this the color for normal attack
   'Cloud Spirit Sword Sect': 0x2d4d8a,
   'Secret Enchantment - Cloud Spirit Sword Sect': 0x2d4d8a,
   'Five Elements Alliance': 0xb56423,
@@ -19,6 +20,8 @@ const sectColors = {
   'Plant Master': 0x2b2b2b,
   'Spiritual Pet': 0x2b2b2b,
   'Talisman': 0x2b2b2b,
+  'Exorcism Event': 0x2b2b2b,
+  'Miscellaneous Cards': 0x2b2b2b,
   'Mu Yifeng': 0x2d4d8a,
   'Yan Xue': 0x2d4d8a,
   'Lin Xiaoyue': 0x2d4d8a,
@@ -42,6 +45,9 @@ const sectColors = {
   'Li Man': 0x6b2121,
 }
 const sectIcons = {
+  'General': 'https://i.imgur.com/xE7FZ8w.png', // add normal attack as its own icon for this, same for deviation syndrome
+  'Exorcism Event': 'https://i.imgur.com/xE7FZ8w.png', // add normal attack as its own icon for this, same for deviation syndrome
+  'Miscellaneous Cards': 'https://i.imgur.com/xE7FZ8w.png', // add normal attack as its own icon for this, same for deviation syndrome
   'Cloud Spirit Sword Sect': 'https://i.imgur.com/e4hQlwX.png',
   'Heptastar Pavillion': 'https://i.imgur.com/b7pCmgi.png',
   'Five Elements Alliance': 'https://i.imgur.com/0Va1Ytk.png',
