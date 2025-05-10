@@ -2908,82 +2908,82 @@ module.exports = {
   //! Character Specific Cards - redo the sect to reflect each specific character icon
   "Spring Course Tea": {
     "sect": "Mu Yifeng",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/zj6dUW3.png",
     "Phase": "Incarnation",
     "Effect": ["Can be dragged to any Level 1 card to upgrade it"]
   },
   "Cloud Sword - Avalanche": {
     "sect": "Yan Xue",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Bl0rh2z.png",
     "Phase": "Immortality",
     "Effect": ["4 ATK"],
     "Cloud Hit": ["For every successive \"Cloud Sword\" played before this card, add 4/5/6 more ATK"]
   },
   "Unrestrained Sword - Flame Dance": {
     "sect": "Yan Xue",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/6mgJGP7.png",
     "Phase": "Incarnation",
     "Effect": ["2 ATK\nIf you have played \"Unrestrained Sword\" card in this battle, Chase"],
     "Injured": ["Apply 1/2/3 stacks of Wound"]
   },
   "Cloud Sword - Pray Rain": {
     "sect": "Long Yao",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/epL2UJc.png",
     "Phase": "Immortality",
     "Effect": ["2 ATK x 3/4/5\nQi+1\nGain 2 stacks of Regeneration"]
   },
   "Sky Delicate Bracelet": {
     "sect": "Long Yao",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/5RdmzhX.png",
     "Phase": "Incarnation",
     "Effect": ["DEF+9\nGain 1/2/3 stacks of Guard Up\nChase"]
   },
   "Cloud Sword - Flying Sand": {
     "sect": "Lin Xiaoyue",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/JlCN7pC.png",
     "Phase": "Meditation",
     "Effect": ["5/8/9 ATK"],
     "Cloud Hit": ["Apply 2/2/3 stacks of Flaw"]
   },
   "Bronze Cat": {
     "sect": "Lin Xiaoyue",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/uUOkPAW.png",
     "Phase": "Meditation Phase",
     "Effect": ["DEF+5\nFor each Sword Intent add 2/3/4 DEF"]
   },
   "Dried small fish": {
     "sect": "Lin Xiaoyue",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/4XvB0iZ.png",
     "Phase": "Meditation",
     "Absorb": ["Max HP+1/2/4, Destiny+2/4/8"]
   },
   "Catnip": {
     "sect": "Lin Xiaoyue",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/TbayDWO.png",
     "Phase": "Meditation",
     "Absorb": ["Upgrade 1/2/2 Level 1/1/2 card(s) in your hand or deck randomly (Prioritize upgrading cards with \"Cat\" in their name)"]
   },
   "Cat Teaser": {
     "sect": "Lin Xiaoyue",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/jHXQwRh.png",
     "Phase": "Meditation",
     "Absorb": ["Exchange Card Chance+1/2/4"]
   },
   "Cloud Sword - Cat Paw": {
     "sect": "Lin Xiaoyue",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/8gN7vLJ.png",
     "Phase": "Foundation",
     "Effect": ["4/6/8 ATK x 2\nThis card's attacks Ignore DEF"]
   },
   "Spirit Cat Chaos Sword": {
     "sect": "Lin Xiaoyue",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/0tBpPkN.png",
     "Phase": "Immortality",
     "Effect": ["2 ATK x 2/3/4\nMake an additional attack for every remaining card in hand (up to 3)"]
   },
   "Clear Heart Sword Embryo": {
     "sect": "Lu Jianxin",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/dzWya03.png",
     "Phase": "Meditation",
     "Effect": ["7 ATK"],
     "Foundation": ["Sharpness: ATK+3\nStable: Reduce 2 ATK but add DEF+9"],
@@ -2993,63 +2993,63 @@ module.exports = {
   },
   "Yeying Sword Formation": {
     "sect": "Li Chengyun",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/nua9ZBY.png",
     "Phase": "Incarnation",
     "Effect": ["2 ATK x 2/2/3\nMake an additional attack for every other \"Sword Formation\" in the deck (up to 3/4/4)\nAdd 3 DEF for every attack that Injured the opponent"]
   },
   "Only Traces": {
     "sect": "Tan Shuyan",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wsIJmah.png",
     "Phase": "Foundation",
     "Effect": ["Qi+3/3/4\n-/Chase/Chase"],
     "Post Action": ["Chase/HP+1/HP+1"]
   },
   "Ultimate Hexagram Base": {
     "sect": "Yan Chen",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/LFFpqeV.png",
     "Phase": "Virtuoso",
     "Effect": ["Hexagram+0/2/4"],
     "Continuous": ["At the beginning of your turn, add 1 Hexagram"]
   },
   "Within Reach": {
     "sect": "Yan Chen",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ihf7Jmf.png",
     "Phase": "Immortality",
     "Effect": ["9 ATK\nFor each stack of Debuff the opponent has, this card gets 2/3/4 ATK"]
   },
   "Fury Thunder": {
     "sect": "Yan Chen",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/HMa9EjZ.png",
     "Phase": "Incarnation",
     "Effect": ["Apply 1/2/3 stack(s) of Flaw\nIf the name of the card in the next slot contains \"Thunder\", Chase"]
   },
   "Flame Flutter": {
     "sect": "Yao Ling",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/W4WopEl.png",
     "Phase": "Virtuoso",
     "Effect": ["3/4/5 ATK\nApply 1~3/2~4/3~5 stack(s) of Internal Injury"]
   },
   "Rotary Divination Hexagram": {
     "sect": "Yao Ling",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/0DE4CIE.png",
     "Phase": "Immortality",
     "Effect": ["Hexagram+4/5/6\nOpponent lose 2/3/4 HP\nOpponent lose 1/2/3 Qi"]
   },
   "Starburst": {
     "sect": "Jiang Ximing",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/m2wDlEa.png",
     "Phase": "Virtuoso",
     "Effect": ["8/10/12 ATK\nIf you have Star Power, remove 1 Star Power and this card has 8/10/13 more ATK"]
   },
   "Heptastar Soulstat": {
     "sect": "Jiang Ximing",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/9M1pOTw.png",
     "Phase": "Immortality",
     "Effect": ["Opponent loses 4/9/14 HP\nMake the opponent unable to act for 1 turn"]
   },
   "Perfectly Planned": {
     "sect": "Wu Ce",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/6jAMDAn.png",
     "Phase": "Meditation",
     "Effect": ["Qi+1\nHexagram+1\nThe next slot Become Star Point\nStar Power+0/1/1\nHP and Max HP+0/0/4"],
     "Absorb": ["Destiny+10"],
@@ -3057,38 +3057,38 @@ module.exports = {
   },
   "Star Moon Folding Fan": {
     "sect": "Wu Ce",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/8836227.png",
     "Phase": "Incarnation",
     "Effect": ["If Qi >= 1, Star Power+1/2/3\nIf Star Power >= 3, Chase"],
     "Continuous": ["The Qi cost of cards on Star Point are reduced by 1"]
   },
   "Gourd Of Leisurely": {
     "sect": "Wu Xingzhi",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/YCvc0uJ.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+1/2/3\nHP+3/5/7\nIf any Five Elements has been activated, Chase"]
   },
   "Inheritance of Five Elements": {
     "sect": "Wu Xingzhi",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/oAatB6h.png",
     "Phase": "Incarnation",
     "Absorb": ["Draw 2 Five Elements cards (Above Virtuoso Phase and Priority is given to the first Five Elements card of the deck)"]
   },
   "Overcome with each other": {
     "sect": "Du Lingyuan",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/7VZozmR.png",
     "Phase": "Immortality",
     "Effect": ["Qi+1/2/3\nDEF+3/5/7\nIf the card in the previous slot has Overcoming Interaction of Five Elements with the next slot, Activate the Five Elements of the next slot and Chase"]
   },
   "Wood Spirit - Peach Blossom Seal": {
     "sect": "Hua Qinrui",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/zeifEJq.png",
     "Phase": "Foundation",
     "Effect": ["2 ATK x 2/3/4\nQi+2/3/4\nActivate Wood Spirit"]
   },
   "Water Spirit - Spring Rain": {
     "sect": "Hua Qinrui",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/OKp9oZc.png",
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
     "Effect": ["HP and Max HP+4/10/16"],
@@ -3096,73 +3096,73 @@ module.exports = {
   },
   "Kun Wu Metal Ring": {
     "sect": "Mu Hu",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/WrKeRwL.png",
     "Phase": "Virtuoso",
     "Effect": ["Activate Earth Spirit\nActivate Metal Spirit"],
     "Continuous": ["Whenever you gain DEF or Penetrate, gain 2/3/4 additional stacks"]
   },
   "Metal Spirit - Vigorous": {
     "sect": "Mu Hu",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/CuXpoYx.png",
     "Phase": "Immortality",
     "Effect": ["5/10/15 ATK"],
     "Metal Spirit": ["For every stack of Penetrate this card add 1 ATK, but will not trigger the effect of Penetrate"]
   },
   "Earth Spirit - Landslide": {
     "sect": "Mu Hu",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/5g1BGCr.png",
     "Phase": "Incarnation",
     "Effect": ["8/15/15 ATK"],
     "Earth Spirit": ["DEF halved, for each reduced point add 3/3/4 more ATK"]
   },
   "Unceasing Exercise": {
     "sect": "Xiao Bu",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/rlWqPfP.png",
     "Phase": "Foundation",
     "Effect": ["4/6/8 ATK\nPhysique+3/4/5\nHP+3/4/5"]
   },
   "Overwhelming Power": {
     "sect": "Tu Kui",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wD7VX0d.png",
     "Phase": "Foundation",
     "Effect": ["Force+2/3/4"],
     "Continuous": ["whenever you lose 1 Force, deal 2 damage to your opponent"]
   },
   "Gone Crazy": {
     "sect": "Ye Mingming",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/K0mdphf.png",
     "Phase": "Virtuoso",
     "Effect": ["Gain 2/3/4 Styx and 2/1/0 random Debuff\nPhysique+1 (increases by 1 for each stack of Debuff, up to 10/15/20)"]
   },
   "Crash Fist - Styx Night": {
     "sect": "Ye Mingming",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/v5Pc4Hl.png",
     "Phase": "Immortality",
     "Effect": ["Gain 2/3/4 Styx"],
     "Continuous": ["When attacking with \"Crash Fist\", it increases 1 ATK for each stack of Debuff you have (up to 6/9/12)"]
   },
   "Styx Moon's Glow": {
     "sect": "Ye Mingming",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/A435WIM.png",
     "Phase": "Incarnation",
     "Effect": ["Physique+1/2/3\nGain 2/3/4 Styx\nAgility+10/11/12"]
   },
   "Meditation of Xuan": {
     "sect": "Ji Fangsheng",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/XEs9WQ3.png",
     "Phase": "Immortality",
     "Effect": ["Physique+2/3/4"],
     "Continuous": ["At the start of each your turn, you gain 2/3/4 Internal Injury and 2/3/4 Regeneration"]
   },
   "Wan Xuan Demon Breaking Palm": {
     "sect": "Ji Fangsheng",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/p9JbZKg.png",
     "Phase": "Incarnation",
     "Effect": ["Physique+2/3/4\nFor every 20 Physique, convert 1 stack Debuff to Increase ATK\n3 ATK x 3/4/5"]
   },
   "Double Stick": {
     "sect": "Li Man",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/X8SLk2g.png",
     "Phase": "Meditation",
     "Effect": ["6/9/12 ATK\nSwitch Stance"],
     "Fist": ["Gain 1 DEF for every 5 Physique"],
@@ -3170,7 +3170,7 @@ module.exports = {
   },
   "Red Gold Dragon Stick": {
     "sect": "Li Man",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/egfR2qh.png",
     "Phase": "Incarnation",
     "Effect": ["Switch Stance"],
     "Fist": ["Force+4/5/6, gain 1 HP for every 5 Physique"],
@@ -3178,7 +3178,7 @@ module.exports = {
   },
   "Counter Move": {
     "sect": "Li Man",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/H42Gplt.png",
     "Phase": "Foundation",
     "Effect": ["DEF+7/12/17\nUntil the start of your next turn:"],
     "Fist": ["Reduce incoming ATK and DMG by 50%"],
@@ -3186,7 +3186,7 @@ module.exports = {
   },
   "Shift Stance": {
     "sect": "Li Man",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/LJQvvY5.png",
     "Phase": "Immortality",
     "Effect": ["Agility+8\nSwitch Stance"],
     "Fist": ["Gain an additional 4/6/8 Agility"],
@@ -3418,18 +3418,18 @@ module.exports = {
   },
 
   //! Fusion Cards (Immortal Relics)
-  "": {
-    "sect": "Immortal Relics",
-    "image": "https://i.imgur.com/AfFp7pu.png",
-    "Phase": "",
-    "Effect": [""],
-  },
-  "": {
-    "sect": "Immortal Relics",
-    "image": "https://i.imgur.com/AfFp7pu.png",
-    "Phase": "",
-    "Effect": [""],
-  },
+  // "": {
+  //   "sect": "Immortal Relics",
+  //   "image": "https://i.imgur.com/AfFp7pu.png",
+  //   "Phase": "",
+  //   "Effect": [""],
+  // },
+  // "": {
+  //   "sect": "Immortal Relics",
+  //   "image": "https://i.imgur.com/AfFp7pu.png",
+  //   "Phase": "",
+  //   "Effect": [""],
+  // },
 
   "Normal Attack": {
     "sect": "Normal Attack",
