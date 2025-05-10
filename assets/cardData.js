@@ -3432,7 +3432,7 @@ module.exports = {
   },
 
   "Normal Attack": {
-    "sect": "General",
+    "sect": "Normal Attack",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Effect": ["3/6/9 ATK"],
