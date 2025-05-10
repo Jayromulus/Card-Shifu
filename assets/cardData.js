@@ -3192,8 +3192,6 @@ module.exports = {
     "Fist": ["Gain an additional 4/6/8 Agility"],
     "Stick": ["8/12/16 ATK"]
   },
-  
-  //! Previous Season Cards
 
   //! Spacetime Mirage (May 2025 Season)
   "Light Sword+": {
@@ -3419,13 +3417,19 @@ module.exports = {
     "Opening": ["**Activate Metal Spirit, Activate Water Spirit**"]
   },
 
-  //! Fusion Cards
-  // "": {
-  //   "sect": "",
-  //   "image": "https://i.imgur.com/AfFp7pu.png",
-  //   "Phase": "",
-  //   "Effect": [""],
-  // },
+  //! Fusion Cards (Immortal Relics)
+  "": {
+    "sect": "Immortal Relics",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "",
+    "Effect": [""],
+  },
+  "": {
+    "sect": "Immortal Relics",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "",
+    "Effect": [""],
+  },
 
   "Normal Attack": {
     "sect": "General",
