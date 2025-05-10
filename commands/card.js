@@ -162,7 +162,7 @@ module.exports = {
     const cardEmbed = new EmbedBuilder()
       .setColor(sectColors[selected.sect])
       .setTitle(selectedName)
-      .setThumbnail(icon)
+      .setThumbnail(icon.value !== 'https://i.imgur.com/AfFp7pu.png' ? icon.value : sectIcons[selected.sect])
       .addFields(
         ...fields
       )
