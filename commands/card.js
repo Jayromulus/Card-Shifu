@@ -157,12 +157,12 @@ module.exports = {
     fields.shift()
     const iconFromCard = fields.shift()
     const icon = iconFromCard.value !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard.value : sectIcons[selected.sect]
-    console.warn(icon)
+    console.warn({icon})
 
     const cardEmbed = new EmbedBuilder()
       .setColor(sectColors[selected.sect])
       .setTitle(selectedName)
-      .setThumbnail(icon !== 'https://i.imgur.com/AfFp7pu.png' ? icon : sectIcons[selected.sect])
+      .setThumbnail(icon)
       .addFields(
         ...fields
       )
