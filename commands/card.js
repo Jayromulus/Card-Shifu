@@ -165,7 +165,7 @@ module.exports = {
         ...fields
       )
       // .setImage(selected.image) //! future card image integration
-      .setFooter({ text: selected.sect, iconURL: icon !== 'https://i.imgur.com/AfFp7pu.png' ? icon : sectIcons[selected.sect] })
+      // .setFooter({ text: selected.sect, iconURL: icon !== 'https://i.imgur.com/AfFp7pu.png' ? icon : sectIcons[selected.sect] })
 
     await interaction.reply({ embeds: [cardEmbed] })
   },
