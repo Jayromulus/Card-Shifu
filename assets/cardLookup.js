@@ -448,7 +448,7 @@ module.exports = {
   "Clear Heart Sword Embryo - blacksmith": { name: "Clear Heart Sword Embryo", value: "Clear Heart Sword Embryo" },
   "Yeying Sword Formation": { name: "Yeying Sword Formation", value: "Yeying Sword Formation" },
   "Only Traces - ot": { name: "Only Traces", value: "Only Traces" },
-  "Ultimate Hexagram Base": { name: "Ultimate Hexagram Base", value: "Ultimate Hexatram Base" },
+  "Ultimate Hexagram Base": { name: "Ultimate Hexagram Base", value: "Ultimate Hexagram Base" },
   "Within Reach - wr": { name: "Within Reach", value: "Within Reach" },
   "Fury Thunder - ft": { name: "Fury Thunder", value: "Fury Thunder" },
   "Flame Flutter": { name: "Flame Flutter", value: "Flame Flutter" },
