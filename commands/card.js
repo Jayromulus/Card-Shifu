@@ -156,13 +156,13 @@ module.exports = {
     const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}` }))
     fields.shift()
     const iconFromCard = fields.shift()
-    const icon = iconFromCard !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard : sectIcons[selected.sect]
+    const icon = iconFromCard.value !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard.value : sectIcons[selected.sect]
     console.warn(icon)
 
     const cardEmbed = new EmbedBuilder()
       .setColor(sectColors[selected.sect])
       .setTitle(selectedName)
-      .setThumbnail(icon.value !== 'https://i.imgur.com/AfFp7pu.png' ? icon.value : sectIcons[selected.sect])
+      .setThumbnail(icon !== 'https://i.imgur.com/AfFp7pu.png' ? icon : sectIcons[selected.sect])
       .addFields(
         ...fields
       )
