@@ -157,7 +157,7 @@ module.exports = {
     fields.shift()
     const iconFromCard = fields.shift()
     const icon = iconFromCard !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard : sectIcons[selected.sect]
-    console.warn(icon)
+    // console.warn(icon)
 
     const cardEmbed = new EmbedBuilder()
       .setColor(sectColors[selected.sect])
