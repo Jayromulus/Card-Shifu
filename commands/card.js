@@ -155,7 +155,9 @@ module.exports = {
 
     const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}` }))
     fields.shift()
-    const icon = fields.shift()
+    const iconFromCard = fields.shift()
+    const icon = iconFromCard !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard : sectIcons[selected.sect]
+    console.warn(icon)
 
     const cardEmbed = new EmbedBuilder()
       .setColor(sectColors[selected.sect])
