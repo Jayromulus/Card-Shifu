@@ -3433,7 +3433,7 @@ module.exports = {
 
   "Normal Attack": {
     "sect": "Normal Attack",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/xE7FZ8w.png",
     "Phase": "Meditation",
     "Effect": ["3/6/9 ATK"],
   },

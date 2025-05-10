@@ -155,7 +155,7 @@ module.exports = {
 
     const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}` }))
     fields.shift()
-    fields.shift()
+    const icon = fields.shift()
 
     const cardEmbed = new EmbedBuilder()
       .setColor(sectColors[selected.sect])
@@ -165,7 +165,7 @@ module.exports = {
         ...fields
       )
       // .setImage(selected.image) //! future card image integration
-      .setFooter({ text: selected.sect })
+      .setFooter({ text: selected.sect, iconURL: icon !== 'https://i.imgur.com/AfFp7pu.png' ? icon : sectIcons[selected.sect] })
 
     await interaction.reply({ embeds: [cardEmbed] })
   },
