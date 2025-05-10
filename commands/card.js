@@ -157,7 +157,7 @@ module.exports = {
     fields.shift()
     const iconFromCard = fields.shift()
     const icon = iconFromCard !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard : sectIcons[selected.sect]
-    console.warn(icon)
+    // console.warn(icon)
 
     const cardEmbed = new EmbedBuilder()
       .setColor(sectColors[selected.sect])
@@ -167,8 +167,8 @@ module.exports = {
         ...fields
       )
       // .setImage(selected.image) //! future card image integration
-      .setFooter({ text: selected.sect })
-      // .setFooter({ text: selected.sect, iconURL: icon !== 'https://i.imgur.com/AfFp7pu.png' ? icon : sectIcons[selected.sect] })
+      // .setFooter({ text: selected.sect })
+      .setFooter({ text: selected.sect, iconURL: icon !== 'https://i.imgur.com/AfFp7pu.png' ? icon.value : sectIcons[selected.sect] })
 
     await interaction.reply({ embeds: [cardEmbed] })
   },
