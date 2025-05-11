@@ -5,52 +5,52 @@ module.exports = {
   //? Meditation
   "Cloud Sword - Touch Sky": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/laMwkjA.png",
     "Phase": "Meditation",
     "Effect": ["6/9/12 ATK", "6 ATK", "9 ATK", "12 ATK"]
   },
   "Cloud Sword - Fleche": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/n0z4l6B.png",
     "Phase": "Meditation",
     "Effect": ["5/6/7 ATK", "5", "6", "7"],
     "Cloud Hit": ["Make an additional 3/5/7 ATK", "Make an additional 3 ATK", "Make an additional 5 ATK", "Make an additional 7 ATK"]
   },
   "Cloud Sword - Touch Earth": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/vAtb93T.png",
     "Phase": "Meditation",
     "Effect": ["4/6/8 ATK", "4 ATK", "6 ATK", "8 ATK"],
     "Cloud Hit": ["DEF+4/6/8", "DEF+4", "DEF+6", "DEF+8"]
   },
   "Light Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/fAjuHLc.png",
     "Phase": "Meditation",
     "Effect": ["4/4/4 ATK\nQi+1/2/3", 4, 4, 4]
   },
   "Guard Qi": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/XW7Z8s9.png",
     "Phase": "Meditation",
     "Effect": ["DEF+5/5/5\nQi+1/2/3"],
   },
   "Qi Perfusion": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/yoojnM9.png",
     "Phase": "Meditation",
     "Effect": ["Qi+2/3/4\nNext 1 Attack **Ignore Def**"],
   },
   "Giant Tiger Spirit Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/emMgUqy.png",
     "Phase": "Meditation",
     "Cost": ["1/1/1 Qi", 1, 1, 1],
     "Effect": ["10/13/16 ATK", 10, 13, 16]
   },
   "Thunder Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/xeBihVH.png",
     "Phase": "Meditation",
     "Cost": ["1/1/1 Qi"],
     "Effect": ["5/6/7 ATK", 5, 6, 7],
@@ -58,84 +58,84 @@ module.exports = {
   },
   "Sword Slash": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/xJJPL3y.png",
     "Phase": "Meditation",
     "Effect": ["4/5/6 ATK\nSword Intent+2/3/4", 4, 5, 6],
   },
   "Sword Defence": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/35s0hri.png",
     "Phase": "Meditation",
     "Effect": ["DEF+4/5/6\nSword Intent+2/3/4", 4, 5, 6],
   },
   "Flying Fang Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/zvvbHVh.png",
     "Phase": "Meditation",
     "Effect": ["8/11/14 ATK", 8, 11, 14],
     "Injured": "Return the **Sword Intent** used by this attack"
   },
   "Wind Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/sprrlLb.png",
     "Phase": "Meditation",
     "Effect": ["3/4/6 ATK x 2", "3 ATK x 2", "4 ATK x 2", "6 ATK x 2"]
   },
   //? Foundation
   "Cloud Sword - Reguard": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/MNm27U2.png",
     "Phase": "Foundation",
     "Effect": ["DEF+8/11/14", 8, 11, 14],
     "Cloud Hit": ["HP+3/5/7", "HP + 3", "HP + 5", "HP + 7"]
   },
   "Cloud Sword - Riddle": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/e51nMVQ.png",
     "Phase": "Foundation",
     "Effect": ["6/8/10 ATK", 6, 8, 10],
     "Cloud Hit": ["Sword Intent + 2/3/4", "Sword Intent + 2", "Sword Intent + 3", "Sword Intent + 4"]
   },
   "Cloud Sword - Conceal": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/iKDbhE6.png",
     "Phase": "Foundation",
     "Cloud Hit": ["9/13/17 ATK"]
   },
   "Transforming Spirits Rhythm": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/fNYR1XB.png",
     "Phase": "Foundation",
     "Effect": ["Qi+3/4/5"]
   },
   "Spiritage Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/2znHts8.png",
     "Phase": "Foundation",
     "Effect": ["Qi+2/3/4\nIf **Qi** is greater than 2/3/4, make an additional 3 ATK 2 times"]
   },
   "Giant Whale Spirit Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/OfBid4A.png",
     "Phase": "Foundation",
     "Cost": ["2/2/2 Qi"],
     "Effect": ["16/20/24 ATK"]
   },
   "Contemplate Spirits Rhythm": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/2VrEWvC.png",
     "Phase": "Foundation",
     "Effect": ["Qi+1/1/1\nSword Intent+3/4/5"]
   },
   "Consonance Sword Formation": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/4rPscD2.png",
     "Phase": "Foundation",
     "Effect": ["DEF+9/14/19\nExhause **Sword Intent**, add 1 **Qi** for each point exhausted"]
   },
   "Earth Evil Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/82jrxLT.png",
     "Phase": "Foundation",
     "Cost": ["1/1/1 Qi"],
     "Effect": ["8/11/14 ATK"],
@@ -143,7 +143,7 @@ module.exports = {
   },
   "Form-Intention Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/E6Je3v1.png",
     "Phase": "Foundation",
     "Cost": ["1/1/1 Qi"],
     "Effect": ["8/11/14 ATK"],
@@ -151,52 +151,52 @@ module.exports = {
   },
   "Unrestrained Sword - One": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/GEJQq4A.png",
     "Phase": "Foundation",
     "Effect": ["5/8/10 ATK\nFor each \"Unrestrained Sword\" you played this battle, this card adds 2/3/5 more ATK"]
   },
   //? Virtuoso
   "Cloud Sword - Softheart": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/luPeROL.png",
     "Phase": "Virtuoso",
     "Continuous": ["Whenever you play a \"Cloud Sword\", heal 2/3/4 HP"]
   },
   "Cloud Sword - Necessity": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/blpwBDO.png",
     "Phase": "Virtuoso",
     "Effect": ["4/6/8 ATK x 2"],
     "Cloud Hit": ["Next 1/1/2 times attack **Ignore DEF**"]
   },
   "Cloud Sword - Pierce the Star": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/jLVc8IU.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+2/3/4\n0 ATK (Add 1 ATK for each **Qi**)"]
   },
   "Cloud Sword - Spirit Coercion": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/MyG3SzD.png",
     "Phase": "Virtuoso",
     "Effect": ["7/11/15 ATK"],
     "Cloud Hit": ["For every successive \"Cloud Sword\" played before this card, add 1 **Qi**"]
   },
   "Cloud Dance Rhythm": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/LcBIZBC.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+2/3/4\nDEF+2/3/4\nSword Intent+2/3/4"]
   },
   "Raven Spirit Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/VxnPnP1.png",
     "Phase": "Virtuoso",
     "Effect": ["6 ATK\nAdd 2/3/4 **DEF** for each **Qi**"]
   },
   "Burst Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wIs3Z92.png",
     "Phase": "Virtuoso",
     "Cost": ["1/1/1 Qi"],
     "Effect": ["11/13/15 ATK"],
@@ -204,14 +204,14 @@ module.exports = {
   },
   "Giant Roc Spirit Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Uc2gMPR.png",
     "Phase": "Virtuoso",
     "Cost": ["2/2/2 Qi"],
     "Effect": ["9/12/15 ATK\nIf Qi is greater than 0, Chase"]
   },
   "Reflexive Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/MrVYXZp.png",
     "Phase": "Virtuoso",
     "Cost": ["1 Qi"],
     "Effect": ["11/14/17 ATK"],
@@ -219,89 +219,89 @@ module.exports = {
   },
   "Mirror Flower Sword Formation": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/TZF9zWY.png",
     "Phase": "Virtuoso",
     "Effect": ["DEF+3/5/8\n0 ATK (Add 1 ATK for each 1 DEF)"]
   },
   "Tri-Peak Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/UEesMGJ.png",
     "Phase": "Virtuoso",
     "Effect": ["3/4/5 ATK x 3"]
   },
   //? Immortality
   "Cloud Sword - Flash Wind": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/D6WUw7o.png",
     "Phase": "Immortality",
     "Effect": ["4/8/12 ATK"],
     "Cloud Hit": ["Chase"]
   },
   "Cloud Sword - Moon Shade": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/vMMRVOl.png",
     "Phase": "Immortality",
     "Effect": ["DEF+1/2/3"],
     "Cost": ["Gain 2/3/4 Stacks of **Increase ATK**"]
   },
   "Spirit Gather Citta-Dharma": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Tkll3pO.png",
     "Phase": "Immortality",
     "Effect": ["Qi+1/1/3"],
     "Continuous": ["Add 1 Qi every 2/1/1 turn(s)"]
   },
   "CentiBird Spirit Sword Rhythm": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/GI1TNJK.png",
     "Phase": "Immortality",
     "Effect": ["Qi+1/3/3"],
     "Continuous": ["The \"Spirit Sword\" card's Qi cost decrease 1/1/2"]
   },
   "Egret Spirit Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/iwL5Th3.png",
     "Phase": "Immortality",
     "Cost": ["1/1/1 Qi"],
     "Effect": ["5 ATK\nAdd 2/3/4 ATK for each Qi"]
   },
   "Giant Kun Spirit Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/AOhutsI.png",
     "Phase": "Immortality",
     "Cost": ["3/3/3 Qi"],
     "Effect": ["10/13/16 ATK\nDEF+10/13/16\nChase"]
   },
   "Inspiration Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Z7FFxFU.png",
     "Phase": "Immortality",
     "Effect": ["8/12/16 ATK\nAdd 1 Sword Intent for each Qi (maximum 4/5/6)"],
     "Injured": ["Change to maximum 7/10/13"]
   },
   "Flow Cloud Chaos Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/hd2HASl.png",
     "Phase": "Immortality",
     "Cost": ["1/1/1 Qi"],
     "Effect": ["2 ATK x 4/5/6"]
   },
   "Moon Water Sword Formation": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/O2GfR7O.png",
     "Phase": "Immortality",
     "Effect": ["DEF+10/14/18\nAt the beginning of your next 3/4/5 turns, your DEF will not halve"]
   },
   "Unrestrained Sword - Two": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/nzkRlBU.png",
     "Phase": "Immortality",
     "Effect": ["4/6/9 ATK\nFor each \"Unrestrained Sword\" you played in this battle, make an additional attack"]
   },
   //? Incarnation
   "Cloud Sword - Dragon Roam": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/HADKWs1.png",
     "Phase": "Incarnation",
     "Effect": ["2 ATK x 2/3/4"],
     "Cloud Hit": ["DEF+3/5/7"],
@@ -309,46 +309,46 @@ module.exports = {
   },
   "Cloud Sword - Step Lightly": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/orLOnDr.png",
     "Phase": "Incarnation",
     "Effect": ["3 ATK x 2/3/4\nDEF+3/4/5"],
     "Cloud Hit": ["For each successive \"Cloud Sword\" played before this card, gain 3/4/5 DEF"]
   },
   "Flying Spirit Shade Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/hjDxL6U.png",
     "Phase": "Incarnation",
     "Effect": ["1 ATK x 4/5/6\nAdd 1 Qi for every attack that **Injured** the opponent"]
   },
   "Dharma Spirit Sword": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/4tWjH1z.png",
     "Phase": "Incarnation",
     "Effect": ["5 ATK\n Exhaust Qi, add 5/6/7 ATK for each point exhausted"]
   },
   "Sword Intent Surge": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/jdsG2tX.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
     "Effect": ["Increase your existing Sword Intent stacks by 80/110/140%"]
   },
   "Rule Sky Sword Formation": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/bDWeXHR.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
     "Effect": ["No Qi cost for this card if DEF>0\nDEF+8/14/20\nChase"]
   },
   "Chain Sword Formation": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wITjF5k.png",
     "Phase": "Incarnation",
     "Effect": ["DEF+1/5/10\nRetrigger the previous \"Sword Formation\" card in the deck"]
   },
   "Unrestrained Sword - Zero": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/M4dJTwr.png",
     "Phase": "Incarnation",
     "Continuous": ["Whenever \"Unrestrained Sword\" **Injured** the opponent, you gain 30/50/70% of damage as HP"]
   },
