@@ -1955,7 +1955,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Keywords": ["Growth/Growth/-"],
-    "Absorb": ["6 ATK / 4 ATK x 2 / 3 ATK x 3"] //! might need redone
+    "Effect": ["6 ATK / 4 ATK x 2 / 3 ATK x 3"]
   },
   "Hard Bamboo": {
     "sect": "Plant Master",
@@ -2000,7 +2000,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Keywords": ["Growth/Growth/-"],
-    "Effect": ["4 ATKx(1/2/3)"],
+    "Effect": ["4 ATK x (1/2/3)"],
     "Level 3: Continuous": ["All your attacks gain Smash DEF effect"]
   },
   //? Virtuoso
@@ -2029,7 +2029,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Keywords": ["Growth/Growth/-"],
-    "Absorb": ["Qi+2/3/4"],
+    "Effect": ["Qi+2/3/4"],
     "Level 3": ["add 2 more Qi if either you or opponent have Qi"]
   },
   "Qi-corrupting Sunflower": {
@@ -2037,7 +2037,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Keywords": ["Growth/Growth/-"],
-    "Absorb": ["Opponent loses 1/2/3 Qi"],
+    "Effect": ["Opponent loses 1/2/3 Qi"],
     "Level 3": ["If the opponent does not have enough Qi, deal 5 damage for every point of Qi lacking"]
   },
   //? Immortality
@@ -2067,7 +2067,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Keywords": ["Growth/Growth/-"],
-    "Absorb": ["One random Debuff decreases 1/2/3 stack(s)"],
+    "Effect": ["One random Debuff decreases 1/2/3 stack(s)"],
     "Level 3": ["then Chase if you have no Debuff"]
   },
   "Frozen Snow Lotus": {
@@ -2075,7 +2075,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Keywords": ["Growth/Growth/-"],
-    "Absorb": ["HP+5/10/10"],
+    "Effect": ["HP+5/10/10"],
     "Level 3": ["Next 3 times after losing HP, gain DEF equal to the lost HP"]
   },
   "Frozen Blood Lotus": {
@@ -2083,7 +2083,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Keywords": ["Growth/Growth/-"],
-    "Absorb": ["Lost 10 HP (at least 1 HP left) 1/2/3 times\nGain 1/2/3 stack(s) of Guard Up"]
+    "Effect": ["Lost 10 HP (at least 1 HP left) 1/2/3 times\nGain 1/2/3 stack(s) of Guard Up"]
   },
   //? Incarnation
   "Mysterious Dao Fruit": {
