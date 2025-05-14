@@ -865,7 +865,7 @@ module.exports = {
     "sect": "Qi Wangyou",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
-    "Effect": ["Whenever you play a Card without any Five Elements, **Activate Wood Spirit**, add 2 Max HP"]
+    "Effect": ["Whenever you play a Card without any Five Elements, **Activate Wood Spirit**;\nWhenever you **Activate Wood Spirit**, add 2 Max HP"]
   },
   "Heavenly Rain": {
     "sect": "Qi Wangyou",
