@@ -1637,7 +1637,7 @@ module.exports = {
     "sect": "Musician",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
-    "Effect": ["Both player add 14/20/246 DEF"]
+    "Effect": ["Both player add 14/20/26 DEF"]
   },
   "Carefree Tune": {
     "sect": "Musician",
