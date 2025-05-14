@@ -1,6 +1,6 @@
 module.exports = {
   //! Cloud Spirit Sword Sect
-  "cs - Cloud Sword - Touch Sky": { name: "Cloud Sword - Touch Sky", value: "Cloud Sword - Touch Sky" },
+  "cs - Cloud Sword - Touch Sky - 云剑·探云": { name: "Cloud Sword - Touch Sky", value: "Cloud Sword - Touch Sky" },
   "cs - Cloud Sword - Fleche": { name: "Cloud Sword - Fleche", value: "Cloud Sword - Fleche" },
   "cs - Cloud Sword - Touch Earth": { name: "Cloud Sword - Touch Earth", value: "Cloud Sword - Touch Earth" },
   "Light Sword": { name: "Light Sword", value: "Light Sword" },
