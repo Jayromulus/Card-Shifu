@@ -3115,6 +3115,19 @@ module.exports = {
     "Effect": ["8/15/15 ATK"],
     "Earth Spirit": ["DEF halved, for each reduced point add 3/3/4 more ATK"]
   },
+  "Heavenly Rain": {
+    "sect": "Qi Wangyou",
+    "image": "https://i.imgur.com/Da9x7cx.png",
+    "Phase": "Virtuoso",
+    "Absorb": ["All players with Destiny<90 gain 5 Destiny. You gain additional 20 Destiny."]
+  },
+  "Forget Worries": {
+    "sect": "Qi Wangyou",
+    "image": "https://i.imgur.com/5du84xK.png",
+    "Phase": "Incarnation",
+    "Effect": ["Both player add 8 HP, gain 2 **Guard Up**, reduce 2 stacks of all **Debuff** and unable to act for 1 turn."]
+  },
+  //* Duan Xuan
   "Unceasing Exercise": {
     "sect": "Xiao Bu",
     "image": "https://i.imgur.com/rlWqPfP.png",

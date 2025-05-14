@@ -855,6 +855,36 @@ module.exports = {
     "Phase": "Incarnation",
     "Effect": ["Max HP reduced by 20.\nThe following effect can only be triggered once per battle. When you play a card with \"Seal\" in its name, consume the card, and Chase"]
   },
+  "Five Elements Pure Vase": {
+    "sect": "Qi Wangyou",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Effect": ["Click on this Immortal Fate Icon to open the Pure Vase, where you can store 3 cards\n(Gain 1 Cultivation when inserting a Card, lose 1 Cultivation when removing a Card)\nAt the beginning of the battle, Activate the [**Five Elements**] of the card stored in the first slot of Pure Vase"]
+  },
+  "Herbs Flourish": {
+    "sect": "Qi Wangyou",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Effect": ["Whenever you play a Card without any Five Elements, **Activate Wood Spirit**"]
+  },
+  "Heavenly Rain": {
+    "sect": "Qi Wangyou",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Effect": ["Draw 1 **Heavenly Rain**"]
+  },
+  "Five Elements Gather Qi": {
+    "sect": "Qi Wangyou",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["Add 1 Qi whenever you activate any Five Elements during battle (limited to once per turn)"]
+  },
+  "Forget Worries": {
+    "sect": "Qi Wangyou",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Darw 1 **Forget Worries**; If this Card is stored in the Pure Vase, both player add 15 HP and Max HP when battle starts"]
+  },
 
   //* Duan Xuan Sect
   "Unyielding Learning": {
