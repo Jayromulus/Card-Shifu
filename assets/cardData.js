@@ -2907,6 +2907,7 @@ module.exports = {
   },
 
   //! Character Specific Cards - redo the sect to reflect each specific character icon
+  //* Cloud Spirit Sword Sect
   "Spring Course Tea": {
     "sect": "Mu Yifeng",
     "image": "https://i.imgur.com/zj6dUW3.png",
@@ -2998,6 +2999,7 @@ module.exports = {
     "Phase": "Incarnation",
     "Effect": ["2 ATK x 2/2/3\nMake an additional attack for every other \"Sword Formation\" in the deck (up to 3/4/4)\nAdd 3 DEF for every attack that Injured the opponent"]
   },
+  //* Heptastar Pavillion
   "Only Traces": {
     "sect": "Tan Shuyan",
     "image": "https://i.imgur.com/wsIJmah.png",
@@ -3063,6 +3065,7 @@ module.exports = {
     "Effect": ["If Qi >= 1, Star Power+1/2/3\nIf Star Power >= 3, Chase"],
     "Continuous": ["The Qi cost of cards on Star Point are reduced by 1"]
   },
+  //* Five Elements Alliance
   "Gourd Of Leisurely": {
     "sect": "Wu Xingzhi",
     "image": "https://i.imgur.com/YCvc0uJ.png",
