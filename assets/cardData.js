@@ -3125,7 +3125,7 @@ module.exports = {
     "sect": "Qi Wangyou",
     "image": "https://i.imgur.com/5du84xK.png",
     "Phase": "Incarnation",
-    "Effect": ["Both player add 8/26/24 HP, gain 2 **Guard Up**, reduce 2/3/4 stacks of all **Debuff** and unable to act for 1 turn."]
+    "Effect": ["Both player add 8/16/24 HP, gain 2 **Guard Up**, reduce 2/3/4 stacks of all **Debuff** and unable to act for 1 turn."]
   },
   //* Duan Xuan
   "Unceasing Exercise": {
