@@ -3366,7 +3366,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Effect": ["Counts as 0/1/2 Unrestrained Sword has been played"],
-    "Continuous": ["Cloud Sword can be considered as Unrestrained Sword, and vice cersa"]
+    "Continuous": ["Cloud Sword can be considered as Unrestrained Sword, and vice versa"]
   },
   "Beast Spirit Sword Formation": {
     "sect": "Miscellaneous Cards",
