@@ -877,7 +877,7 @@ module.exports = {
     "sect": "Qi Wangyou",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
-    "Effect": ["Add 1 Qi whenever you activate any Five Elements during battle (limited to once per turn)"]
+    "Effect": ["Add 1 Qi whenever you activate any **Five Elements** during battle (limited to once per turn)"]
   },
   "Forget Worries": {
     "sect": "Qi Wangyou",
