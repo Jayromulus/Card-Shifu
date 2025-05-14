@@ -357,26 +357,26 @@ module.exports = {
   //? Meditation
   "Shifting Stars": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/RP4Z7xF.png",
     "Phase": "Meditation",
     "Effect": ["5/8/8 ATK\nThe next 1/1/2 slot(s) in your deck become Star Point"]
   },
   "Dotted Around": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ComYXol.png",
     "Phase": "Meditation",
     "Effect": ["Qi+1/2/2\nDEF+2/3/4\nStar Power+1/1/2"]
   },
   "Astral Move - Block": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/AdkVRsb.png",
     "Phase": "Meditation",
     "Effect": ["6/8/10 ATK"],
     "Star Point": ["DEF+2/4/6"]
   },
   "Astral Move - Flank": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/sAWrLa1.png",
     "Phase": "Meditation",
     "Cost": ["1 Qi"],
     "Effect": ["6/7/8 ATK"],
@@ -384,51 +384,51 @@ module.exports = {
   },
   "Zhen Hexagram": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/HqiriaX.png",
     "Phase": "Meditation",
     "Effect": ["4/7/10 ATK\nHexagram+1"]
   },
   "Earth Hexagram": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/b0SkZKF.png",
     "Phase": "Meditation",
     "Effect": ["DEF+2\nHexagram+2/3/4"]
   },
   "Wind Hexagram": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/cQhY6x1.png",
     "Phase": "Meditation",
     "Effect": ["Qi+1/2/2\nHexagram+1/1/2"]
   },
   "Palm Thunder": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/0aOSJPX.png",
     "Phase": "Meditation",
     "Effect": ["2~10/5~13/8~16"]
   },
   "White Crane Bright Wings": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/vorsmE7.png",
     "Phase": "Meditation",
     "Effect": ["1~8 ATK\nQi+1/2/3"]
   },
   "Sparrow's Tail": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/fB4FYfJ.png",
     "Phase": "Meditation",
     "Cost": ["1 Qi"],
     "Effect": ["9/10/11 ATK\n10% chance make an additional 5/7/9 ATK"]
   },
   "Striding Into the Wind": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/649ZTz9.png",
     "Phase": "Meditation",
     "Cost": ["1 Qi"],
     "Effect": ["3/4/5 ATK x 2\nDEF+1~10/1~12/1~14"]
   },
   "Incessant": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/jHZBLyV.png",
     "Phase": "Meditation",
     "Effect": ["6/9/12 ATK"],
     "Post Action": ["HP+2/4/6"]
@@ -436,72 +436,72 @@ module.exports = {
   //? Foundation
   "Astral Fleche": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/txmJNdI.png",
     "Phase": "Foundation",
     "Effect": ["5 ATK\nStar Power+1/2/3"]
   },
   "Astral Move - Point": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/myty7TV.png",
     "Phase": "Foundation",
     "Effect": ["6/10/14 ATK"],
     "Star Point": ["Opponent loses 1 Qi"]
   },
   "Astral Move - Stand": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/1Rr852l.png",
     "Phase": "Foundation",
     "Effect": ["7/8/9 ATK"],
     "Star Point": ["Qi+1/2/3"]
   },
   "Mountain Hexagram": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/aCC3kg3.png",
     "Phase": "Foundation",
     "Effect": ["Hexagram+2/3/4\nHP and Max HP+2/3/4"]
   },
   "Water Hexagram": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/I0nOG3K.png",
     "Phase": "Foundation",
     "Effect": ["Hexagram+2/3/4\nThe next 1 slot in your deck become Star Point"]
   },
   "Falling Thunder": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/G7j0cNK.png",
     "Phase": "Foundation",
     "Cost": ["1 Qi"],
     "Effect": ["6~16/9~20/12~24 ATK"]
   },
   "Cutting Weeds": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/9ocaE8w.png",
     "Phase": "Foundation",
     "Cost": ["1 Qi"],
     "Effect": ["5/7/9 ATK x 2\nOpponent loses 3~13/6~17/9~21"]
   },
   "Golden Rooster Independence": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/lMPIg2Z.png",
     "Phase": "Foundation",
     "Cost": ["1 Qi"],
     "Effect": ["11/15/15 ATK\n11% chance to apply 1/1/2 stack(s) of Weakened"]
   },
   "Stillness Citta-Dharma": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/SZQ8FLW.png",
     "Phase": "Foundation",
     "Continuous": ["Whenever you gain 1 Qi, add 2/3/4 HP"]
   },
   "Flower Sentient": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ciN2CK5.png",
     "Phase": "Foundation",
     "Effect": ["Qi+1/2/3\nDEF+1/2/3\nApply 1 stack of Internal Injury"]
   },
   "Imposing": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/EMeNsx7.png",
     "Phase": "Foundation",
     "Effect": ["Qi+2/3/4"],
     "Post Action": ["HP+6/9/12"]
@@ -509,13 +509,13 @@ module.exports = {
   //? Virtuoso
   "Starry Moon": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wBF5grQ.png",
     "Phase": "Virtuoso",
     "Effect": ["Star Power+2/3/4\nThe next 2 slots in your deck become Star Point"]
   },
   "Astral Move - Hit": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ta0sXQp.png",
     "Phase": "Virtuoso",
     "Cost": ["1 Qi"],
     "Effect": ["5/6/7 ATK x 2"],
@@ -523,66 +523,66 @@ module.exports = {
   },
   "Lake Hexagram": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/jy7wJaK.png",
     "Phase": "Virtuoso",
     "Effect": ["Hexagram+2/3/4\nBoth players add 2/3/4 Qi"]
   },
   "White Snake": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/GWq9og4.png",
     "Phase": "Virtuoso",
     "Effect": ["10% chance to apply 2/3/4 stacks of Flaw\n6ATK"]
   },
   "Thunder Hexagram Rhythm": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/OOGS9gd.png",
     "Phase": "Virtuoso",
     "Effect": ["1~9/1~10/1~11 ATK\nHexagram+X (X is the number of Hexagram triggered in this battle, and up to 3/4/5)"]
   },
   "Yin Yang Formation": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/CYbjBnL.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+2/3/4\nAdd 1/2/2 DEF and 1/1/2 HP for each Hexagram"]
   },
   "Ruthless Water": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/gXqSPfp.png",
     "Phase": "Virtuoso",
     "Cost": ["1 Qi"],
     "Effect": ["6 ATK\nIf the opponent has Debuff, then apply 2/3/4 stacks of Internal Injury"]
   },
   "Qi Therapy": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/vhgnPif.png",
     "Phase": "Virtuoso",
     "Cost": ["1 Qi"],
     "Effect": ["Max HP+8/12/16\nHP+8~18/12~22/16~26"]
   },
   "Revitalized": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/vSRdkzo.png",
     "Phase": "Virtuoso",
     "Cost": ["1 Qi"],
     "Effect": ["10 ATK\nAdd 1 ATK for each 5/4/3 HP have added before"]
   },
   "Hunter Becomes Preyer": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/uSfr5i5.png",
     "Phase": "Virtuoso",
     "Effect": ["2/3/4 ATK x 2\nHP+4/6/8"],
     "Post Action": ["Make an additional 7/10/13 ATK"]
   },
   "Drag Moon In Sea": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/mQA8iTr.png",
     "Phase": "Virtuoso",
     "Post Action": ["12/18/24 ATK\nChase"]
   },
   //? Immortality
   "Astral Move - Fly": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/NHF7wzC.png",
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
     "Effect": ["2/4/6 ATK x 2"],
@@ -590,72 +590,72 @@ module.exports = {
   },
   "Astral Move - Tiger": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/jNF1lbs.png",
     "Phase": "Immortality",
     "Effect": ["1 ATK x 3"],
     "Star Point": ["Apply 1/2/3 stack(s) Weakened"]
   },
   "Hexagram Formacide": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/OU0DY7I.png",
     "Phase": "Immortality",
     "Continuous": ["Whenever you gain a stack of Hexagram, deal 3/4/5 DMG to the opponent"]
   },
   "Flame Hexagram": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/StBURTx.png",
     "Phase": "Immortality",
     "Effect": ["Hexagram+3/4/5\nOpponent loses 2/4/6 Max HP"]
   },
   "Star Trail Divination": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Yn1mCyp.png",
     "Phase": "Immortality",
     "Effect": ["DEF+6/12/18\nExhaust Hexagram, then gain 1 Star Power, 1 Qi, and 1 HP for each Hexagram exhausted"]
   },
   "Dance Of The Dragonfly": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/0aaBVTl.png",
     "Phase": "Immortality",
     "Effect": ["5/9/13 ATK\n10% chance to Chase"]
   },
   "Thunder And Lighting": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/kNMnc8n.png",
     "Phase": "Immortality",
     "Effect": ["Repeat twice:\n1~10/1~13/1~16 ATK\nIf a Hexagram is triggered add 1 Qi"]
   },
   "Repel Citta-Dharma": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Xv8Owfe.png",
     "Phase": "Immortality",
     "Effect": ["HP and Max HP + 4/6/8"],
     "Continuous": ["Whenever you are attacked by the opponent, deal 2/3/4 DMG to the opponent"]
   },
   "Escape Plan": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Rxw2XLj.png",
     "Phase": "Immortality",
     "Effect": ["DEF+9/12/15\nHP+9/12/15"],
     "Post Action": ["Gain 1 stack of Guard Up"]
   },
   "Extremely Suspicious": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/6HrUZDW.png",
     "Phase": "Immortality",
     "Effect": ["Apply 2/3/4 stacks of Internal Injury\nMake the opponent's Internal Injury take effect once immediately"]
   },
   //? Incarnation
   "Polaris Citta-Dharma": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/FXNkFtB.png",
     "Phase": "Incarnation",
     "Effect": ["Star Power+1/2/3 (Add 1 more if this card is in the first slot)"],
     "Continuous": ["All the slots in your deck are Star Point"]
   },
   "Astral Move - Cide": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/OMDcXkk.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
     "Effect": ["16/22/28 ATK"],
@@ -663,27 +663,27 @@ module.exports = {
   },
   "Heaven Hexagram": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/iHso75y.png",
     "Phase": "Incarnation",
     "Effect": ["Qi+1/2/3\nHexagram+1/2/3\nIf Hexagram is greater or equal to 3, Chase"]
   },
   "Five Thunders": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/JWKDfL8.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
     "Effect": ["Repeat 5 Times:\n30% chance to 8/10/12 ATK"]
   },
   "Strike Twice": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/2wSTXp8.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
     "Effect": ["HP+2/8/14\nThe next card will trigger twice"]
   },
   "Great Spirit": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/oJyEeMo.png",
     "Phase": "Incarnation",
     "Cost": ["2 Qi"],
     "Effect": ["Max HP+12/16/20\nChase"],
@@ -691,29 +691,29 @@ module.exports = {
   },
   "Hunter Hunting Hunter": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/6HuoyJf.png",
     "Phase": "Incarnation",
     "Effect": ["Reverse self Card Play Direction"],
     "Continuous": ["All cards with \"Post Action\" will make an additional 7/10/13 ATK"]
   },
   "Propitious Omen": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wrfHglv.png",
     "Phase": "Incarnation",
     "Effect": ["Qi+2\nAdd 3/5/7 to the largest stack of Qi, Hexagram or Star Power (if there is a tie, add to the former)"]
   },
 
   //* Five Elements Alliance
-  //? Meditation - YOU ARE HERE
+  //? Meditation
   "Wood Spirit Seal": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/qSKybDq.png",
     "Phase": "Meditation",
     "Effect": ["Qi+1/2/3\nHP+4\nActivate Wood Spirit"]
   },
   "Wood Spirit - Bud": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ZcUz5S4.png",
     "Phase": "Meditation",
     "Cost": ["1 Qi"],
     "Effect": ["3 ATK x 2/3/4"],
@@ -721,13 +721,13 @@ module.exports = {
   },
   "Fire Spirit Seal": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/OfwCcyP.png",
     "Phase": "Meditation",
     "Effect": ["Opponent loses 3 HP and Max HP\nQi+1/2/3\nActivate Fire Spirit"]
   },
   "Fire Spirit - Rush": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/qs4TWOb.png",
     "Phase": "Meditation",
     "Cost": ["1 Qi"],
     "Effect": ["9/11/14 ATK"],
@@ -735,39 +735,39 @@ module.exports = {
   },
   "Earth Spirit Seal": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/i2Fpv0f.png",
     "Phase": "Meditation",
     "Effect": ["3/5/7 ATK\nDEF+4/6/8\nActivate Earth Spirit"]
   },
   "Earth Spirit - Smash": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/qzpNkaW.png",
     "Phase": "Meditation",
     "Effect": ["6/7/8 ATK"],
     "Earth Spirit": ["If either you or your opponent have DEF greater than 0, increase ATK by 3/5/7"]
   },
   "Metal Spirit Seal": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/A6lW4hM.png",
     "Phase": "Meditation",
     "Effect": ["6/9/12 ATK\nActivate Metal Spirit"]
   },
   "Metal Spirit - Needle": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/1QFXoug.png",
     "Phase": "Meditation",
     "Effect": ["6/7/8 ATK"],
     "Metal Spirit": ["Penetrate+2/4/6"]
   },
   "Water Spirit Seal": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/VYekBVy.png",
     "Phase": "Meditation",
     "Effect": ["Qi+2/3/4\nActivate Water Spirit"]
   },
   "Water Spirit - Waves": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/jyzxrdZ.png",
     "Phase": "Meditation",
     "Cost": ["2 Qi"],
     "Effect": ["10/13/16 ATK"],
@@ -775,21 +775,21 @@ module.exports = {
   },
   "Five Elements Fleche": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/LkRcPLG.png",
     "Phase": "Meditation",
     "Effect": ["5 ATK\nIf any Five Elements has been activated, increase 3/6/9 ATK"]
   },
   //? Foundation
   "Wood Spirit - Recovery": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/gZg8cql.png",
     "Phase": "Foundation",
     "Effect": ["Qi+2/3/4"],
     "Wood Spirit": ["HP+3/4/6 (Add 1 HP for each stack of Increase ATK)"]
   },
   "Wood Spirit - Sparse Shadow": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Frrdos3.png",
     "Phase": "Foundation",
     "Cost": ["1 Qi"],
     "Effect": ["3 ATK x 2/3/4"],
@@ -797,14 +797,14 @@ module.exports = {
   },
   "Fire Spirit - Flame Eater": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/s9ZoqEi.png",
     "Phase": "Foundation",
     "Effect": ["Qi+2/3/4"],
     "Fire Spirit": ["Opponent loses 3/4/6 HP and Max HP"]
   },
   "Fire Spirit - Scarlet Flame": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/FbJFV5E.png",
     "Phase": "Foundation",
     "Cost": ["1 Qi"],
     "Effect": ["4/5/6 ATK x 2"],
@@ -812,35 +812,35 @@ module.exports = {
   },
   "Earth Spirit Formation": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/TJYlgna.png",
     "Phase": "Foundation",
     "Effect": ["DEF+4/6/8"],
     "Continuous": ["Whenever you play an \"Earth Spirit\" card, add 2/3/4 DEF"]
   },
   "Earth Spirit - Mountains": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://imgur.com/sDd36W0",
     "Phase": "Foundation",
     "Effect": ["5/6/7 ATK\nDEF+2/3/4"],
     "Earth Spirit": ["Add 3/6/9 DEF in your next turn"]
   },
   "Metal Spirit Formation": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/KGSRA75.png",
     "Phase": "Foundation",
     "Effect": ["Penetrate+4"],
     "Continuous": ["Whenever you play a \"Metal Spirit\" card, add 1/2/3 Penetrate"]
   },
   "Metal Spirit - Heart Pierce": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/FG3KzzG.png",
     "Phase": "Foundation",
     "Effect": ["7/10/13 ATK"],
     "Metal Spirit": ["Your next 1/2/3 attack will Ignore DEF"]
   },
   "Water Spirit - Billows": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/nApFgd5.png",
     "Phase": "Foundation",
     "Cost": ["2 Qi"],
     "Effect": ["Gain 2 stacks of Force of Water"],
@@ -848,7 +848,7 @@ module.exports = {
   },
   "Water Spirit - Turbulent": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/GjMOMcr.png",
     "Phase": "Foundation",
     "Cost": ["1 Qi"],
     "Effect": ["10/14/18 ATK"],
@@ -856,21 +856,21 @@ module.exports = {
   },
   "Cosmos Seal": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/hBoLiOr.png",
     "Phase": "Foundation",
     "Effect": ["5/9/13 ATK\nQi+1\nThe next time you play a Five Elements card, Activate the corresponding Five Elements first"]
   },
   //? Virtuoso
   "Wood Spirit Formation": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/HG8YmH1.png",
     "Phase": "Virtuoso",
     "Effect": ["Max HP+10/15/20"],
     "Continuous": ["Whenever you play a \"Wood Spirit\" card, add 2/3/4 HP"]
   },
   "Wood Spirit - Forest Guard": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Gvgw6OC.png",
     "Phase": "Virtuoso",
     "Cost": ["1 Qi"],
     "Effect": ["1/2/3 ATK x 2\nSmash DEF"],
@@ -878,14 +878,14 @@ module.exports = {
   },
   "Fire Spirit Formation": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/bLRZY3c.png",
     "Phase": "Virtuoso",
     "Effect": ["Opponent loses 2/3/4 HP and Max HP"],
     "Continuous": ["Whenever you play a \"Fire Spirit\" card, the opponent loses 2/3/4 HP and Max HP"]
   },
   "Fire Spirit - Blast": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/jLWgWPm.png",
     "Phase": "Virtuoso",
     "Cost": ["1 Qi"],
     "Effect": ["Gain 1/2/3 stack(s) of Increase ATK"],
@@ -893,63 +893,63 @@ module.exports = {
   },
   "Earth Spirit - Dust": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/EuRkR2S.png",
     "Phase": "Virtuoso",
     "Effect": ["8/12/16 ATK"],
     "Earth Spirit": ["Add 1 DEF for every 4 Max HP difference between you and your opponent, then add the same amount of DEF next turn"]
   },
   "Earth Spirit - Cliff": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/rbmxshS.png",
     "Phase": "Virtuoso",
     "Effect": ["DEF+10/15/20"],
     "Earth Spirit": ["When the next 1 time your DEF is reduced, deal the same value of the reduced DEF's DMG to the opponent"]
   },
   "Metal Spirit - Charge": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/V3L1eb5.png",
     "Phase": "Virtuoso",
     "Effect": ["DEF+4/6/8\nPenetrate+4/6/8"],
     "Metal Spirit": ["Add 1 stack of Penetrate for each 4 DEF"]
   },
   "Metal Spirit - Sharp": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/4wD4k7i.png",
     "Phase": "Virtuoso",
     "Effect": ["6/9/12 ATK"],
     "Metal Spirit": ["For every 2 HP **Injured** by this card, gain 1 stack of Penetrate"]
   },
   "Water Spirit Formation": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/fdHZmjE.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+2/3/4"],
     "Continuous": ["Whenever you play a \"Water Spirit\" card, add 1 Qi"]
   },
   "Water Spirit - Spring": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/4HjCHWC.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+2/3/4"],
     "Water Spirit": ["Gain 1 stack of Force of Water for every 5 **Injured** opponent's HP in the next 1 attack"]
   },
   "Five Elements Circulation": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/zE8WxKF.png",
     "Phase": "Virtuoso",
     "Effect": ["If the previous slot card has Five Element Generating Interaction with the next card, then Activate the Five Elements of the next card and trigger its effect (Up to Lv.1/2/3)"]
   },
   //? Immortality
   "Wood Spirit - Fragrant": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/sgNHLhs.png",
     "Phase": "Immortality",
     "Effect": ["Qi+2/3/4\nHP+2/3/4"],
     "Wood Spirit": ["For evert 3 Qi, gain 1 stack of Increase ATK"]
   },
   "Wood Spirit - Thorn": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wIy7lFx.png",
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
     "Effect": ["4 ATK x 3/4/5"],
@@ -957,55 +957,55 @@ module.exports = {
   },
   "Fire Spirit - Flash Fire": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/xcpQqfw.png",
     "Phase": "Immortality",
     "Effect": ["Opponent 4/8/12 Max HP"],
     "Fire Spirit": ["Chase"]
   },
   "Fire Spirit - Heart Fire": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/NPIMrtO.png",
     "Phase": "Immortality",
     "Effect": ["4/5/7 ATK x 2"],
     "Fire Spirit": ["For every **Injured** HP by this card, decrease opponent's Max HP by 2"]
   },
   "Earth Spirit - Steep": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/d1zzUnQ.png",
     "Phase": "Immortality",
     "Effect": ["DEF+12"],
     "Earth Spirit": ["Add 1 DEF for every 6/5/4 DEF you have been lost"]
   },
   "Earth Spirit - Quicksand": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/63jIAKC.png",
     "Phase": "Immortality",
     "Effect": ["9 ATK"],
     "Earth Spirit": ["Add 1 ATK for every 6/5/4 DEF you have been lost"]
   },
   "Metal Spirit - Shuttle": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/O3D6BPr.png",
     "Phase": "Immortality",
     "Effect": ["4/8/12 ATK\nThis card's attack will not trigger Penetrate"],
     "Metal Spirit": ["Chase"]
   },
   "Metal Spirit - Iron Bone": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/BKeds15.png",
     "Phase": "Immortality",
     "Metal Spirit": ["You take 5 less ATK or DMG (minimum to 1) from your opponent for 2/3/4 turns"]
   },
   "Water Spirit - Great Waves": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/mQxy1aP.png",
     "Phase": "Immortality",
     "Effect": ["Qi+2/3/4\nHP and Max HP+2/3/4"],
     "Water Spirit": ["Add 1 stack of Force of Water for every 2 Qi"]
   },
   "Water Spirit - Dive": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/fIIoaNp.png",
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
     "Effect": ["HP and Max HP+2/7/12"],
@@ -1013,7 +1013,7 @@ module.exports = {
   },
   "World Smash": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/3tdkXom.png",
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
     "Effect": ["4/7/10 ATK\nSmash DEF\nFor each different Five Elements you have in your deck, this card adds 4/5/6 ATK"]
@@ -1021,7 +1021,7 @@ module.exports = {
   //? Incarnation
   "Wood Spirit - Willow Leaf": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/qcjmCpg.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
     "Effect": ["Gain 1/2/3 stack(s) of Increase ATK\nHP+3"],
@@ -1029,7 +1029,7 @@ module.exports = {
   },
   "Fire Spirit - Blazing Prairie": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/LSr35lM.png",
     "Phase": "Incarnation",
     "Cost": ["2 Qi"],
     "Effect": ["6/8/10 ATK x 3"],
@@ -1037,21 +1037,21 @@ module.exports = {
   },
   "Earth Spirit - Combine World": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/CRmvnHC.png",
     "Phase": "Incarnation",
     "Effect": ["DEF+12"],
     "Earth Spirit": ["The next 2/3/4 times your DEF is reduced, restore it immediately"]
   },
   "Metal Spirit - Giant Tripod": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Beh1shb.png",
     "Phase": "Incarnation",
     "Effect": ["7/11/15 ATK"],
     "Metal Spirit": ["If the opponent is **Injured** by this card, double the HP deduction"]
   },
   "Water Spirit - Combine Rivers": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/aKWpxe6.png",
     "Phase": "Incarnation",
     "Cost": ["2 Qi"],
     "Effect": ["Gain 3/4/5 stacks of Force of Water"],
@@ -1059,13 +1059,13 @@ module.exports = {
   },
   "Ultimate World Formation": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/60SZ2yz.png",
     "Phase": "Incarnation",
     "Continuous": ["X/X+2/X+4 Times (X is the number of different Five Elements in your deck): Whenever you activate any Five Elements, Chase"]
   },
   "Five Elements Heavenly Marrow Rhythm": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/o59tt1D.png",
     "Phase": "Incarnation",
     "Effect": ["-/Qi+2/Qi+2"],
     "Continuous": ["2/2/3 Times: If there is only one type of Five Elements in your deck, whenever you play a Five Elements card that is not an ATK, Chase"]
@@ -1075,79 +1075,79 @@ module.exports = {
   //? Meditation
   "Crash Fist - Poke": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/dT2jQ1J.png",
     "Phase": "Meditation",
     "Cost": ["3 HP"],
     "Effect": ["9/11/13 ATK\nThe next Crash Fist adds 2/3/4 ATK"]
   },
   "Crash Fist - Block": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/HHX08OB.png",
     "Phase": "Meditation",
     "Cost": ["3 HP"],
     "Effect": ["7/9/11 ARK\nDEF+2/3/4 (also triggered in the next Crash Fist)"]
   },
   "Crash Fist - Bounce": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/hJy2JsG.png",
     "Phase": "Meditation",
     "Cost": ["2 HP"],
     "Effect": ["8/11/14 ATK\nWhen the next Crash Fist costs HP, add it back"]
   },
   "Exercise Fist": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/fB8BAmZ.png",
     "Phase": "Meditation",
     "Effect": ["6/9/12 ATK\nPhysique+1"]
   },
   "Mountain-Cleaving Palms": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/JXzhln6.png",
     "Phase": "Meditation",
     "Cost": ["4 HP"],
     "Effect": ["10/13/16 ATK\n1 less HP cost for each 2 Physique"]
   },
   "Embracing Qi Technique": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/VTMFPcN.png",
     "Phase": "Meditation",
     "Effect": ["Qi+1\nPhysique+2\nHP+1/4/7"]
   },
   "Rakshasa Pouncing": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/gf2wBVt.png",
     "Phase": "Meditation",
     "Effect": ["8/11/14 ATK\nQi+1\nGain 1 stack of Wound"]
   },
   "Sky-Piercing Claw": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/I83NqS7.png",
     "Phase": "Meditation",
     "Cost": ["1 Qi"],
     "Effect": ["12/15/18 ATK\nGain 1 stack of Internal Injury"]
   },
   "Mountain Falling": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/VoF87Q1.png",
     "Phase": "Meditation",
     "Effect": ["6/9/12 ATK\nReduce 1 stack of random Debuff"]
   },
   "Gather Force": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/NBtnspq.png",
     "Phase": "Meditation",
     "Effect": ["2/5/8 ATK\nQi+1\nForce+2"]
   },
   "Vigorous Force": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/iGbWgcq.png",
     "Phase": "Meditation",
     "Effect": ["6/9/12 ATK (1 more ATK for each stack of Force)"],
     "Cost 1 Qi": ["Force+2"]
   },
   "Youthful Vigor": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/F2AywE9.png",
     "Phase": "Meditation",
     "Cost": ["2 HP"],
     "Effect": ["8/10/12 ATK"],
@@ -1156,6 +1156,7 @@ module.exports = {
   //? Foundation
   "Crash Fist - Shake": {
     "sect": "Duan Xuan Sect",
+    // "image": "https://i.imgur.com/xFDl9fQ.png", APPARENTLY breaks imgur ToS ????????
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Cost": ["4 HP"],
@@ -1163,54 +1164,54 @@ module.exports = {
   },
   "Crash Fist - Entangle": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/pzA9HtR.png",
     "Phase": "Foundation",
     "Cost": ["4 HP"],
     "Effect": ["10/11/12 ATK\nWhen you play the next Crash Fist, apply 1/2/3 stacks Wound"]
   },
   "Crash Fist - Blitz": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/BRp59nD.png",
     "Phase": "Foundation",
     "Cost": ["4 HP"],
     "Effect": ["10/14/18 ATK\nSmash DEF (also triggered in the next Crash Fist)"],
   },
   "Exercise Tendons": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/NObFTuH.png",
     "Phase": "Foundation",
     "Effect": ["5/7/9 ATK\nPhysique+2"],
     "Physique >= 15": ["DEF+4/6/8"]
   },
   "Detect-Horse Palms": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/fc9ooYO.png",
     "Phase": "Foundation",
     "Effect": ["7/9/11 ATK\nAdd 1 DEF for each 2 Physique (up to 8/11/14)"]
   },
   "Gale Shadow Claw": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/0ntSkTT.png",
     "Phase": "Foundation",
     "Effect": ["4/6/8 ATK x 2\nQi+2\nGain 3 stacks of Flaw"]
   },
   "Ghost Howling": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/YUFY28W.png",
     "Phase": "Foundation",
     "Cost": ["1 Qi"],
     "Effect": ["14/18/22 ATK\nIgnore DEF\nGain 3 stacks of Weakened"]
   },
   "Standing Firm": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/bCw58wf.png",
     "Phase": "Foundation",
     "Effect": ["DEF+4/5/6\nForce+2/3/4"],
     "Cost 1 Qi": ["HP+5"]
   },
   "Strong Force": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/HNM4bS6.png",
     "Phase": "Foundation",
     "Cost": ["2 HP"],
     "Effect": ["9/12/15 ATK"],
@@ -1218,86 +1219,86 @@ module.exports = {
   },
   "Sinking Qi": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/xGimJqh.png",
     "Phase": "Foundation",
     "Effect": ["Qi+2\nHP+2/6/10"]
   },
   "Magnanimous Righteousness": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/fd1fg2E.png",
     "Phase": "Foundation",
     "Effect": ["Qi+1\nDEF+4/8/12\nGain 2/3/4 stacks of Hexproof"]
   },
   //? Virtuoso
   "Crash Footwork": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/qjcrrx6.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+1/2/3\nAgility+4"],
     "Continuous": ["Every card can be regarded as \"Crash Fist\""]
   },
   "Crash Fist - Truncate": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/0IR4paX.png",
     "Phase": "Virtuoso",
     "Cost": ["4 HP"],
     "Effect": ["Transfer 1 stack of your random Debuff to the opponent (also triggered in the next Crash Fist)\n9/13/17 ATK"]
   },
   "Crash Fist - Subdue Dragon": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/UuE0anf.png",
     "Phase": "Virtuoso",
     "Cost": ["5 HP"],
     "Effect": ["10/12/14 ATK\nThe next Crash Fist adds 5/7/9 DEF and 5/7/9 ATK"]
   },
   "Exercise Bones": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/rZ9FTUX.png",
     "Phase": "Virtuoso",
     "Effect": ["Physique+1\nHP+3/4/5\nAdd 3 ATK and 1 Physique during your next 2/3/4 attacks"]
   },
   "Bearing the Load": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/DCeKbnp.png",
     "Phase": "Virtuoso",
     "Effect": ["Physique+3\nGain 2/3/4 Entangled\nDEF+8/11/14 (1 more DEF for each stack of Debuff)"]
   },
   "Windward Palms": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/GjkUCx1.png",
     "Phase": "Virtuoso",
     "Effect": ["4/5/6 ATK x 2\n1 more ATK (up to 3/5/7) for each 6 Physique"]
   },
   "Tiger Pouncing": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Ygp6XZh.png",
     "Phase": "Virtuoso",
     "Cost": ["4 Qi"],
     "Effect": ["Reduce Qi cost by 1 for each stack of Debuff you have\n18/22/26 ATK"]
   },
   "Double Trouble": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/BEuS8oo.png",
     "Phase": "Virtuoso",
     "Cost": ["1 Qi"],
     "Effect": ["Apply and gain 1/2/2 stacks of Internal Injury and 1/1/2 stack(s) of Wound\n6/7/8 ATK x 2"]
   },
   "Majestic Qi": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/zOzrTJa.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+2/3/4\nForce+1\nAdd 1 Force during your next 2/3/4 attacks"]
   },
   "Sailing through Sky": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ml0Li5m.png",
     "Phase": "Virtuoso",
     "Cost": ["1 Qi"],
     "Effect": ["Force+3/4/5\nAgility+6"]
   },
   "Mighty Force": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/k5vhDM7.png",
     "Phase": "Virtuoso",
     "Cost": ["2 HP"],
     "Costs up to 2/3/4 Qi": ["For each, gain 1 Force and add 3 ATK"],
@@ -1306,88 +1307,88 @@ module.exports = {
   //? Immortality
   "Crash Citta-Dharma": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/jRzd9A5.png",
     "Phase": "Immortality",
     "Effect": ["Force+2/3/4"],
     "Continuous": ["Whenever you play a Cost HP card, gain 1 Force first"]
   },
   "Crash Fist - Inch Force": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/atlev13.png",
     "Phase": "Immortality",
     "Cost": ["5 HP"],
     "Effect": ["10/14/18 ATK\nThis card receive 2x bonus from Force (also triggered in the next Crash Fist, non-stackable)"]
   },
   "Crash Fist - Continue": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/iSHwaEL.png",
     "Phase": "Immortality",
     "Cost": ["6 HP"],
     "Effect": ["11/16/21 ATK\nThe Crash Fist effect triggered remain for the next one"]
   },
   "Exercise Marrow": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/JxX2mOa.png",
     "Phase": "Immortality",
     "Effect": ["Physique+3\nRestore HP of 8/12/16% Max HP"]
   },
   "Crane Footwork": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/SmgaJEl.png",
     "Phase": "Immortality",
     "Effect": ["HP+4/5/6\nAdd 1 Agility (up to 10/13/16) for each 4 Physique"]
   },
   "Elusive Footwork": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/lynWm5q.png",
     "Phase": "Immortality",
     "Effect": ["Qi+1/2/3\nAgility+2/3/4"],
     "Continuous": ["Add 1 Qi and 1 Agility for the first HP lost in each your turn"]
   },
   "Styx Agility": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/SIoMo4a.png",
     "Phase": "Immortality",
     "Cost": ["1/3/5 HP"],
     "Effect": ["Gain 1/1/2 stacks of Decrease ATK\nAgility+10/14/18"]
   },
   "Soul Seizing": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ja0BONH.png",
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
     "Effect": ["Steal 7/10/13 HP from the opponent\nSteal 1 more HP for each stack of Debuff you have (up to 7/10/13 more)"]
   },
   "Surging Waves": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/svZOgyr.png",
     "Phase": "Immortality",
     "Effect": ["Qi+1/2/3\nAdd 1 Force for each Qi\nAgility+5"]
   },
   "Overwhelming Force": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/0t85o6c.png",
     "Phase": "Immortality",
     "Effect": ["Exhaust Force.\nAdd 4 DEF and Deal 3/4/5 DMG for each point exhausted\nAgility+5/6/7"]
   },
   //? Incarnation
   "Crash Fist - Blink": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/P9nO5YF.png",
     "Phase": "Incarnation",
     "Cost": ["7 HP"],
     "Effect": ["5/7/9 ATK\nAgility+7/8/9 (also triggered in the next Crash Fist)"]
   },
   "Crash Fist - Shocked": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/sVVOA2o.png",
     "Phase": "Incarnation",
     "Cost": ["8 HP"],
     "Effect": ["10/16/22 ATK\nAfter you played the next Crash Fist, make an additional 1 ATK (1 more ATK for each 5 HP you have lost)"]
   },
   "Exercise Soul": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/k5qfkJV.png",
     "Phase": "Incarnation",
     "Effect": ["4/8/12 ATK\nPhysique+3/4/5"],
     "Physique >= 50": ["Gain 1 Increase ATK"],
@@ -1395,32 +1396,32 @@ module.exports = {
   },
   "Realm-Killing Palms": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/9fGHaiz.png",
     "Phase": "Incarnation",
     "Effect": ["3/4/5 ATK (1 more ATK for each 4/3/2 Physique you have gained this battle)\nMake an additional ATK for each 25 Physique"]
   },
   "Shura Roar": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/EeSLcO9.png",
     "Phase": "Incarnation",
     "Effect": ["Both players gain 4/6/8 stacks of Internal Injury\nAdd 1 Qi and 1 HP for each 2 stacks of Debuff you have"]
   },
   "Soul Cleaving": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/huPuONm.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
     "Effect": ["Apply 2 stacks of each kind of Debuff you have\n8/14/20 ATK (your debuff is regarded as force in this attack)"]
   },
   "Gather Intense Force": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/rsaYSAG.png",
     "Phase": "Incarnation",
     "Effect": ["DEF+8/10/12\nForce Cap+3/4/5\nForce+3/4/5"]
   },
   "Vast Universe": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/62qjAJh.png",
     "Phase": "Incarnation",
     "Cost": ["2 Qi"],
     "Effect": ["10/12/14 ATK\nHP+4/6/8\nAgility+4/5/6 (2 more Agility for each Force)"]
