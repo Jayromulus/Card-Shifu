@@ -3189,9 +3189,10 @@ module.exports = {
     "sect": "Li Man",
     "image": "https://i.imgur.com/egfR2qh.png",
     "Phase": "Incarnation",
-    "Effect": ["Switch Stance"],
+    // "Effect": ["Switch Stance"],
     "Fist": ["Force+4/5/6, gain 1 HP for every 5 Physique"],
-    "Stick": ["4/7/10 ATK x 2 (Gain 1 ATK for every 9 Physique)"]
+    "Stick": ["4/7/10 ATK x 2 (Gain 1 ATK for every 9 Physique)"],
+    "Switch Stance": [""]
   },
   "Counter Move": {
     "sect": "Li Man",
