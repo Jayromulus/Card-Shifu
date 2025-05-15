@@ -3447,10 +3447,16 @@ module.exports = {
   //   "Phase": "",
   //   "Effect": [""],
   // },
+  "Harmony of Water and Fire": {
+    "sect": "Immortal Relics",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["Gain 1/2/3 **Force of Water**\n**Activate Water Spirit**\n**Activate Fire Spirit**\nChase"],
+  },
 
   "Normal Attack": {
-    "sect": "Normal Attack",
-    "image": "https://i.imgur.com/xE7FZ8w.png",
+    "sect": "General",
+    "image": "https://i.imgur.com/4vwOJRo.png",
     "Phase": "Meditation",
     "Effect": ["3/6/9 ATK"],
   },

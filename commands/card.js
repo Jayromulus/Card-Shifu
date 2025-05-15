@@ -48,7 +48,7 @@ const sectColors = {
 }
 const sectIcons = {
   'General': 'https://i.imgur.com/xE7FZ8w.png',
-  'Normal Attack': 'https://i.imgur.com/4vwOJRo.png',
+  // 'Normal Attack': 'https://i.imgur.com/4vwOJRo.png',
   'Exorcism Event': 'https://i.imgur.com/xE7FZ8w.png',
   'Miscellaneous Cards': 'https://i.imgur.com/xE7FZ8w.png',
   'Cloud Spirit Sword Sect': 'https://i.imgur.com/e4hQlwX.png',
