@@ -3181,9 +3181,10 @@ module.exports = {
     "sect": "Li Man",
     "image": "https://i.imgur.com/X8SLk2g.png",
     "Phase": "Meditation",
-    "Effect": ["6/9/12 ATK\nSwitch Stance"],
+    "Effect": ["6/9/12 ATK"],
     "Fist": ["Gain 1 DEF for every 5 Physique"],
-    "Stick": ["Make an additional 1 ATK (Gain 1 ATK for every 6 Physique)"]
+    "Stick": ["Make an additional 1 ATK (Gain 1 ATK for every 6 Physique)"],
+    "Switch Stance": [""]
   },
   "Red Gold Dragon Stick": {
     "sect": "Li Man",
@@ -3206,9 +3207,10 @@ module.exports = {
     "sect": "Li Man",
     "image": "https://i.imgur.com/LJQvvY5.png",
     "Phase": "Immortality",
-    "Effect": ["Agility+8\nSwitch Stance"],
+    "Effect": ["Agility+8"],
     "Fist": ["Gain an additional 4/6/8 Agility"],
-    "Stick": ["8/12/16 ATK"]
+    "Stick": ["8/12/16 ATK"],
+    "Switch Stance": [""]
   },
 
   //! Spacetime Mirage (May 2025 Season)
