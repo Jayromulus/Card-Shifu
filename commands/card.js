@@ -172,6 +172,6 @@ module.exports = {
       // .setFooter({ text: selected.sect })
       .setFooter({ text: selected.sect, iconURL: sectIcons[selected.sect] })
 
-    await interaction.reply({ embeds: [cardEmbed] }) //flags: MessageFlags.Ephemeral
+    await interaction.reply({ embeds: [cardEmbed], ephemeral: true }) //flags: MessageFlags.Ephemeral
   },
 }
