@@ -945,7 +945,7 @@ module.exports = {
     "image": "https://i.imgur.com/sgNHLhs.png",
     "Phase": "Immortality",
     "Effect": ["Qi+2/3/4\nHP+2/3/4"],
-    "Wood Spirit": ["For evert 3 Qi, gain 1 stack of Increase ATK"]
+    "Wood Spirit": ["For every 3 Qi, gain 1 stack of Increase ATK"]
   },
   "Wood Spirit - Thorn": {
     "sect": "Five Elements Alliance",
