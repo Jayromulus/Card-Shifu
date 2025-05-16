@@ -481,10 +481,20 @@ module.exports = {
   "Shift Stance - lm - li man - mortal": { name: "Shift Stance", value: "Shift Stance" },
   //! Other Cards
   "Normal Attack - nml atk": { name: "Normal Attack", value: "Normal Attack" },
+  //* Spacetime Mirage
   "Light Sword+": { name: "Light Sword+", value: "Light Sword+" },
+  "Raven Spirit Sword+": { name: "Raven Spirit Sword+", value: "Raven Spirit Sword+" },
+  "cs - Cloud Sword - Conceal+": { name: "Cloud Sword - Conceal+", value: "Cloud Sword - Conceal+" },
   "Cutting Weeds+ - bazinga weeds": { name: "Cutting Weeds+", value: "Cutting Weeds+" },
+  "Astral Fleche+": { name: "Astral Fleche+", value: "Astral Fleche+" },
+  "Shifting Stars+": { name: "Shifting Stars+", value: "Shifting Stars+" },
   "Water Spirit - Billows+": { name: "Water Spirit - Billows+", value: "Water Spirit - Billows+" },
+  "Five Elements Circulation+": { name: "Five Elements Circulation+", value: "Five Elements Circulation+" },
+  "Wood Spirit - Recovery+": { name: "Wood Spirit - Recovery+", value: "Wood Spirit - Recovery+" },
   "Rakshasa Pouncing+": { name: "Rakshasa Pouncing+", value: "Rakshasa Pouncing+" },
+  "Sinking Qi+": { name: "Sinking Qi+", value: "Sinking Qi+" },
+  "Double Trouble+": { name: "Double Trouble+", value: "Double Trouble+" },
+  //* Exorcism Event
   "Demonic Qi Haunt": { name: "Demonic Qi Haunt", value: "Demonic Qi Haunt" },
   "Magic Dragon's Paw": { name: "Magic Dragon's Paw", value: "Magic Dragon's Paw" },
   "Mirroring Merpeople Pearl": { name: "Mirroring Merpeople Pearl", value: "Mirroring Merpeople Pearl" },
@@ -501,6 +511,7 @@ module.exports = {
   "Demonic Dragon's Chaotic Dance": { name: "Demonic Dragon's Chaotic Dance", value: "Demonic Dragon's Chaotic Dance" },
   "Loong": { name: "Loong", value: "Loong" },
   "Pure Merpeople Pearl": { name: "Pure Merpeople Pearl", value: "Pure Merpeople Pearl" },
+  //* Misc. Cards
   "Azure Dragon Sword Formation": { name: "Azure Dragon Sword Formation", value: "Azure Dragon Sword Formation" },
   "Cloud Sword - Sunset Glow": { name: "Cloud Sword - Sunset Glow", value: "Cloud Sword - Sunset Glow" },
   "Dragon Devours Clouds": { name: "Dragon Devours Clouds", value: "Dragon Devours Clouds" },

@@ -3214,31 +3214,85 @@ module.exports = {
   },
 
   //! Spacetime Mirage (May 2025 Season)
+  //* Cloud Spirit Sword Sect
   "Light Sword+": {
     "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/fAjuHLc.png",
     "Phase": "Immortality",
     "Effect": ["8 ATK\nQi+1\nThis card counds as both Cloud Sword and Unrestrained Sword (also triggered to the next card played)"],
   },
+  "Raven Spirit Sword+": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/VxnPnP1.png",
+    "Phase": "Immortality",
+    "Effect": ["4 ATK\nAdd 1 **DEF** for each **Qi**\nIf the number of Spirit Sword in the deck >= 3, Chase"],
+  },
+  "Cloud Sword - Conceal+": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/iKDbhE6.png",
+    "Phase": "Incarnation",
+    "Cloud Hit": ["6 ATK (Add 2 more ATK for each attack performed in combat)"],
+  },
+  //* Heptastar Pavillion
   "Cutting Weeds+": {
     "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/9ocaE8w.png",
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
     "Effect": ["Reduces the opponent's Max HP to their current HP minus 5 (Exhaust Qi and Hexagram, each reduces 3 more)"],
   },
+  "Astral Fleche+": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/txmJNdI.png",
+    "Phase": "Immortality",
+    "Effect": ["5 ATK\n**Star Power**+1\nIf this card not on **Star Point**, Chase"],
+  },
+  "Shifting Stars+": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/RP4Z7xF.png",
+    "Phase": "Incarnation",
+    "Effect": ["The next slot **Become Star Point**"],
+    "Continuous": ["After each \"Astral Move\" card is played, the next slot **Become Star Point** and make an additional 2 ATK"]
+  },
+  //* Five Elements Alliance
   "Water Spirit - Billows+": {
     "sect": "Five Elements Alliance",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/nApFgd5.png",
     "Phase": "Incarnation",
     "Effect": ["Gain 4 Force of Water.\nAt the end of your turn, Force of Water triggers an additional time (lasts 2 rounds)"],
     "Water Spirit": ["Consumption of Qi is 0"]
   },
+  "Five Elements Circulation+": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/zE8WxKF.png",
+    "Phase": "Incarnation",
+    "Effect": ["Qi+2\nIf there is **Five Element Generating Interaction** between pre and next slot, **Activate** both and Chase\nGain 1 **DEF** for each **Five Elements Activated**"],
+  },
+  "Wood Spirit - Recovery+": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/gZg8cql.png",
+    "Phase": "Immortality",
+    "Effect": ["**Qi**+1\nRestore your HP to what it was at the start of your last turn"],
+    "Wood Spirit": ["If you have already added HP, gain 2 **Increse ATK**"]
+  },
+  //* Duan Xuan Sect
   "Rakshasa Pouncing+": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/gf2wBVt.png",
     "Phase": "Incarnation",
     "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n6 ATK x 2"],
+  },
+  "Double Trouble+": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/BEuS8oo.png",
+    "Phase": "Incarnation",
+    "Effect": ["5 ATK x 2\nBoth players gain 2 **Internal Injury**, 2 **Weakened** and 2 **Wound**"],
+  },
+  "Sinking Qi+": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/xGimJqh.png",
+    "Phase": "Immortality",
+    "Effect": ["**Qi**+1\nHP+4\nIncrease 10% ATK for each **Qi** when attacking, lasts 2 turns"],
   },
   // "": {
   //   "sect": "",
