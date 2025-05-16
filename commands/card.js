@@ -1,4 +1,4 @@
-const { SlashCommandBuilder, EmbedBuilder } = require('discord.js')
+const { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js')
 const uFuzzy = require('@leeoniya/ufuzzy')
 
 const sectColors = {
@@ -139,40 +139,76 @@ module.exports = {
 
   },
   async execute(interaction) {
-    let selected;
-    let selectedName;
-    
-    if (interaction.options.getString('name') === 'random') {
-      const randIndex = Math.floor(Math.random() * (cardNames.length - 1 + 1))
-      
-      selectedName = cardNames[randIndex]
-      selected = cards[selectedName]
-    } else {
-      selectedName = interaction.options.getString('name')
-      selected = cards[selectedName]
-    }
-    // const level = parseInt(interaction.options.getNumber('level')) //! potential future card level integration
-    const level = 0
-    const keys = Object.keys(selected)
-
-    const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}` }))
-    fields.shift()
-    const iconFromCard = fields.shift()
-    const icon = iconFromCard.value !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard.value : sectIcons[selected.sect]
-    console.warn({icon})
-
-    const cardEmbed = new EmbedBuilder()
-      .setColor(sectColors[selected.sect])
-      .setTitle(selectedName)
-      .setThumbnail(icon)
-      .addFields(
-        ...fields
-      )
-      // .setImage(selected.image) //! future card image integration
-      // .setFooter({ text: selected.sect })
-      .setFooter({ text: selected.sect, iconURL: sectIcons[selected.sect] })
-
-    // await interaction.reply({ embeds: [cardEmbed], ephemeral: true }) //flags: MessageFlags.Ephemeral
-    await interaction.reply({ embeds: [cardEmbed] }) //flags: MessageFlags.Ephemeral
+    displayEmbed(interaction)
   },
+}
+
+async function displayEmbed(interaction, flippedName) {
+  let selected;
+  let selectedName;
+  
+  if (flippedName) {
+    selected = cards[flippedName.value];
+  } else if (interaction.options.getString('name') === 'random') {
+    const randIndex = Math.floor(Math.random() * (cardNames.length - 1 + 1))
+    
+    selectedName = cardNames[randIndex]
+    selected = cards[selectedName]
+  } else {
+    selectedName = interaction.options.getString('name')
+    selected = cards[selectedName]
+  }
+  // const level = parseInt(interaction.options.getNumber('level')) //! potential future card level integration
+  const level = 0
+  const keys = Object.keys(selected)
+
+  const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}` }))
+  fields.shift()
+  const iconFromCard = fields.shift()
+  const icon = iconFromCard.value !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard.value : sectIcons[selected.sect]
+  // console.warn({icon})
+
+  const fortuneTeller = fields[fields.length - 1].name === "Switch";
+  // console.warn(fields[fields.length - 1], fortuneTeller);
+  let row, switchButton;
+
+  if (fortuneTeller) {
+    switchButton = new ButtonBuilder()
+      .setCustomId('switch')
+      .setLabel('Switch Sides 🔀')
+      .setStyle(ButtonStyle.Secondary)
+    
+    row = new ActionRowBuilder()
+      .addComponents(switchButton)
+  }
+
+  console.warn({row});
+
+  const cardEmbed = new EmbedBuilder()
+    .setColor(sectColors[selected.sect])
+    .setTitle(selectedName)
+    .setThumbnail(icon)
+    .addFields(
+      ...fields
+    )
+    // .setImage(selected.image) //! future card image integration
+    // .setFooter({ text: selected.sect })
+    .setFooter({ text: selected.sect, iconURL: sectIcons[selected.sect] })
+
+  // await interaction.reply({ embeds: [cardEmbed], ephemeral: true }) //flags: MessageFlags.Ephemeral
+  const response = await interaction.reply(!fortuneTeller ? { embeds: [cardEmbed] } : { embeds: [cardEmbed], components: [row], withResponse: true }) //flags: MessageFlags.Ephemeral
+
+  const collectorFilter = i => i.user.id === interaction.user.id;
+
+  try {
+    const confirmation = await response.resource.message.awaitMessageComponent({ filter: collectorFilter, time: 60_000 });
+
+    if (confirmation.customId === 'switch') {
+      // set up execute into it's own function and call it again here, returning the embed to reply to the message rather than replying in it's own
+      await confirmation.update({ embeds: !fortuneTeller ? { embeds: [cardEmbed] } : { embeds: [cardEmbed], components: [row], withResponse: true } });
+      displayEmbed(interaction, fields[fields.length - 1]);
+    }
+  } catch {
+    return await interaction.editReply({ content: 'Not confirmed within 1 minute, cancelling', components: [] });
+  }
 }
