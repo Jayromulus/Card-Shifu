@@ -195,20 +195,21 @@ async function displayEmbed(interaction, flippedName) {
     // .setFooter({ text: selected.sect })
     .setFooter({ text: selected.sect, iconURL: sectIcons[selected.sect] })
 
-  // await interaction.reply({ embeds: [cardEmbed], ephemeral: true }) //flags: MessageFlags.Ephemeral
-  const response = await interaction.reply(!fortuneTeller ? { embeds: [cardEmbed] } : { embeds: [cardEmbed], components: [row], withResponse: true }) //flags: MessageFlags.Ephemeral
+  await interaction.reply({ embeds: [cardEmbed], ephemeral: true }) //flags: MessageFlags.Ephemeral
+  // const response = await interaction.reply(!fortuneTeller ? { embeds: [cardEmbed] } : { embeds: [cardEmbed], components: [row], withResponse: true }) //flags: MessageFlags.Ephemeral
 
-  const collectorFilter = i => i.user.id === interaction.user.id;
+  // const collectorFilter = i => i.user.id === interaction.user.id;
 
-  try {
-    const confirmation = await response.resource.message.awaitMessageComponent({ filter: collectorFilter, time: 60_000 });
+  // try {
+  //   const confirmation = await response.resource.message.awaitMessageComponent({ filter: collectorFilter, time: 60_000 });
 
-    if (confirmation.customId === 'switch') {
-      // set up execute into it's own function and call it again here, returning the embed to reply to the message rather than replying in it's own
-      await confirmation.update({ embeds: !fortuneTeller ? { embeds: [cardEmbed] } : { embeds: [cardEmbed], components: [row], withResponse: true } });
-      displayEmbed(interaction, fields[fields.length - 1]);
-    }
-  } catch {
-    return await interaction.editReply({ content: 'Not confirmed within 1 minute, cancelling', components: [] });
-  }
+  //   if (confirmation.customId === 'switch') {
+  //     // set up execute into it's own function and call it again here, returning the embed to reply to the message rather than replying in it's own
+  //     await confirmation.update({ embeds: !fortuneTeller ? { embeds: [cardEmbed] } : { embeds: [cardEmbed], components: [row], withResponse: true } });
+  //     displayEmbed(interaction, fields[fields.length - 1]);
+  //   }
+  // } catch(e) {
+  //   console.warn(e)
+  //   return await interaction.editReply({ content: 'Not confirmed within 1 minute, cancelling', components: [] });
+  // }
 }
