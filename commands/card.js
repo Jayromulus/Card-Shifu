@@ -195,7 +195,8 @@ async function displayEmbed(interaction, flippedName) {
     // .setFooter({ text: selected.sect })
     .setFooter({ text: selected.sect, iconURL: sectIcons[selected.sect] })
 
-  await interaction.reply({ embeds: [cardEmbed], ephemeral: true }) //flags: MessageFlags.Ephemeral
+  // await interaction.reply({ embeds: [cardEmbed], ephemeral: true }) //flags: MessageFlags.Ephemeral
+  await interaction.reply({ embeds: [cardEmbed] }) //flags: MessageFlags.Ephemeral
   // const response = await interaction.reply(!fortuneTeller ? { embeds: [cardEmbed] } : { embeds: [cardEmbed], components: [row], withResponse: true }) //flags: MessageFlags.Ephemeral
 
   // const collectorFilter = i => i.user.id === interaction.user.id;
