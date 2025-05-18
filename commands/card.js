@@ -95,6 +95,8 @@ const cards = require('../assets/cardData')
 const lookup = require('../assets/cardLookup')
 const cardNames = Object.keys(lookup)
 const uf = uFuzzy({ intraMode: 1 })
+let isPenguin = false;
+const penguin = 'https://i.imgur.com/0yrHc1V.png'
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -109,6 +111,10 @@ module.exports = {
       ),
   async autocomplete(interaction) {
     const focusedValue = interaction.options.getFocused()
+    if ('penguin'.includes(focusedValue.toLowerCase()) && focusedValue.length > 2){
+      isPenguin = true
+      console.log({focusedValue})
+    }
 
     //* uFuzzy testing
     let idxs = uf.filter(cardNames, focusedValue);
@@ -144,11 +150,11 @@ module.exports = {
 }
 
 async function displayEmbed(interaction, flippedName) {
-  let selected;
-  let selectedName;
+  let selected
+  let selectedName
   
   if (flippedName) {
-    selected = cards[flippedName.value];
+    selected = cards[flippedName.value]
   } else if (interaction.options.getString('name') === 'random') {
     const randIndex = Math.floor(Math.random() * (cardNames.length - 1 + 1))
     
@@ -165,7 +171,8 @@ async function displayEmbed(interaction, flippedName) {
   const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}` }))
   fields.shift()
   const iconFromCard = fields.shift()
-  const icon = iconFromCard.value !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard.value : sectIcons[selected.sect]
+  const icon = (isPenguin && selectedName === 'Envelop in Disaster') ? penguin : iconFromCard.value !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard.value : sectIcons[selected.sect]
+  isPenguin = false;
   // console.warn({icon})
 
   const fortuneTeller = fields[fields.length - 1].name === "Switch";

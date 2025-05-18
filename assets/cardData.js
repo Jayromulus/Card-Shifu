@@ -2131,7 +2131,7 @@ module.exports = {
   //? Meditation
   "Fortell Fate": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/BEkRruC.png",
     "Phase": "Meditation",
     "Cost": ["1 Qi"],
     "Effect": ["Opponent loses 6/8/10 HP"],
@@ -2139,21 +2139,21 @@ module.exports = {
   },
   "Examine Body": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/6Z712S1.png",
     "Phase": "Meditation",
     "Effect": ["The next card with ATK will make an additional 5/8/11 ATK after being played"],
     "Opening": ["Next 1 attack Smash DEF"]
   },
   "Heavenly Decree - Defend": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/tDuyfvx.png",
     "Phase": "Meditation",
     "Consumption": ["2/3/4 ATK\nDEF+9/12/15"],
     "Switch": ["Heavenly Decree - Attack"]
   },
   "Heavenly Decree - Attack": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/dOCwF6C.png",
     "Phase": "Meditation",
     "Consumption": ["6/9/12 ATK\nDEF+3/4/5"],
     "Switch": ["Heavenly Decree - Defend"]
@@ -2161,28 +2161,28 @@ module.exports = {
   //? Foundation
   "Detect Qi": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/2LdN6T4.png",
     "Phase": "Foundation",
     "Effect": ["Qi+2/3/4"],
     "Opening": ["Qi+1"]
   },
   "Bad Omen": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/muUSILt.png",
     "Phase": "Foundation",
     "Effect": ["For next 1/2/3 time(s), apply 1 Wound when opponent loses HP"],
     "Opening": ["Both player lose 3/4/5 HP"]
   },
   "Heavenly Fortune - Shun Misfortune": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/zqMXDrE.png",
     "Phase": "Foundation",
     "Continuous": ["2/3/4 Times: After playing a card without an Opening effect, add 3 DEF and 2 HP"],
     "Switch": ["Heavenly Fortune - Seek Fortune"]
   },
   "Heavenly Fortune - Seek Fortune": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/5uBVxw2.png",
     "Phase": "Foundation",
     "Continuous": ["2/3/4 Times: After playing a card with an Opening effect, trigger its Opening effect and deal 3 DMG"],
     "Switch": ["Heavenly Fortune - Shun Misfortune"]
@@ -2190,28 +2190,28 @@ module.exports = {
   //? Virtuoso
   "Lucky Start": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/AMuby0W.png",
     "Phase": "Virtuoso",
     "Effect": ["HP+7/10/13"],
     "Opening": ["HP and Max HP+4/5/6"]
   },
   "Disaster of Bloodshed": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/OXSM4dA.png",
     "Phase": "Virtuoso",
     "Effect": ["Apply 1/2/3 Internal Injury"],
     "Opening": ["Apply 1 Internal Injury"]
   },
   "Heavenly Time - Fleeting": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Ze56BVo.png",
     "Phase": "Virtuoso",
     "Effect": ["DEF+6/12/18\nSkip your next 2 cards"],
     "Switch": ["Heavenly Time - Recurring"]
   },
   "Heavenly Time - Recurring": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/SOhbgeQ.png",
     "Phase": "Virtuoso",
     "Effect": ["HP+4/8/12\nSkip To the card in your previous slot"],
     "Switch": ["Heavenly Time - Fleeting"]
@@ -2219,28 +2219,28 @@ module.exports = {
   //? Immortality
   "Everything Goes Your Way": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/a6BceKC.png",
     "Phase": "Immortality",
     "Effect": ["Your ATK is no lower than 6 in every attack for 3/4/5 turns"],
     "Opening": ["Gain 1/2/3 Hexproof"]
   },
   "Everything is Unadvisable": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/5JdJM8j.png",
     "Phase": "Immortality",
     "Effect": ["DEF+4/5/6\mYou take 6 less ATK (minumum to 1) in opponent's next 2/3/4 attacks"],
     "Opening": ["DEF+4/5/6"]
   },
   "Heavenly Star - Pull": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wniUVwt.png",
     "Phase": "Immortality",
     "Effect": ["Qi+2/3/4\nTrigger the 2 Opening effects in your deck after this card, once each."],
     "Switch": ["Heavenly Star - Guard"]
   },
   "Heavenly Star - Guard": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/u1U8Auf.png",
     "Phase": "Immortality",
     "Effect": ["DEF+4/6/9\nHP+4/6/8\nTrigger the 1 Opening effect in your deck before this card, twice."],
     "Switch": ["Heavenly Star - Pull"]
@@ -2248,7 +2248,7 @@ module.exports = {
   //? Incarnation
   "Envelop in Disaster": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/0R3DPyG.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
     "Effect": ["Apply 4/5/6 Internal Injury"],
@@ -2256,21 +2256,21 @@ module.exports = {
   },
   "Cycle of Fate": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/flhLnkC.png",
     "Phase": "Incarnation",
     "Effect": ["HP and Max HP+8/12/16"],
     "Continuous": ["4/6/8 Times: Before playing the card in the 4th or 5th slot, Skip it and trigger its Opening effect"]
   },
   "Heavenly Will - Comply": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/tDUDtfA.png",
     "Phase": "Incarnation",
     "Effect": ["Qi+2/4/6\nLasts for 3 turns, when you add DEF, HP or Max HP, add 40% more (Rounded up)."],
     "Switch": ["Heavenly Will - Defy"]
   },
   "Heavenly Will - Defy": {
     "sect": "Fortune Teller",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/cUa4fmA.png",
     "Phase": "Incarnation",
     "Effect": ["Qi+2/4/6\nLasts for 3 turns, when you add DEF or HP, deal 60% to opponent (Rounded up)"],
     "Switch": ["Heavenly Will - Comply"]
