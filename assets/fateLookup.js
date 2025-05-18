@@ -61,7 +61,7 @@ module.exports = {
   "Sky Delicate Bracelet - ly - long yao - dragon - sdb": { name: "Sky Delicate Bracelet", value: "Sky Delicate Bracelet" },
   "Curiosity - lx - lin xiaoyue - cat": { name: "Curiosity", value: "Curiosity" },
   "Cat Paw - lx - lin xiaoyue - cat - cs": { name: "Cat Paw", value: "Cat Paw" },
-  "Cat Soul Bless - lx - lin xiaoyue - cat": { name: "Cat Soul Bless", value: "Cat Soul Bless" },
+  "Cat Soul Bless - lx - lin xiaoyue - cat - csb": { name: "Cat Soul Bless", value: "Cat Soul Bless" },
   "Spirit Cat Chaos Sword - lx - lin xiaoyue - cat - sccs": { name: "Spirit Cat Chaos Sword", value: "Spirit Cat Chaos Sword" },
   "Lithe As Cat - lx - lin xiaoyue - cat": { name: "Lithe As Cat", value: "Lithe As Cat" },
   "Swordsmith - lj - lu jianxin - blacksmith - embryo": { name: "Swordsmith", value: "Swordsmith" },
