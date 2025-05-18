@@ -1433,96 +1433,96 @@ module.exports = {
   //? Meditation
   "Earth Spirit Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/T9Jlytb.png",
     "Phase": "Meditation",
     "Consumption": ["DEF+11/16/21"]
   },
   "Fundamental Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ExctNTI.png",
     "Phase": "Meditation",
     "Consumption": ["Qi+2/3/4\nDEF+3/5/7"]
   },
   "Small Recover Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/fkRvZzL.png",
     "Phase": "Meditation",
     "Consumption": ["HP+8/12/16"]
   },
   //? Foundation
   "Bodybuilding Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/yKSGb9k.png",
     "Phase": "Foundation",
     "Absorb": ["Max HP increased by 1/2/4 in this game"]
   },
   "Cloud Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/GutoynV.png",
     "Phase": "Foundation",
     "Consumption": ["Qi+2/3/4\n Next 2/3/4 attacks Ignore DEF"]
   },
   "Exorcism Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/3ykECIk.png",
     "Phase": "Foundation",
     "Consumption": ["DEF+8/12/16\nRepeat 2/3/4 Times: Random Debuff decrease 3 stacks"]
   },
   //? Virtuoso
   "Resurrection Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/HPKacb3.png",
     "Phase": "Virtuoso",
     "Absorb": ["Destiny+2/4/8"]
   },
   "Healing Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/U5ZMTRY.png",
     "Phase": "Virtuoso",
     "Consumption": ["HP+7/12/17\nAdd 2 HP for each Qi"]
   },
   "Divine Power Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/vgxA3YF.png",
     "Phase": "Virtuoso",
     "Consumption": ["Gain 1/2/3 stack of Increase ATK"]
   },
   //? Immortality
   "Great Recover Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/i5koC5o.png",
     "Phase": "Immortality",
     "Consumption": ["Max HP+13/19/25\nHP+13/19/25"]
   },
   "Spiritage Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/BayUcdm.png",
     "Phase": "Immortality",
     "Consumption": ["Qi+4/6/8"]
   },
   "Talent Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/F9MaSMn.png",
     "Phase": "Immortality",
     "Absorb": ["Add 1/2/4 more Cultivation"]
   },
   //? Incarnation
   "Ice Spirit Guard Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/6U7JFe6.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
     "Consumption": ["Gain 2/3/4 stacks of Guard Up"]
   },
   "Great Bodybuilding Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/HBFubHM.png",
     "Phase": "Incarnation",
     "Absorb": ["Max HP increased by 2/4/8 in this game"]
   },
   "Enlightenment Elixir": {
     "sect": "Elixirist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/RvoEtFh.png",
     "Phase": "Incarnation",
     "Absorb": ["Upgrade 1/2/4 Level 1 card(s) in your hand or deck randomly"]
   },
@@ -1531,96 +1531,96 @@ module.exports = {
   //? Meditation
   "Thunder Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/xHGJYyM.png",
     "Phase": "Meditation",
     "Consumption": ["Deal 4~12/7~15/10~18 DMG"]
   },
   "Guard Spirit Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/vgX5kL8.png",
     "Phase": "Meditation",
     "Consumption": ["Qi+1\nDEF+7/11/15"]
   },
   "Sharp Metal Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/kyIXylp.png",
     "Phase": "Meditation",
     "Consumption": ["Deal 8/11/14 DMG"]
   },
   //? Foundation
   "Fire Cloud Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wZG6e2g.png",
     "Phase": "Foundation",
     "Cost": ["1 Qi"],
     "Consumption": ["Opponent Losts 12/16/20 HP and Max HP"]
   },
   "Calm Incantation": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/tFp7snK.png",
     "Phase": "Foundation",
     "Effect": ["Qi+2/3/4\nAll Debuff reduces 2/3/4 stacks"]
   },
   "Mist Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/PMhe7IR.png",
     "Phase": "Foundation",
     "Consumption": ["Qi+1\nDeal 7/11/15 DMG"]
   },
   //? Virtuoso
   "Ice Incantation": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Kvw75rS.png",
     "Phase": "Virtuoso",
     "Effect": ["Repeat 2/3/4 times: Opponent loses 4 HP"]
   },
   "Spirit Absorb Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/pxhu3zM.png",
     "Phase": "Virtuoso",
     "Consumption": ["Qi+2/3/4\nOpponent loses 1/2/3 Qi"]
   },
   "Miasma Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/R4ziGqA.png",
     "Phase": "Virtuoso",
     "Consumption": ["Apply 2/3/4 stacks of Internal Injury"]
   },
   //? Immortality
   "Spiritage Incantation": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Zwk0ikP.png",
     "Phase": "Immortality",
     "Effect": ["Qi+3/4/5\nAdd 1 DEF for each Qi (up to 7/13/19)"]
   },
   "Distubing Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/5IleH6c.png",
     "Phase": "Immortality",
     "Consumption": ["Apply 3/4/5 stacks of Flaw"]
   },
   "Weaken Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wf5BOu8.png",
     "Phase": "Immortality",
     "Consumption": ["Apply 2/3/4 stacks of Weakened"]
   },
   //? Incarnation
   "Soul Requiem Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/lVxtq4W.png",
     "Phase": "Incarnation",
     "Consumption": ["Opponent loses 15/20/25% of current HP and current Max HP\nOpponent loses 2/3/4 Qi"]
   },
   "Divine Walk Fulu": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/OGXpB75.png",
     "Phase": "Incarnation",
     "Consumption": ["Qi+2/4/6\nChase"]
   },
   "Thousand Evil Incantation": {
     "sect": "Fuluist",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/bQKv19P.png",
     "Phase": "Incarnation",
     "Cost": ["2 Qi"],
     "Effect": ["Apply 2/3/3 stacks of Internal Injury, 2/2/3 stacks of Flaw, and 1/2/3 stack(s) of Weakened"]
@@ -1630,76 +1630,76 @@ module.exports = {
   //? Meditation
   "Cracking Voice": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/VGHoagT.png",
     "Phase": "Meditation",
     "Effect": ["6/9/12 ATK (1 more ATK if you've played a Musician Card)\nIgnore DEF"]
   },
   "Earth Tune": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/bXhyDsp.png",
     "Phase": "Meditation",
     "Effect": ["Both player add 14/20/26 DEF"]
   },
   "Carefree Tune": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/M5nIwtn.png",
     "Phase": "Meditation",
     "Continuous": ["Both player's Normal Attack add 4/6/9 ATK"]
   },
   //? Foundation
   "Kindness Tune": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/kReLQQD.png",
     "Phase": "Foundation",
     "Continuous": ["Both player reduce damage to Destiny by 4/6/8 (minimum to 1)\nThis effect is not stackable"]
   },
   "Illusion Tune": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/RhB1KEK.png",
     "Phase": "Foundation",
     "Continuous": ["Both player will lose 3/5/7 HP and add 3/5/7 DEF at the beginning of their turn"]
   },
   "Sky Spirit Tune": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Ypeqbdv.png",
     "Phase": "Foundation",
     "Effect": ["Both player add 3/5/7 Qi"]
   },
   //? Virtuoso
   "Heartbroken Tune": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/GHn7bfM.png",
     "Phase": "Virtuoso",
     "Continuous": ["Both player will gain 1/2/3 stack(s) of Internal Injury at the beginning of their turn"]
   },
   "Craze Dance Tune": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/t1moKAo.png",
     "Phase": "Virtuoso",
     "Continuous": ["Both player cards add 2/4/6 ATK"]
   },
   "Tremelo": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/WsjDvHX.png",
     "Phase": "Virtuoso",
     "Effect": ["2/3/4 ATK x 3 (1 more ATK if youve played a Musician Card)\nIgnore DEF"]
   },
   //? Immortality
   "Regen Tune": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/192AliI.png",
     "Phase": "Immortality",
     "Continuous": ["Both player will add 4/6/8 HP and Max HP at the end of their turn"]
   },
   "Nine Evil Ruptsprite": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/XOhRmXN.png",
     "Phase": "Immortality",
     "Effect": ["Both player lose 3/5/7 Qi"]
   },
   "Concentric Tune": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/hIg1obP.png",
     "Phase": "Immortality",
     "Cost": ["2/1/0 Qi"],
     "Effect": ["Apply all Debuff on you to the opponent"]
@@ -1707,20 +1707,20 @@ module.exports = {
   //? Incarnation
   "Predicament for Immortals": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/I9nrNmr.png",
     "Phase": "Incarnation",
     "Cost": ["2/1/0 Qi"],
     "Continuous": ["Both player cannot trigger Chase"]
   },
   "Apparition Confusion": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/YJ9kOQ3.png",
     "Phase": "Incarnation",
     "Continuous": ["Both player lose 4/5/6 HP when they attack"]
   },
   "Chord In Tune": {
     "sect": "Musician",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/zYfF3e5.png",
     "Phase": "Incarnation",
     "Effect": ["Qi+2/4/6\nIf you have played a Musician Card this battle or the next card in your deck is a Musician Card, Chase"]
   },
@@ -1729,19 +1729,19 @@ module.exports = {
   //? Meditation
   "Toning": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/hADOjK5.png",
     "Phase": "Meditation",
     "Effect": ["3/3/4 ATK\nQi+1/2/3\nDEF+3"]
   },
   "Practice Writing": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/iK4DXHY.png",
     "Phase": "Meditation",
     "Exchange": ["Exchange Card Chance+2"]
   },
   "Grinding Ink": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/wS7coOX.png",
     "Phase": "Meditation",
     "Cost": ["1 Qi"],
     "Effect": ["8/11/14 ATK\nQi+1"]
@@ -1749,76 +1749,76 @@ module.exports = {
   //? Foundation
   "Pen Walks Dragon Snake": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/v1oArIq.png",
     "Phase": "Foundation",
     "Effect": ["DEF+5~16/10~21/15~26"]
   },
   "Feed On Illusions": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/feiPQQ7.png",
     "Phase": "Foundation",
     "Effect": ["Max HP+10/15/20\nQi+2/3/4"]
   },
   "Gild The Lily": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/dua4C5K.png",
     "Phase": "Foundation",
     "Effect": ["5/7/9 ATK x 2\nOpponent add 8 DEF"]
   },
   //? Virtuoso
   "Splash Ink": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/enbI3CJ.png",
     "Phase": "Virtuoso",
     "Effect": ["Apply 2/3/4 stacks of random Debuff"]
   },
   "Inspiration": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/SkB8h7Z.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+2/3/4\nNext card's Qi cost reduce 2/3/4"]
   },
   "Ask Dao By Paint": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/1CG7sS6.png",
     "Phase": "Virtuoso",
     "Exchange": ["Draw a current Phase Sect Card"]
   },
   //? Immortality
   "Reason By Analogy": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/CTAcers.png",
     "Phase": "Immortality",
     "Exchange": ["Exchange Card Chance+1. Draw a card from another Side Job (Above Foundation Phase)"]
   },
   "Divine Brush": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/8wezQud.png",
     "Phase": "Immortality",
     "Effect": ["DEF+4/6/8\nTrigger the effect of a random Card of your Sect"]
   },
   "Falling Paper Clouds": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/M0CibwF.png",
     "Phase": "Immortality",
     "Effect": ["Random Effect:\nAdd 18/26/34 DEF, add 14/20/26 HP, or add 1/2/3 stack(s) Guard Up"]
   },
   //? Incarnation
   "Flying Brush": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/QNztxb3.png",
     "Phase": "Incarnation",
     "Effect": ["DEF+6/12/18\nAfter playing the next card Chase"]
   },
   "Finishing Touch": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/DAu0rv9.png",
     "Phase": "Incarnation",
     "Consumption": ["Upgrade next 3/4/5 cards when playing them (restored after battle)"]
   },
   "Wonderful Strokes": {
     "sect": "Painter",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/HvC1zRA.png",
     "Phase": "Incarnation",
     "Excahnge": ["Draw an upgraded Card (Above Virtuoso Phase)"]
   },
@@ -1827,96 +1827,96 @@ module.exports = {
   //? Meditation
   "Thunderphilia Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/H65IOUL.png",
     "Phase": "Meditation",
     "Continuous": ["2/3/4 Times: At the end of your turn, deal 4 DMG to the opponent"]
   },
   "Fraccide Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/srEdZ6f.png",
     "Phase": "Meditation",
     "Continuous": ["2/3/4 Times: Add 3 more ATK when attack and apply Smash DEF effect"]
   },
   "Impact Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/AM9drKb.png",
     "Phase": "Meditation",
     "Effect": ["6/8/10 ATK\nIf you have played a Continuous card in this battle, make an additional 2/3/4 ATK"]
   },
   //? Foundation
   "Scutturtle Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ctKl0NM.png",
     "Phase": "Foundation",
     "Continuous": ["4/6/8 Times: At the end of your turn, add 3 DEF"]
   },
   "Cacopoisonous Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ChEEYjJ.png",
     "Phase": "Foundation",
     "Continuous": ["2/3/4 Times: At the beginning of your turn, apply 1 stack of Internal Injury to the opponent"]
   },
   "Cure Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/NVh5gry.png",
     "Phase": "Foundation",
     "Effect": ["HP+7/11/15\nIf you have played a Continuous Card in this battle, add 6/9/12 Max HP first"]
   },
   //? Virtuoso
   "Spiritage Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/vVYdMLV.png",
     "Phase": "Virtuoso",
     "Continuous": ["2/3/4 Times: At the beginning of your turn, add 2 Qi"]
   },
   "Endless Sword Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ICPaMdt.png",
     "Phase": "Virtuoso",
     "Continuous": ["2/3/4 Times: All cards with ATK will make an additional 5 ATK after being played"]
   },
   "Hexproof Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/iWJkTdU.png",
     "Phase": "Virtuoso",
     "Effect": ["Gain 3/4/5 stacks of Hexproof\nIf you have played a Continuous card in this battle, gain 10 DEF"]
   },
   //? Immortality
   "Heavenly Spirit Forceage Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/S1GZpBW.png",
     "Phase": "Immortality",
     "Continuous": ["2/3/4 Times: At the beginning of your turn, gain 1 stack of Increase ATK"]
   },
   "Octogates Lock Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/cnu0H0x.png",
     "Phase": "Immortality",
     "Effect": ["Deal 8/12/16 DMG"],
     "Continuous": ["2/3/4 Times: Deal 8 DMG to the opponent before the opponent's Chase"]
   },
   "Motionless Tutelary Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Ys9ClOM.png",
     "Phase": "Immortality",
     "Continuous": ["2/3/4 Times: At the end of your turn, add 7 DEF. If you do not Chase this turn, add 7 HP and Max HP additionally"]
   },
   //? Incarnation
   "Anthomania Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/K6spCCo.png",
     "Phase": "Incarnation",
     "Continuous": ["2/3/4 Times: At the end of your turn, apply 1 stack of Decrease ATK to the opponent, then steal 1 HP for every stack of Decrease ATK they have"]
   },
   "Echo Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/D6GybVA.png",
     "Phase": "Incarnation",
     "Effect": ["If the first slot is a Continuous Card, then retrigger it's effect after Upgrade 0/1/2 times"]
   },
   "Meru Formation": {
     "sect": "Formation Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/JNeIFHO.png",
     "Phase": "Incarnation",
     "Effect": ["Skip your next 1/2/3 cards\nIf you have played a Continuous card in this battle, then Chase"]
   },
@@ -1925,42 +1925,42 @@ module.exports = {
   //? Meditation
   "Origin Herb": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/3SCtuoP.png",
     "Phase": "Meditation",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, temporarily add 1/3/5 HP and Max HP"]
   },
   "Rock Herb": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/iiJjmJY.png",
     "Phase": "Meditation",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, gain 4/8/16 DEF"]
   },
   "Shuttle Orchid": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/gO9LXFm.png",
     "Phase": "Meditation",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, deal 1/3/5 DMG"]
   },
   "Fire Orchid": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ou66kbj.png",
     "Phase": "Meditation",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, reduces 2/4/8 Max HP of your opponent"]
   },
   "Sword Bamboo": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/hk1XL1h.png",
     "Phase": "Meditation",
     "Keywords": ["Growth/Growth/-"],
     "Effect": ["6 ATK / 4 ATK x 2 / 3 ATK x 3"]
   },
   "Hard Bamboo": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Pk1EdSj.png",
     "Phase": "Meditation",
     "Keywords": ["Growth/Growth/-"],
     "Effect": ["DEF+4/6/8"],
@@ -1969,28 +1969,28 @@ module.exports = {
   //? Foundation
   "Divine Power Grass": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/X5WQK9t.png",
     "Phase": "Foundation",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, gain 0/0~1/1 stack of Increase ATK"]
   },
   "Lose Power Grass": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/V8BXkQO.png",
     "Phase": "Foundation",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, apply 0/0~1/1 stack of Decrease ATK"]
   },
   "Mystery Seed": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/cVs34O6.png",
     "Phase": "Foundation",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["When left in hand, grows to a random variation plant before the start of the next round"]
   },
   "Leaf Shield Flower": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Lk7VcFt.png",
     "Phase": "Foundation",
     "Keywords": ["Growth/Growth/-"],
     "Effect": ["DEF+8/14/20"],
@@ -1998,7 +1998,7 @@ module.exports = {
   },
   "Leaf Blade Flower": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/af9ksIf.png",
     "Phase": "Foundation",
     "Keywords": ["Growth/Growth/-"],
     "Effect": ["4 ATK x (1/2/3)"],
@@ -2007,27 +2007,27 @@ module.exports = {
   //? Virtuoso
   "Healing Chamomile": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/AY5O9B9.png",
     "Phase": "Virtuoso",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, gain 0/1/2 stack(s) of Regeneration"]
   },
   "Clear Chamomile": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ThYx4o5.png",
     "Phase": "Virtuoso",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, gain 1/2/3 stack(s) of Hexproof"]
   },
   "Spiritual Plant Watering": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/sqDTFkP.png",
     "Phase": "Virtuoso",
     "Effect": ["Upgrade all Growth cards in your hand 1/2/2 time(s), then plant cards have a 0/50/100% chance of variation"]
   },
   "Qi-seeking Sunflower": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/sT1Bd6k.png",
     "Phase": "Virtuoso",
     "Keywords": ["Growth/Growth/-"],
     "Effect": ["Qi+2/3/4"],
@@ -2035,7 +2035,7 @@ module.exports = {
   },
   "Qi-corrupting Sunflower": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/e5WOic6.png",
     "Phase": "Virtuoso",
     "Keywords": ["Growth/Growth/-"],
     "Effect": ["Opponent loses 1/2/3 Qi"],
@@ -2044,28 +2044,28 @@ module.exports = {
   //? Immortality
   "Flying Owl Reishi": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/WQ9uhXT.png",
     "Phase": "Immortality",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, gain 0/1/2 Speed"]
   },
   "Shadow Owl Reishi": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/zhZIBEV.png",
     "Phase": "Immortality",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, you lose 35/25/15 HP, then Chase after the first time you play a card"]
   },
   "Toxic Purple Fern": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/oEIIZlB.png",
     "Phase": "Immortality",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["At the beginning of the next battle, apply 0/1/2 stack(s) of Internal Injury"]
   },
   "Detoxific Purple Fern": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/IFv0k8W.png",
     "Phase": "Immortality",
     "Keywords": ["Growth/Growth/-"],
     "Effect": ["One random Debuff decreases 1/2/3 stack(s)"],
@@ -2073,7 +2073,7 @@ module.exports = {
   },
   "Frozen Snow Lotus": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/eEWD7TL.png",
     "Phase": "Immortality",
     "Keywords": ["Growth/Growth/-"],
     "Effect": ["HP+5/10/10"],
@@ -2081,7 +2081,7 @@ module.exports = {
   },
   "Frozen Blood Lotus": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/vXWOukP.png",
     "Phase": "Immortality",
     "Keywords": ["Growth/Growth/-"],
     "Effect": ["Lost 10 HP (at least 1 HP left) 1/2/3 times\nGain 1/2/3 stack(s) of Guard Up"]
@@ -2089,7 +2089,7 @@ module.exports = {
   //? Incarnation
   "Mysterious Dao Fruit": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/XSVNgov.png",
     "Phase": "Incarnation",
     "Keywords": ["Growth/Growth/-"],
     "Level 1: Absorb": ["Max HP increased by 1 in this game"],
@@ -2098,20 +2098,20 @@ module.exports = {
   },
   "Demonic Dao Fruit": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/LcStrrE.png",
     "Phase": "Incarnation",
     "Keywords": ["Growth/Growth/-"],
     "Absorb": ["Lose 15 Destiny (minumum to 1) and lose 0/1/2 Cul., then draw 1/2/3 Incarnation Phase Card"]
   },
   "Space Spiritual Field": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Vpe6ijt.png",
     "Phase": "Incarnation",
     "Effect": ["Qi+4/5/6 (If in the last 2 slots of deck, Skip the first play)\nAs long as this card is in your deck, at the end opf battle you lose 1/2/3 Cul. and gain 1/2/3 Growth Card(s)"]
   },
   "Entangling Ancient Vine": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/mMKl7VL.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
     "Keywords": ["Growth/Growth/-"],
@@ -2120,7 +2120,7 @@ module.exports = {
   },
   "Devouring Ancient Vine": {
     "sect": "Plant Master",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/WLwjgTE.png",
     "Phase": "Incarnation",
     "Keywords": ["Growth/Growth/-"],
     "Effect": ["Steal 5/10/10 HP from the opponent"],
@@ -2798,7 +2798,7 @@ module.exports = {
     "Water Spirit": ["Make the opponent unable to act for 1 turn"]
   },
   //? Divinity
-  "Five Elements Spirit Blast": { //! need level up
+  "Five Elements Spirit Blast": {
     "sect": "Secret Enchantment - Five Elements Alliance",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Divinity",
@@ -2907,6 +2907,7 @@ module.exports = {
   },
 
   //! Character Specific Cards - redo the sect to reflect each specific character icon
+  //-------------------------------------
   //* Cloud Spirit Sword Sect
   "Spring Course Tea": {
     "sect": "Mu Yifeng",
@@ -3214,6 +3215,7 @@ module.exports = {
   },
 
   //! Spacetime Mirage (May 2025 Season)
+  //-------------------------------------
   //* Cloud Spirit Sword Sect
   "Light Sword+": {
     "sect": "Cloud Spirit Sword Sect",
@@ -3302,6 +3304,8 @@ module.exports = {
   // },
 
   //! Event Cards
+  //-------------------------------------
+  //* Exorcism Event
   "Demonic Qi Haunt": {
     "sect": "Exorcism Event",
     "image": "https://i.imgur.com/AfFp7pu.png",
