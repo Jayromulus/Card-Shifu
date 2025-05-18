@@ -2282,13 +2282,13 @@ module.exports = {
   //? Meditation
   "Black Silver Armor": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Ox6Broz.png",
     "Phase": "Meditation",
     "Effect": ["DEF+5/8/11\nthen DEF is doubled"]
   },
   "Thorns Spear": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/2sesfic.png",
     "Phase": "Meditation",
     "Cost": ["1 Qi"],
     "Effect": ["12/16/20 ATK\mThis card gets 1 more ATK for every 2 DEF the opponent have"]
@@ -2296,14 +2296,14 @@ module.exports = {
   //? Foundation
   "Dew Jade Vase": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/0JdjVVl.png",
     "Phase": "Foundation",
     "Cost": ["1 Qi"],
     "Effect": ["HP+11/14/17\nDestiny+2/3/4"]
   },
   "Nameless Ancient Sword": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/8JJS5nH.png",
     "Phase": "Foundation",
     "Cost": ["1 Qi"],
     "Effect": ["11/15/19 ATK\nIf your HP is less than 12, this card's ATK is doubled"]
@@ -2311,63 +2311,63 @@ module.exports = {
   //? Virtuoso
   "Fire Soul Refinement Flag": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/MR23PqT.png",
     "Phase": "Virtuoso",
     "Cost": ["2 Qi"],
     "Effect": ["Opponent loses 15 HP and Max HP\nApply 1/2/3 stack(s) of Internal Injury"]
   },
   "Requiem Jade Lotus": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/z0NalpR.png",
     "Phase": "Virtuoso",
     "Cost": ["2 Qi"],
     "Effect": ["HP and Max HP+15\nGain 1/2/3 stack(s) of Regneration"]
   },
   "Blood Crystal of Wolf King": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/BIvtJtd.png",
     "Phase": "Virtuoso",
     "Effect": ["Lost 15% of current HP\nGain 4/5/6 stacks of Increase ATK"]
   },
   //? Immortality
   "Cosmos Seal Divine Orb": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/yiZINcy.png",
     "Phase": "Immortality",
     "Cost": ["2 Qi"],
     "Effect": ["Deal 9 DMG\nApply 3/4/5 stacks of Weakened"]
   },
   "Metal Tri-Thorn Spear": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Q5V4VpI.png",
     "Phase": "Immortality",
     "Cost": ["2 Qi"],
     "Effect": ["3/5/7 ATK x 3\nApply 1 stack of Flaw after each attack"]
   },
   "Carefree Guqin": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/2TcLaAD.png",
     "Phase": "Immortality",
     "Continuous": ["Both player's Normal Attack gain Chase and add 2/5/8 ATK"]
   },
   //? Incarnation
   "Nether Seal Evil Signet": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/SHJa5Fz.png",
     "Phase": "Incarnation",
     "Cost": ["3 Qi"],
     "Effect": ["Remove the opponent's all DEF and Guard Up\nDeal 30/36/42 DMG"]
   },
   "Dark Crystal Heart Shield": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/hzcmpRe.png",
     "Phase": "Incarnation",
     "Cost": ["3 Qi"],
     "Effect": ["DEF+20\nGain 2/3/4 stacks of Guard Up"]
   },
   "Bow of Hunting Owl": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/6LYbYcQ.png",
     "Phase": "Incarnation",
     "Cost": ["2 Qi"],
     "Effect": ["12/14/16 ATK"],
@@ -2376,14 +2376,14 @@ module.exports = {
   //? Divinity
   "Void Split Spear": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/htHj9ib.png",
     "Phase": "Divinity",
     "Cost": ["3 Qi"],
     "Effect": ["30/35/40 ATK\nOpponent loses 4/7/10 Destiny"]
   },
   "Mysterious Gates Devil Seal Tower": {
     "sect": "Talisman",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/RPFQ8ID.png",
     "Phase": "Divinity",
     "Cost": ["3 Qi"],
     "Effect": ["Deal 25/32/32 DMG\nOpponent cannot act for 1/1/2 turns"]
@@ -2393,14 +2393,14 @@ module.exports = {
   //? Meditation
   "Break Sky Eagle": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ugIlfKR.png",
     "Phase": "Meditation",
     "Effect": ["Deal 4 DMG"],
     "Continuous": ["Deal 1/2/3 DMG at the start of your turn"]
   },
   "Fat Immortal Raccoon": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/3viWlLA.png",
     "Phase": "Meditation",
     "Effect": ["HP+4"],
     "Continuous": ["Add 1/2/3 HP at the start of your turn"]
@@ -2408,27 +2408,27 @@ module.exports = {
   //? Foundation
   "Dark Star Bat": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/02e5DkT.png",
     "Phase": "Foundation",
     "Continuous": ["After you attack your opponent, if **Injured** your opponent's HP is not greater than 5/7/9, you again an equal amount of HP"]
   },
   "Lonely Night Wolf": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/JhHcXEu.png",
     "Phase": "Foundation",
     "Continuous": ["When you HP is less than half Max Hp, all cards add 4/5/6 ATK"]
   },
   //? Virtuoso
   "Black Earth Turtle": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/6YwonMZ.png",
     "Phase": "Virtuoso",
     "Effect": ["DEF+4/8/12"],
     "Continuous": ["At the beginning of your turn, DEF only lose 20% rather than 50% and add an extra 2/3/4 DEF"]
   },
   "Brocade Rat": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/FFp15PE.png",
     "Phase": "Virtuoso",
     "Effect": ["Lost 4/8/12 HP"],
     "Continuous": ["At the end of battle round, draw extra 1/2/3 card(s)"]
@@ -2436,19 +2436,19 @@ module.exports = {
   //? Immortality
   "Scarlet-Eye The Sky Consumer": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/apD5DUV.png",
     "Phase": "Immortality",
     "Continuous": ["At the beginning of your turn, steal 2/3/4 HP from the opponent"]
   },
   "Ashes Phoenix": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/N9CWCYo.png",
     "Phase": "Immortality",
     "Continuous": ["For the next time when the HP is less or equal to 0, revive with 10/15/20 HP and add 10/15/20 Max HP"]
   },
   "Three Tailed Cat": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/MI8qhCD.png",
     "Phase": "Immortality",
     "Effect": ["Exchange Card Chance + 1/2/3"],
     "Continuous": ["At the end of each your turn, you gain 1 stack Hexproof"]
@@ -2456,28 +2456,28 @@ module.exports = {
   //? Incarnation
   "Colorful Spirit Crane": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/PtyxO6I.png",
     "Phase": "Incarnation",
     "Effect": ["Qi+0/2/4"],
     "Continuous": ["Add Qi effect is multiplied by 2"]
   },
   "Shadow Owl Rabbit": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/eYKkVVa.png",
     "Phase": "Incarnation",
     "Continuous": ["All cards gain Chase and you will lose 10/8/6 HP before the Chase"]
   },
   //? Divinity
   "Void The Spirit Consumer": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/LPzpSIc.png",
     "Phase": "Divinity",
     "Cost": ["1 Qi"],
     "Continuous": ["At the beginning of your turn, steal 1/2/3 Qi from the opponent"]
   },
   "Nether Void Canine": {
     "sect": "Spiritual Pet",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/xJ6ohYv.png",
     "Phase": "Divinity",
     "Cost": ["2 Qi"],
     "Effect": ["Deal 1/5/9 DMG"],
@@ -2490,28 +2490,28 @@ module.exports = {
   //? Meditation
   "Rhyme Spirit Sword": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/Ek4MvYx.png",
     "Phase": "Meditation",
     "Effect": ["4/5/6 ATK"],
     "Injured": ["Add Qi for each damage dealt to HP"]
   },
   "Diligent Sword": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/g54VnV8.png",
     "Phase": "Meditation",
     "Effect": ["6 ATK\nAdd 1 ATK for every 5/4/3 points of cultivation"]
   },
   //? Foundation
   "Cloud Sword - Dawn": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/4qthRdK.png",
     "Phase": "Foundation",
     "Effect": ["DEF+4/6/8"],
     "Cloud Hit": ["2/3/4 ATK x 3"]
   },
   "Giant Ape Spirit Sword": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/bLey5XF.png",
     "Phase": "Foundation",
     "Cost": ["2 Qi"],
     "Effect": ["6 ATK\nGain 3/4/5 stacks of Increase ATK"]
@@ -2519,65 +2519,65 @@ module.exports = {
   //? Virtuoso
   "Unrestrained Sword - Dragon Coiled": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/DjxJGnI.png",
     "Phase": "Virtuoso",
     "Effect": ["DEF+6/8/10\nFor each \"Unrestrained Sword\" you played in this battle, add 6/8/10 more DEF"]
   },
   "One Heart One Sword": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/NiKH4Y0.png",
     "Phase": "Virtuoso",
     "Effect": ["6 ATK\nThis card receives a 4/5/6x bonus from Sword Intent and is not affected by Weakened"]
   },
   "Synergy Sword Formation": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/nxK03wo.png",
     "Phase": "Virtuoso",
     "Effect": ["4 ATK\nDEF+4\nFor each other \"Sword Formation\" in the deck, this card has 3/4/5 more ATK and 3/4/5 more DEF"]
   },
   //? Immortality
   "Sword Intent Flow": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/01YPSIb.png",
     "Phase": "Immortality",
     "Effect": ["Sword Intent+2/3/4\nKeep the Sword Intent after the next card attack"]
   },
   "Emptiness Sword Formation": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/DXNwPe3.png",
     "Phase": "Immortality",
     "Continuous": ["After each time you play a \"Sword Formation\" card, make an additional 7/10/13 ATK"]
   },
   //? Incarnation
   "Apex Sword Citta-Dharma": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/D0xT1D5.png",
     "Phase": "Incarnation",
     "Continuous": ["Add 2/3/4 stacks of Sword Intent at the start of your turn"]
   },
   "Step Moon Into Cloud": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/L4F44ap.png",
     "Phase": "Incarnation",
     "Continuous": ["After each time you play a \"Cloud Sword\", add 1/1/2 stack(s) of Increase Attack\n-/Chase/Chase"]
   },
   "Unrestrained Sword - Twin Dragons": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/ex7C1Zu.png",
     "Phase": "Incarnation",
     "Effect": ["2/8/14 ATK\nNext \"Unrestrained Sword\" will trigger twice"]
   },
   //? Divinity
   "Remnant Cloud Sky Sealing Sword": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/VbmK7yz.png",
     "Phase": "Divinity",
     "Cost": ["1 Qi"],
     "Effect": ["8/10/12 ATK\nAdd 8/10/12 ATK for each \"Cloud Sword\" remaining in your hand"]
   },
   "Secret Sword - Spirit Cloud": {
     "sect": "Secret Enchantment - Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/AfFp7pu.png",
+    "image": "https://i.imgur.com/HYXsHei.png",
     "Phase": "Divinity",
     "Effect": ["4/6/8 ATK\nMake an additional attack for each Qi"],
     "Cloud Hit": ["ATK+4/6/8"]
@@ -3068,6 +3068,12 @@ module.exports = {
   },
   //* Five Elements Alliance
   "Gourd Of Leisurely": {
+    "sect": "Wu Xingzhi",
+    "image": "https://i.imgur.com/YCvc0uJ.png",
+    "Phase": "Virtuoso",
+    "Effect": ["Qi+2/3/4\nMax HP and HP+3/6/9\nIf any Five Elements has been activated, Chase"]
+  },
+  "Water Spirit - Leisurely": { //! resonance season exclusive
     "sect": "Wu Xingzhi",
     "image": "https://i.imgur.com/YCvc0uJ.png",
     "Phase": "Virtuoso",
