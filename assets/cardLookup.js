@@ -482,18 +482,31 @@ module.exports = {
   //! Other Cards
   "Normal Attack - nml atk": { name: "Normal Attack", value: "Normal Attack" },
   //* Spacetime Mirage
+  //! Cloud Spirit Sword Sect
   "Light Sword+": { name: "Light Sword+", value: "Light Sword+" },
   "Raven Spirit Sword+": { name: "Raven Spirit Sword+", value: "Raven Spirit Sword+" },
   "cs - Cloud Sword - Conceal+": { name: "Cloud Sword - Conceal+", value: "Cloud Sword - Conceal+" },
+  "cs - Cloud Sword - Touch Sky+ - 云剑·探云": { name: "Cloud Sword - Touch Sky+", value: "Cloud Sword - Touch Sky+" },
+  "Spiritage Sword+": { name: "Spiritage Sword+", value: "Spiritage Sword+" },
+  //! Heptastar Pavillion
   "Cutting Weeds+ - bazinga weeds": { name: "Cutting Weeds+", value: "Cutting Weeds+" },
   "Astral Fleche+": { name: "Astral Fleche+", value: "Astral Fleche+" },
   "Shifting Stars+": { name: "Shifting Stars+", value: "Shifting Stars+" },
+  "Incessant+": { name: "Incessant+", value: "Incessant+" },
+  "Ruthless Water+": { name: "Ruthless Water+", value: "Ruthless Water+" },
+  //! Five Elements Alliance
   "Water Spirit - Billows+": { name: "Water Spirit - Billows+", value: "Water Spirit - Billows+" },
   "Five Elements Circulation+": { name: "Five Elements Circulation+", value: "Five Elements Circulation+" },
   "Wood Spirit - Recovery+": { name: "Wood Spirit - Recovery+", value: "Wood Spirit - Recovery+" },
+  "Metal Spirit - Needle+": { name: "Metal Spirit - Needle+", value: "Metal Spirit - Needle+" },
+  "Fire Spirit - Flame Eater+": { name: "Fire Spirit - Flame Eater+", value: "Fire Spirit - Flame Eater+" },
+  //! Duan Xuan Sect
   "Rakshasa Pouncing+": { name: "Rakshasa Pouncing+", value: "Rakshasa Pouncing+" },
   "Sinking Qi+": { name: "Sinking Qi+", value: "Sinking Qi+" },
   "Double Trouble+": { name: "Double Trouble+", value: "Double Trouble+" },
+  "Youthful Vigor+": { name: "Youthful Vigor+", value: "Youthful Vigor+" },
+  "Exercise Bones+": { name: "Exercise Bones+", value: "Exercise Bones+" },
+
   //* Exorcism Event
   "Demonic Qi Haunt": { name: "Demonic Qi Haunt", value: "Demonic Qi Haunt" },
   "Magic Dragon's Paw": { name: "Magic Dragon's Paw", value: "Magic Dragon's Paw" },

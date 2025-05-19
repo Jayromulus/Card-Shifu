@@ -3241,6 +3241,18 @@ module.exports = {
     "Phase": "Incarnation",
     "Cloud Hit": ["6 ATK (Add 2 more ATK for each attack performed in combat)"],
   },
+  "Cloud Sword - Touch Sky+": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/laMwkjA.png",
+    "Phase": "Incarnation",
+    "Effect": ["6 ATK\nThis card counds as 2 Cloud Sword\nThe next Cloud Sword gain Chase"],
+  },
+  "Spiritage Sword+": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/2znHts8.png",
+    "Phase": "Immortality",
+    "Effect": ["Randomly play a **Regular Card** from hand that adds **Qi** (up to lv.1), if it is an Immortality Phase card or lower: 3 ATK x 2 (1 more ATK for every 2 point of **Qi**)"],
+  },
   //* Heptastar Pavillion
   "Cutting Weeds+": {
     "sect": "Heptastar Pavillion",
@@ -3261,6 +3273,20 @@ module.exports = {
     "Phase": "Incarnation",
     "Effect": ["The next slot **Become Star Point**"],
     "Continuous": ["After each \"Astral Move\" card is played, the next slot **Become Star Point** and make an additional 2 ATK"]
+  },
+  "Incessant+": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/jHZBLyV.png",
+    "Phase": "Incarnation",
+    "Effect": ["6 ATK\nGain 3 **Regeneration**\nMax HP+9 (add 1 more for each **Regeneration**)"],
+    "Post Action": ["add Max HP and HP instead"]
+  },
+  "Ruthless Water+": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/gXqSPfp.png",
+    "Phase": "Immortality",
+    "Effect": ["Apply 2 **Internal Injury**"],
+    "Continuous": ["Whenever the opponent gain 1 stack of **Debuff** other than **Internal Injury**, they also gain 1 **Internal Injury**"],
   },
   //* Five Elements Alliance
   "Water Spirit - Billows+": {
@@ -3283,6 +3309,20 @@ module.exports = {
     "Effect": ["**Qi**+1\nRestore your HP to what it was at the start of your last turn"],
     "Wood Spirit": ["If you have already added HP, gain 2 **Increse ATK**"]
   },
+  "Metal Spirit - Needle+": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/1QFXoug.png",
+    "Phase": "Immortality",
+    "Effect": ["6 ATK (**Ignore DEF**)\n**Penetrate**+4"],
+    "Metal Spirit": ["The next time you trigger **Penetrate**, return the triggered **Penetrate**"]
+  },
+  "Fire Spirit - Flame Eater+": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/s9ZoqEi.png",
+    "Phase": "Immortality",
+    "Effect": ["**Qi**+2\nOpponent loses 3 HP and Max HP"],
+    "Fire Spirit": ["Cost 4 **Qi** to make the next Fire Spirit or Earth Spirit card trigger twice"]
+  },
   //* Duan Xuan Sect
   "Rakshasa Pouncing+": {
     "sect": "Duan Xuan Sect",
@@ -3301,6 +3341,18 @@ module.exports = {
     "image": "https://i.imgur.com/xGimJqh.png",
     "Phase": "Immortality",
     "Effect": ["**Qi**+1\nHP+4\nIncrease 10% ATK for each **Qi** when attacking, lasts 2 turns"],
+  },
+  "Exercise Bones+": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/rZ9FTUX.png",
+    "Phase": "Immortality",
+    "Continuous": ["Whenever you add 1 **Physique**, gain 3 HP (If your **Physique** exceeds the cap, also deal 1 **DMG** to the opponent)"],
+  },
+  "Youthful Vigor+": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/F2AywE9.png",
+    "Phase": "Immortality",
+    "Effect": ["6 ATK x 2\nFor every 20 HP added in this battle, make an additional attack (up to 2 times)"],
   },
   // "": {
   //   "sect": "",
