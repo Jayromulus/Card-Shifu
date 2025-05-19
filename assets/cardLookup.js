@@ -208,7 +208,7 @@ module.exports = {
   "Exercise Soul": { name: "Exercise Soul", value: "Exercise Soul" },
   "Realm-Killing Palms - rkp": { name: "Realm-Killing Palms", value: "Realm-Killing Palms" },
   "Shura Roar": { name: "Shura Roar", value: "Shura Roar" },
-  "Soul Cleaving": { name: "Soul Cleaving", value: "Soul Cleaving" },
+  "Soul Cleaving - sc": { name: "Soul Cleaving", value: "Soul Cleaving" },
   "Gather Intense Force - gif": { name: "Gather Intense Force", value: "Gather Intense Force" },
   "Vast Universe": { name: "Vast Universe", value: "Vast Universe" },
   //! Elixirist
