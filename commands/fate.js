@@ -18,7 +18,7 @@ const sectColors = {
   'Hua Qinrui': 0xb56423,
   'Qi Wangyou': 0xb56423,
   'Mu Hu': 0xb56423,
-  'Wu Xingzhe': 0xb56423,
+  'Wu Xingzhi': 0xb56423,
   'Nangong Shen': 0xb56423,
   'Tan Shuyan': 0x3f2d79,
   'Yan Chen': 0x3f2d79,
