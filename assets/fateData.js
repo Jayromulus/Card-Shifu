@@ -883,7 +883,7 @@ module.exports = {
     "sect": "Qi Wangyou",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
-    "Effect": ["Darw 1 **Forget Worries**; If this Card is stored in the Pure Vase, both player add 15 HP and Max HP when battle starts"]
+    "Effect": ["Draw 1 **Forget Worries**; If this Card is stored in the Pure Vase, both player add 15 HP and Max HP when battle starts"]
   },
 
   //* Duan Xuan Sect
