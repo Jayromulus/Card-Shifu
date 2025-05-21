@@ -3307,7 +3307,7 @@ module.exports = {
     "image": "https://i.imgur.com/gZg8cql.png",
     "Phase": "Immortality",
     "Effect": ["**Qi**+1\nRestore your HP to what it was at the start of your last turn"],
-    "Wood Spirit": ["If you have already added HP, gain 2 **Increse ATK**"]
+    "Wood Spirit": ["If you have already added HP, gain 2 **Increase ATK**"]
   },
   "Metal Spirit - Needle+": {
     "sect": "Five Elements Alliance",
