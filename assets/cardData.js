@@ -2107,7 +2107,7 @@ module.exports = {
     "sect": "Plant Master",
     "image": "https://i.imgur.com/Vpe6ijt.png",
     "Phase": "Incarnation",
-    "Effect": ["Qi+4/5/6 (If in the last 2 slots of deck, Skip the first play)\nAs long as this card is in your deck, at the end opf battle you lose 1/2/3 Cul. and gain 1/2/3 Growth Card(s)"]
+    "Effect": ["Qi+4/5/6 (If in the last 2 slots of deck, Skip the first play)\nAs long as this card is in your deck, at the end of battle you lose 1/2/3 Cul. and gain 1/2/3 Growth Card(s)"]
   },
   "Entangling Ancient Vine": {
     "sect": "Plant Master",
