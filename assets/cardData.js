@@ -3354,7 +3354,7 @@ module.exports = {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/gf2wBVt.png",
     "Phase": "Incarnation",
-    "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n10/16/22"],
+    "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n10/16/22 ATK"],
     // "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n6 ATK x 2"],
   },
   // "": {
