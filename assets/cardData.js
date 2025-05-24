@@ -3329,6 +3329,7 @@ module.exports = {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/F2AywE9.png",
     "Phase": "Immortality",
+    "Cost": ["2 HP"],
     "Effect": ["6/8/10 ATK x 2\nFor every 20/18/16 HP added in this battle, make an additional attack (up to 2 times)"],
   },
   "Exercise Bones+": {
