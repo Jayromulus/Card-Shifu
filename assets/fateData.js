@@ -569,7 +569,7 @@ module.exports = {
     "sect": "Tan Shuyan",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
-    "Effect": ["Randomly obtain1 sect card that can add HP; Add 1 DEF for each time your HP changes in battle"]
+    "Effect": ["Randomly obtain 1 sect card that can add HP; Add 1 DEF for each time your HP changes in battle"]
   },
   "Avatar of Bird Shade": {
     "sect": "Tan Shuyan",
