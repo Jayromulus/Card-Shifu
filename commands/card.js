@@ -45,6 +45,7 @@ const sectColors = {
   'Ye Mingming': 0x6b2121,
   'Ji Fangsheng': 0x6b2121,
   'Li Man': 0x6b2121,
+  'Feast of Zongzi': 0x74b585,
 }
 const sectIcons = {
   'General': 'https://i.imgur.com/xE7FZ8w.png',
@@ -90,6 +91,7 @@ const sectIcons = {
   'Ye Mingming': 'https://i.imgur.com/t8bMlIj.png',
   'Ji Fangsheng': 'https://i.imgur.com/Fzj0ZTc.png',
   'Li Man': 'https://i.imgur.com/d2vfd7s.png',
+  'Feast of Zongzi': 'https://i.imgur.com/NAYtdGx.png',
 }
 const cards = require('../assets/cardData')
 const lookup = require('../assets/cardLookup')
@@ -189,7 +191,7 @@ async function displayEmbed(interaction, flippedName) {
       .addComponents(switchButton)
   }
 
-  console.warn({row});
+  // console.warn({row});
 
   const cardEmbed = new EmbedBuilder()
     .setColor(sectColors[selected.sect])
