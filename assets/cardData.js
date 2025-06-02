@@ -2228,7 +2228,7 @@ module.exports = {
     "sect": "Fortune Teller",
     "image": "https://i.imgur.com/5JdJM8j.png",
     "Phase": "Immortality",
-    "Effect": ["DEF+4/5/6\mYou take 6 less ATK (minumum to 1) in opponent's next 2/3/4 attacks"],
+    "Effect": ["DEF+4/5/6\nYou take 6 less ATK (minumum to 1) in opponent's next 2/3/4 attacks"],
     "Opening": ["DEF+4/5/6"]
   },
   "Heavenly Star - Pull": {
@@ -2291,7 +2291,7 @@ module.exports = {
     "image": "https://i.imgur.com/2sesfic.png",
     "Phase": "Meditation",
     "Cost": ["1 Qi"],
-    "Effect": ["12/16/20 ATK\mThis card gets 1 more ATK for every 2 DEF the opponent have"]
+    "Effect": ["12/16/20 ATK\nThis card gets 1 more ATK for every 2 DEF the opponent have"]
   },
   //? Foundation
   "Dew Jade Vase": {
@@ -3524,7 +3524,7 @@ module.exports = {
     "image": "https://i.imgur.com/dewBFMM.png",
     "Team": "Sweet Zongzi",
     "Phase": "Immortality",
-    "Effect": ["**Qi**+2/4/6\mGain 2 stacks of **Indigestion**\nChase"],
+    "Effect": ["**Qi**+2/4/6\nGain 2 stacks of **Indigestion**\nChase"],
   },
   "Fresh Fruit Zongzi": {
     "sect": "Feast of Zongzi",
@@ -3717,7 +3717,7 @@ module.exports = {
     "sect": "Exorcism Event",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
-    "Consumption": ["Lost 1/2/3 Destiny\mCul. + 1/1/2\nExchange Card Chance + 1/3/5"],
+    "Consumption": ["Lost 1/2/3 Destiny\nCul. + 1/1/2\nExchange Card Chance + 1/3/5"],
   },
   "Demonic Qi Burst": {
     "sect": "Exorcism Event",
