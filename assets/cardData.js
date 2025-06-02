@@ -3524,7 +3524,7 @@ module.exports = {
     "image": "https://i.imgur.com/dewBFMM.png",
     "Team": "Sweet Zongzi",
     "Phase": "Immortality",
-    "Effect": ["**Qi**+2/4/6\nGain 2 stacks of **Indigestion**\nChase"],
+    "Effect": ["**Qi**+2/4/6\nGain 1/2/3 stacks of **Indigestion**\nChase"],
   },
   "Fresh Fruit Zongzi": {
     "sect": "Feast of Zongzi",
@@ -3619,7 +3619,7 @@ module.exports = {
     "image": "https://i.imgur.com/YJilR2f.png",
     "Team": "Salty Zongzi",
     "Phase": "Incarnation",
-    "Effect": ["Gain 2/3/4 stacks of **Internal Injury**\nAdd 1 **Qi** and 5 HP for every 1 stack of **Debuff**"],
+    "Effect": ["Gain 2/3/4 stacks of **Internal Injury**\nAdd 1 **Qi** and 3/4/5 HP for every 1 stack of **Debuff**"],
   },
   "Five Colored Strings": {
     "sect": "Feast of Zongzi",
