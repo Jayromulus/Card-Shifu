@@ -483,29 +483,33 @@ module.exports = {
   "Normal Attack - nml atk": { name: "Normal Attack", value: "Normal Attack" },
   //* Spacetime Mirage
   //! Cloud Spirit Sword Sect
-  "M - Light Sword": { name: "M - Light Sword", value: "M - Light Sword" },
-  "M - Raven Spirit Sword": { name: "M - Raven Spirit Sword", value: "M - Raven Spirit Sword" },
-  "cs - M - Cloud Sword - Conceal": { name: "M - Cloud Sword - Conceal", value: "M - Cloud Sword - Conceal" },
-  "cs - M - Cloud Sword - Touch Sky - 云剑·探云": { name: "M - Cloud Sword - Touch Sky", value: "M - Cloud Sword - Touch Sky" },
-  "M - Spiritage Sword": { name: "M - Spiritage Sword", value: "M - Spiritage Sword" },
+  "M - Light Sword+": { name: "M - Light Sword", value: "M - Light Sword" },
+  "M - Raven Spirit Sword+": { name: "M - Raven Spirit Sword", value: "M - Raven Spirit Sword" },
+  "cs - M - Cloud Sword - Conceal+": { name: "M - Cloud Sword - Conceal", value: "M - Cloud Sword - Conceal" },
+  "cs - M - Cloud Sword - Touch Sky+ - 云剑·探云": { name: "M - Cloud Sword - Touch Sky", value: "M - Cloud Sword - Touch Sky" },
+  "M - Spiritage Sword+": { name: "M - Spiritage Sword", value: "M - Spiritage Sword" },
+  "M - Consonance Sword Formation+ - csf": { name: "M - Consonance Sword Formation", value: "M - Consonance Sword Formation" },
   //! Heptastar Pavillion
-  "M - Cutting Weeds - bazinga weeds": { name: "M - Cutting Weeds", value: "M - Cutting Weeds" },
-  "M - Astral Fleche": { name: "M - Astral Fleche", value: "M - Astral Fleche" },
-  "M - Shifting Stars": { name: "M - Shifting Stars", value: "M - Shifting Stars" },
-  "M - Incessant": { name: "M - Incessant", value: "M - Incessant" },
-  "M - Ruthless Water": { name: "M - Ruthless Water", value: "M - Ruthless Water" },
+  "M - Cutting Weeds+ - bazinga weeds": { name: "M - Cutting Weeds", value: "M - Cutting Weeds" },
+  "M - Astral Fleche+": { name: "M - Astral Fleche", value: "M - Astral Fleche" },
+  "M - Shifting Stars+": { name: "M - Shifting Stars", value: "M - Shifting Stars" },
+  "M - Incessant+": { name: "M - Incessant", value: "M - Incessant" },
+  "M - Ruthless Water+": { name: "M - Ruthless Water", value: "M - Ruthless Water" },
+  "M - Earth Hexagram+": { name: "M - Earth Hexagram", value: "M - Earth Hexagram" },
   //! Five Elements Alliance
   "M - Water Spirit - Billows+": { name: "M - Water Spirit - Billows", value: "M - Water Spirit - Billows" },
   "M - Five Elements Circulation+": { name: "M - Five Elements Circulation", value: "M - Five Elements Circulation" },
   "M - Wood Spirit - Recovery+": { name: "M - Wood Spirit - Recovery", value: "M - Wood Spirit - Recovery" },
   "M - Metal Spirit - Needle+": { name: "M - Metal Spirit - Needle", value: "M - Metal Spirit - Needle" },
   "M - Fire Spirit - Flame Eater+": { name: "M - Fire Spirit - Flame Eater", value: "M - Fire Spirit - Flame Eater" },
+  "M - Earth Spirit Mountains+": { name: "M - Earth Spirit Mountains", value: "M - Earth Spirit Mountains" },
   //! Duan Xuan Sect
   "M - Rakshasa Pouncing+": { name: "M - Rakshasa Pouncing", value: "M - Rakshasa Pouncing" },
   "M - Sinking Qi+": { name: "M - Sinking Qi", value: "M - Sinking Qi" },
   "M - Double Trouble+": { name: "M - Double Trouble", value: "M - Double Trouble" },
   "M - Youthful Vigor+": { name: "M - Youthful Vigor", value: "M - Youthful Vigor" },
   "M - Exercise Bones+": { name: "M - Exercise Bones", value: "M - Exercise Bones" },
+  "M - Crash Fist Poke+": { name: "M - Crash Fist Poke", value: "M - Crash Fist Poke" },
 
   //* Feast of Zongzi
   "Red Bean Zongzi": { name: "Red Bean Zongzi", value: "Red Bean Zongzi" },
