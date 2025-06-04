@@ -819,7 +819,7 @@ module.exports = {
   },
   "Earth Spirit - Mountains": {
     "sect": "Five Elements Alliance",
-    "image": "https://imgur.com/sDd36W0",
+    "image": "https://i.imgur.com/sDd36W0.png",
     "Phase": "Foundation",
     "Effect": ["5/6/7 ATK\nDEF+2/3/4"],
     "Earth Spirit": ["Add 3/6/9 DEF in your next turn"]
@@ -3251,7 +3251,13 @@ module.exports = {
     "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/iKDbhE6.png",
     "Phase": "Incarnation",
-    "Cloud Hit": ["6 ATK (Add 2/3/4 more ATK for each attack performed in combat)"],
+    "Cloud Hit": ["6/12/12 ATK (Add 2/2/3 more ATK for each attack performed in combat)"],
+  },
+  "M - Consonance Sword Formation": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/4rPscD2.png",
+    "Phase": "Incarnation",
+    "Effect": ["**DEF**+2/10/18\nFor the next 1 attack with **Sword Intent**, after **Sword Intent** is used, add an equal amount of **Qi**"]
   },
   //* Heptastar Pavillion
   "M - Cutting Weeds": {
@@ -3259,7 +3265,7 @@ module.exports = {
     "image": "https://i.imgur.com/9ocaE8w.png",
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
-    "Effect": ["Reduces the opponent's Max HP to their current HP minus 5/13/18 (Exhaust Qi and Hexagram, each reduces 3 more)"],
+    "Effect": ["Reduces the opponent's Max HP to their current HP minus 8 (Exhaust Qi reduces 3/4/4 more, Exhaust Hexagram, each reduces 3/3/4 more)"],
   },
   "M - Ruthless Water": {
     "sect": "Heptastar Pavillion",
@@ -3290,13 +3296,19 @@ module.exports = {
     "Effect": ["6 ATK\nGain 2/3/4 **Regeneration**\nMax HP+6/9/12 (add 1 more for each **Regeneration**)"],
     "Post Action": ["add Max HP and HP instead"]
   },
+  "M - Earth Hexagram": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/b0SkZKF.png",
+    "Phase": "Immortality",
+    "Effect": ["**DEF**+2/4/6\n**Hexagram**+2/3/4\n**Upgrade** the next card used, and for every 4 **Hexagram**, **Upgrade** 1 more (restored after the battle)"]
+  },
   //* Five Elements Alliance
   "M - Fire Spirit - Flame Eater": {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/s9ZoqEi.png",
     "Phase": "Immortality",
-    "Effect": ["**Qi**+2/3/4\nOpponent loses 3/5/7 HP and Max HP"],
-    "Fire Spirit": ["Cost 4 **Qi** to make the next Fire Spirit or Earth Spirit card trigger twice"]
+    "Effect": ["**Qi**+3/4/5\nOpponent loses 3/5/7 HP and Max HP"],
+    "Fire Spirit": ["Cost 5 **Qi** to make the next Fire Spirit or Earth Spirit card trigger twice"]
   },
   "M - Wood Spirit - Recovery": {
     "sect": "Five Elements Alliance",
@@ -3324,7 +3336,14 @@ module.exports = {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/zE8WxKF.png",
     "Phase": "Incarnation",
-    "Effect": ["Qi+2/3/4\nIf there is **Five Element Generating Interaction** between pre and next slot, **Activate** both and Chase\nGain 1/2/3 **DEF** for each **Five Elements Activated**"],
+    "Effect": ["Qi+2/2/3\nIf there is **Five Element Generating Interaction** between pre and next slot, **Activate** both and Chase\nGain 1/2/3 **DEF** for each **Five Elements Activated**"],
+  },
+  "M - Earth Spirit Mountains": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/sDd36W0.png",
+    "Phase": "Incarnation",
+    "Effect": ["DEF+10/15/20\nYour **DEF** is halved, and for each point reduced, deal 1 **DMG**"],
+    "Earth Spirit": ["In your next turn, restore the **DEF** reduced this way"]
   },
   //* Duan Xuan Sect
   "M - Youthful Vigor": {
@@ -3344,7 +3363,7 @@ module.exports = {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/xGimJqh.png",
     "Phase": "Immortality",
-    "Effect": ["**Qi**+1/2/3\nHP+9/10/11\nIncrease 10% ATK for each **Qi** when attacking, lasts 2 turns"],
+    "Effect": ["**Qi**+2/3/4\nHP+6/7/8\nIncrease 10% ATK for each **Qi** when attacking, lasts 2 turns"],
   },
   "M - Double Trouble": {
     "sect": "Duan Xuan Sect",
@@ -3359,6 +3378,13 @@ module.exports = {
     "Phase": "Incarnation",
     "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n10/16/22 ATK"],
     // "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n6 ATK x 2"],
+  },
+  "M - Crash Fist Poke": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/dT2jQ1J.png",
+    "Phase": "Incarnation",
+    "Cost": ["3 HP"],
+    "Effect": ["9 **ATK**\nFor every 9/8/7 **Physique**, the next Crash Fist increase 1 **ATK**"]
   },
   // "": {
   //   "sect": "",
