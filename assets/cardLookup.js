@@ -415,7 +415,7 @@ module.exports = {
   "Earth Spirit - Earthquake": { name: "Earth Spirit - Earthquake", value: "Earth Spirit - Earthquake" },
   "Wood Spirit - Rhythm Fire": { name: "Wood Spirit - Rhythm Fire", value: "Wood Spirit - Rhythm Fire" },
   "Earth Spirit - Rhythm Metal": { name: "Earth Spirit - Rhythm Metal", value: "Earth Spirit - Rhythm Metal" },
-  "Fire Spirit - Burning Sky": { name: "Fire Spirit - Burning Sky", value: "Fire Spirit - Burning Sky" },
+  "Fire Spirit - Burning Sky - Bazinga Sky": { name: "Fire Spirit - Burning Sky", value: "Fire Spirit - Burning Sky" },
   "Water Spirit - Tsunami": { name: "Water Spirit - Tsunami", value: "Water Spirit - Tsunami" },
   "Five Elements Spirit Blast": { name: "Five Elements Spirit Blast", value: "Five Elements Spirit Blast" },
   "Five Elements Blossom": { name: "Five Elements Blossom", value: "Five Elements Blossom" },
