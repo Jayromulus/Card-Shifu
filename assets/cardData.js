@@ -3227,7 +3227,7 @@ module.exports = {
     "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/VxnPnP1.png",
     "Phase": "Immortality",
-    "Effect": ["4/8/12 ATK\nAdd 1 **DEF** for each **Qi**\nIf the number of Spirit Sword in the deck >= 2, Chase"],
+    "Effect": ["4/8/12 ATK\nAdd 1 **DEF**(up to 4/12/20) for each **Qi**\nIf the number of Spirit Sword in the deck >= 3/2/1, Chase"],
   },
   "M - Light Sword": {
     "sect": "Cloud Spirit Sword Sect",
@@ -3300,7 +3300,7 @@ module.exports = {
     "sect": "Heptastar Pavillion",
     "image": "https://i.imgur.com/b0SkZKF.png",
     "Phase": "Immortality",
-    "Effect": ["**DEF**+2/4/6\n**Hexagram**+2/3/4\n**Upgrade** the next card used, and for every 4 **Hexagram**, **Upgrade** 1 more (restored after the battle)"]
+    "Effect": ["**DEF**+2/4/6\n**Hexagram**+2/3/4\n**Upgrade** the next card used, and for every 3 **Hexagram**, **Upgrade** 1 more (restored after the battle)"]
   },
   //* Five Elements Alliance
   "M - Fire Spirit - Flame Eater": {
@@ -3351,7 +3351,7 @@ module.exports = {
     "image": "https://i.imgur.com/F2AywE9.png",
     "Phase": "Immortality",
     "Cost": ["2 HP"],
-    "Effect": ["6/8/10 ATK x 2\nFor every 20/18/16 HP added in this battle, make an additional attack (up to 2 times)"],
+    "Effect": ["6/8/10 ATK x 2\nFor every 20/16/12 HP added in this battle, make an additional attack (up to 2 times)"],
   },
   "M - Exercise Bones": {
     "sect": "Duan Xuan Sect",
@@ -3376,7 +3376,7 @@ module.exports = {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/gf2wBVt.png",
     "Phase": "Incarnation",
-    "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n10/16/22 ATK"],
+    "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n12/18/24 ATK"],
     // "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n6 ATK x 2"],
   },
   "M - Crash Fist Poke": {
@@ -3384,7 +3384,7 @@ module.exports = {
     "image": "https://i.imgur.com/dT2jQ1J.png",
     "Phase": "Incarnation",
     "Cost": ["3 HP"],
-    "Effect": ["9 **ATK**\nFor every 9/8/7 **Physique**, the next Crash Fist increase 1 **ATK**"]
+    "Effect": ["9 **ATK**\nFor every 8/7/6 **Physique**, the next Crash Fist increase 1 **ATK**"]
   },
   // "": {
   //   "sect": "",

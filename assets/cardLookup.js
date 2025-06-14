@@ -490,7 +490,7 @@ module.exports = {
   "M - Spiritage Sword+": { name: "M - Spiritage Sword", value: "M - Spiritage Sword" },
   "M - Consonance Sword Formation+ - csf": { name: "M - Consonance Sword Formation", value: "M - Consonance Sword Formation" },
   //! Heptastar Pavillion
-  "M - Cutting Weeds+ - bazinga weeds": { name: "M - Cutting Weeds", value: "M - Cutting Weeds" },
+  "M - Cutting Weeds+ - bazinga weeds - exhasust - sus weeds": { name: "M - Cutting Weeds", value: "M - Cutting Weeds" },
   "M - Astral Fleche+": { name: "M - Astral Fleche", value: "M - Astral Fleche" },
   "M - Shifting Stars+": { name: "M - Shifting Stars", value: "M - Shifting Stars" },
   "M - Incessant+": { name: "M - Incessant", value: "M - Incessant" },
