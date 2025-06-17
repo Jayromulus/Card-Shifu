@@ -489,6 +489,7 @@ module.exports = {
   "cs - M - Cloud Sword - Touch Sky+ - 云剑·探云": { name: "M - Cloud Sword - Touch Sky", value: "M - Cloud Sword - Touch Sky" },
   "M - Spiritage Sword+": { name: "M - Spiritage Sword", value: "M - Spiritage Sword" },
   "M - Consonance Sword Formation+ - csf": { name: "M - Consonance Sword Formation", value: "M - Consonance Sword Formation" },
+  "M - Flying Fang Sword - ffs": { name: "M - Flying Fang Sword", value: "M - Flying Fang Sword" },
   //! Heptastar Pavillion
   "M - Cutting Weeds+ - bazinga weeds - exhasust - sus weeds": { name: "M - Cutting Weeds", value: "M - Cutting Weeds" },
   "M - Astral Fleche+": { name: "M - Astral Fleche", value: "M - Astral Fleche" },
@@ -496,6 +497,7 @@ module.exports = {
   "M - Incessant+": { name: "M - Incessant", value: "M - Incessant" },
   "M - Ruthless Water+": { name: "M - Ruthless Water", value: "M - Ruthless Water" },
   "M - Earth Hexagram+": { name: "M - Earth Hexagram", value: "M - Earth Hexagram" },
+  "M - Dotted Around": { name: "M - Dotted Around", value: "M - Dotted Around" },
   //! Five Elements Alliance
   "M - Water Spirit - Billows+": { name: "M - Water Spirit - Billows", value: "M - Water Spirit - Billows" },
   "M - Five Elements Circulation+": { name: "M - Five Elements Circulation", value: "M - Five Elements Circulation" },
@@ -503,6 +505,7 @@ module.exports = {
   "M - Metal Spirit - Needle+": { name: "M - Metal Spirit - Needle", value: "M - Metal Spirit - Needle" },
   "M - Fire Spirit - Flame Eater+": { name: "M - Fire Spirit - Flame Eater", value: "M - Fire Spirit - Flame Eater" },
   "M - Earth Spirit Mountains+": { name: "M - Earth Spirit Mountains", value: "M - Earth Spirit Mountains" },
+  "M - Cosmos Seal": { name: "M - Cosmos Seal", value: "M - Cosmos Seal" },
   //! Duan Xuan Sect
   "M - Rakshasa Pouncing+": { name: "M - Rakshasa Pouncing", value: "M - Rakshasa Pouncing" },
   "M - Sinking Qi+": { name: "M - Sinking Qi", value: "M - Sinking Qi" },
@@ -510,6 +513,7 @@ module.exports = {
   "M - Youthful Vigor+": { name: "M - Youthful Vigor", value: "M - Youthful Vigor" },
   "M - Exercise Bones+": { name: "M - Exercise Bones", value: "M - Exercise Bones" },
   "M - Crash Fist Poke+": { name: "M - Crash Fist Poke", value: "M - Crash Fist Poke" },
+  "M - Standing Firm": { name: "M - Standing Firm", value: "M - Standing Firm" },
 
   //* Feast of Zongzi
   "Red Bean Zongzi": { name: "Red Bean Zongzi", value: "Red Bean Zongzi" },

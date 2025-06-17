@@ -3259,6 +3259,12 @@ module.exports = {
     "Phase": "Incarnation",
     "Effect": ["**DEF**+2/10/18\nFor the next 1 attack with **Sword Intent**, after **Sword Intent** is used, add an equal amount of **Qi**"]
   },
+  "M - Flying Fang Sword": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/zvvbHVh.png",
+    "Phase": "Immortality",
+    "Effect": ["4/8/12 ATK\nChase\nReturn the **Sword Intent** used by this attack"]
+  },
   //* Heptastar Pavillion
   "M - Cutting Weeds": {
     "sect": "Heptastar Pavillion",
@@ -3301,6 +3307,12 @@ module.exports = {
     "image": "https://i.imgur.com/b0SkZKF.png",
     "Phase": "Immortality",
     "Effect": ["**DEF**+2/4/6\n**Hexagram**+2/3/4\n**Upgrade** the next card used, and for every 3 **Hexagram**, **Upgrade** 1 more (restored after the battle)"]
+  },
+  "M - Dotted Around": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/ComYXol.png",
+    "Phase": "Immortality",
+    "Effect": ["Qi+2/3/4\nStar Power+1/1/2\nThe next time you gain **Qi**, convert up to 4/8/12 points of it into **Star Power**"]
   },
   //* Five Elements Alliance
   "M - Fire Spirit - Flame Eater": {
@@ -3345,6 +3357,12 @@ module.exports = {
     "Effect": ["DEF+10/15/20\nYour **DEF** is halved, and for each point reduced, deal 1 **DMG**"],
     "Earth Spirit": ["In your next turn, restore the **DEF** reduced this way"]
   },
+  "M - Cosmos Seal": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/hBoLiOr.png",
+    "Phase": "Immortality",
+    "Effect": ["5/7/9 ATK\nQi+1/2/3\n**Active** the **Five Elements** in the next grid\nWhile in the deck, the deck is considered to have 2 additional types of **Five Elements** (non-stackable)"]
+  },
   //* Duan Xuan Sect
   "M - Youthful Vigor": {
     "sect": "Duan Xuan Sect",
@@ -3386,12 +3404,12 @@ module.exports = {
     "Cost": ["3 HP"],
     "Effect": ["9 **ATK**\nFor every 8/7/6 **Physique**, the next Crash Fist increase 1 **ATK**"]
   },
-  // "": {
-  //   "sect": "",
-  //   "image": "https://i.imgur.com/AfFp7pu.png",
-  //   "Phase": "",
-  //   "Effect": [""],
-  // },
+  "M - Standing Firm": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/bCw58wf.png",
+    "Phase": "Immortality",
+    "Effect": ["Force+2\nAdd 2/3/4 **DEF** for each **Force**\nExhasust **Agiligt**, add 2 **HP** for each point exhausted"],
+  },
 
   //! Event Cards
   //-------------------------------------
@@ -3885,6 +3903,10 @@ module.exports = {
     "Effect": ["3/6/9 ATK"],
   },
   //! Get a Random Card
+
+  //! Dictionary Entries
+  //? Used for `/card Fuluist` to list all cards in a given sect/side job
+  
 
   // "": {
   //   "sect": "",
