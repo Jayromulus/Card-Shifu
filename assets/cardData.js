@@ -3906,7 +3906,48 @@ module.exports = {
 
   //! Dictionary Entries
   //? Used for `/card Fuluist` to list all cards in a given sect/side job
-  
+  "Elixirist": {
+    "Meditation": ["Earth Spirit Elixir\nFundamental Elixir\nSmall Recover Elixir"],
+    "Foundation": ["Bodybuilding Elixir\nCloud Elixir\nExorcism Elixir"],
+    "Virtuoso": ["Resurrection Elixir\nHealing Elixir\nDivine Power Elixir"],
+    "Immortality": ["Great Recover Elixir\nSpiritage Elixir\nTalent Elixir"],
+    "Incarnation": ["Ice Spirit Guard Elixir\nGreat Bodybuilding Elixir\nEnlightenment Elixir"]
+  },
+  "Fuluist": {
+    "Meditation": [""],
+    "Foundation": [""],
+    "Virtuoso": [""],
+    "Immortality": [""],
+    "Incarnation": [""]
+  },
+  "Fuluist": {
+    "Meditation": [""],
+    "Foundation": [""],
+    "Virtuoso": [""],
+    "Immortality": [""],
+    "Incarnation": [""]
+  },
+  "Fuluist": {
+    "Meditation": [""],
+    "Foundation": [""],
+    "Virtuoso": [""],
+    "Immortality": [""],
+    "Incarnation": [""]
+  },
+  "Fuluist": {
+    "Meditation": [""],
+    "Foundation": [""],
+    "Virtuoso": [""],
+    "Immortality": [""],
+    "Incarnation": [""]
+  },
+  "Fuluist": {
+    "Meditation": [""],
+    "Foundation": [""],
+    "Virtuoso": [""],
+    "Immortality": [""],
+    "Incarnation": [""]
+  },
 
   // "": {
   //   "sect": "",
