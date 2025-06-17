@@ -3907,6 +3907,8 @@ module.exports = {
   //! Dictionary Entries
   //? Used for `/card Fuluist` to list all cards in a given sect/side job
   "Elixirist": {
+    "sect": "Elixirist",
+    "image": "https://i.imgur.com/AfFp7pu.png",
     "Meditation": ["Earth Spirit Elixir\nFundamental Elixir\nSmall Recover Elixir"],
     "Foundation": ["Bodybuilding Elixir\nCloud Elixir\nExorcism Elixir"],
     "Virtuoso": ["Resurrection Elixir\nHealing Elixir\nDivine Power Elixir"],
