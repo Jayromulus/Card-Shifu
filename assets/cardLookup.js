@@ -584,4 +584,7 @@ module.exports = {
   "Lava Seal": { name: "Lava Seal", value: "Lava Seal" },
   "Boulder Seal": { name: "Boulder Seal", value: "Boulder Seal" },
   "Wave Cutter Seal": { name: "Wave Cutter Seal", value: "Wave Cutter Seal" },
+
+  //* Card List Lookup
+  "Elixirist": { name: "Elixirist", value: "Elixirist" }
 }

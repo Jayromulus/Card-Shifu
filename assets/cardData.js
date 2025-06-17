@@ -3913,41 +3913,41 @@ module.exports = {
     "Immortality": ["Great Recover Elixir\nSpiritage Elixir\nTalent Elixir"],
     "Incarnation": ["Ice Spirit Guard Elixir\nGreat Bodybuilding Elixir\nEnlightenment Elixir"]
   },
-  "Fuluist": {
-    "Meditation": [""],
-    "Foundation": [""],
-    "Virtuoso": [""],
-    "Immortality": [""],
-    "Incarnation": [""]
-  },
-  "Fuluist": {
-    "Meditation": [""],
-    "Foundation": [""],
-    "Virtuoso": [""],
-    "Immortality": [""],
-    "Incarnation": [""]
-  },
-  "Fuluist": {
-    "Meditation": [""],
-    "Foundation": [""],
-    "Virtuoso": [""],
-    "Immortality": [""],
-    "Incarnation": [""]
-  },
-  "Fuluist": {
-    "Meditation": [""],
-    "Foundation": [""],
-    "Virtuoso": [""],
-    "Immortality": [""],
-    "Incarnation": [""]
-  },
-  "Fuluist": {
-    "Meditation": [""],
-    "Foundation": [""],
-    "Virtuoso": [""],
-    "Immortality": [""],
-    "Incarnation": [""]
-  },
+  // "Fuluist": {
+  //   "Meditation": [""],
+  //   "Foundation": [""],
+  //   "Virtuoso": [""],
+  //   "Immortality": [""],
+  //   "Incarnation": [""]
+  // },
+  // "Fuluist": {
+  //   "Meditation": [""],
+  //   "Foundation": [""],
+  //   "Virtuoso": [""],
+  //   "Immortality": [""],
+  //   "Incarnation": [""]
+  // },
+  // "Fuluist": {
+  //   "Meditation": [""],
+  //   "Foundation": [""],
+  //   "Virtuoso": [""],
+  //   "Immortality": [""],
+  //   "Incarnation": [""]
+  // },
+  // "Fuluist": {
+  //   "Meditation": [""],
+  //   "Foundation": [""],
+  //   "Virtuoso": [""],
+  //   "Immortality": [""],
+  //   "Incarnation": [""]
+  // },
+  // "Fuluist": {
+  //   "Meditation": [""],
+  //   "Foundation": [""],
+  //   "Virtuoso": [""],
+  //   "Immortality": [""],
+  //   "Incarnation": [""]
+  // },
 
   // "": {
   //   "sect": "",
