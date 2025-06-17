@@ -3915,41 +3915,60 @@ module.exports = {
     "Immortality": ["Great Recover Elixir\nSpiritage Elixir\nTalent Elixir"],
     "Incarnation": ["Ice Spirit Guard Elixir\nGreat Bodybuilding Elixir\nEnlightenment Elixir"]
   },
-  // "Fuluist": {
-  //   "Meditation": [""],
-  //   "Foundation": [""],
-  //   "Virtuoso": [""],
-  //   "Immortality": [""],
-  //   "Incarnation": [""]
-  // },
-  // "Fuluist": {
-  //   "Meditation": [""],
-  //   "Foundation": [""],
-  //   "Virtuoso": [""],
-  //   "Immortality": [""],
-  //   "Incarnation": [""]
-  // },
-  // "Fuluist": {
-  //   "Meditation": [""],
-  //   "Foundation": [""],
-  //   "Virtuoso": [""],
-  //   "Immortality": [""],
-  //   "Incarnation": [""]
-  // },
-  // "Fuluist": {
-  //   "Meditation": [""],
-  //   "Foundation": [""],
-  //   "Virtuoso": [""],
-  //   "Immortality": [""],
-  //   "Incarnation": [""]
-  // },
-  // "Fuluist": {
-  //   "Meditation": [""],
-  //   "Foundation": [""],
-  //   "Virtuoso": [""],
-  //   "Immortality": [""],
-  //   "Incarnation": [""]
-  // },
+  "Fuluist": {
+    "sect": "Fuluist",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Meditation": ["Thunder Fulu\nGuard Spirit Fulu\nSharp Metal Fulu"],
+    "Foundation": ["Fire Cloud Fulu\nCalm Incantation\nMist Fulu"],
+    "Virtuoso": ["Ice Incantation\nSpirit Absorb Fulu\nMiasma Fulu"],
+    "Immortality": ["Spiritage Incantation\nDistubing Fulu\nWeaken Fulu"],
+    "Incarnation": ["Soul Requiem Fulu\nDivine Walk Fulu\nThousand Evil Incantation"]
+  },
+  "Musician": {
+    "sect": "Musician",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Meditation": ["Cracking Voice\nEarth Tune\nCarefree Tune"],
+    "Foundation": ["Kindness Tune\nIllusion Tune\nSky Spirit Tune"],
+    "Virtuoso": ["Heartbroken Tune\nCraze Dance Tune\nTremelo"],
+    "Immortality": ["Regen Tune\nNine Evil Ruptsprite\nConcentric Tune"],
+    "Incarnation": ["Predicament for Immortals\nApparition Confusion\nChord In Tune"]
+  },
+  "Painter": {
+    "sect": "Painter",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Meditation": ["Toning\nPractice Writing\nGrinding Ink"],
+    "Foundation": ["Pen Walks Dragon Snake\nFeed On Illusions\nGild The Lily"],
+    "Virtuoso": ["Splash Ink\nInspiration\nAsk Dao By Paint"],
+    "Immortality": ["Reason By Analogy\nDivine Brush\nFalling Paper Clouds"],
+    "Incarnation": ["Flying Brush\nFinishing Touch\nWonderful Strokes"]
+  },
+  "Formation Master": {
+    "sect": "Formation Master",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Meditation": ["Thunderphilia Formation\nFraccide Formation\nImpact Formation"],
+    "Foundation": ["Scutturtle Formation\nCacopoisonous Formation\nCure Formation"],
+    "Virtuoso": ["Spiritage Formation\nEndless Sword Formation\nHexproof Formation"],
+    "Immortality": ["Heavenly Spirit Forceage Formation\nOctogates Lock Formation\nMotionless Tutelary Formation"],
+    "Incarnation": ["Anthomania Formation\nEcho Formation\nMeru Formation"]
+  },
+  "Plant Master": {
+    "sect": "Plant Master",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Meditation": ["Origin Herb / Rock Herb\nShuttle Orchid / Fire Orchid\nSword Bamboo / Hard Bamboo"],
+    "Foundation": ["Divine Power Grass / Lose Power Grass\nMystery Seed\nLeaf Shield Flower / Leaf Blade Flower"],
+    "Virtuoso": ["Healing Chamomile / Clear Chamomile\nSpiritual Plant Watering\nQi-seeking Sunflower / Qi-corrupting Sunflower"],
+    "Immortality": ["Flying Owl Reishi / Shadow Owl Reishi\nToxic Purple Fern / Detoxific Purple Fern\nFrozen Snow Lotus / Frozen Blood Lotus"],
+    "Incarnation": ["Mysterious Dao Fruit / Demonic Dao Fruit\nSpace Spiritual Field\nEntangling Ancient Vine / Devouring Ancient Vine"]
+  },
+  "Fortune Teller": {
+    "sect": "Fortune Teller",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Meditation": ["Fortell Fate\nExamine Body\nHeavenly Decree - Defend / Heavenly Decree - Attack"],
+    "Foundation": ["Detect Qi\nBad Omen\nHeavenly Fortune - Shun Misfortune / Heavenly Fortune - Seek Fortune"],
+    "Virtuoso": ["Lucky Start\nDisaster of Bloodshed\nHeavenly Time - Fleeting / Heavenly Time - Recurring"],
+    "Immortality": ["Everything Goes Your Way\nEverything is Unadvisable\nHeavenly Star - Pull / Heavenly Star - Guard"],
+    "Incarnation": ["Envelop in Disaster\nCycle of Fate\nHeavenly Will - Comply / Heavenly Will - Defy"]
+  },
 
   // "": {
   //   "sect": "",

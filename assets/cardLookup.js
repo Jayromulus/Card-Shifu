@@ -586,5 +586,11 @@ module.exports = {
   "Wave Cutter Seal": { name: "Wave Cutter Seal", value: "Wave Cutter Seal" },
 
   //* Card List Lookup
-  "Elixirist": { name: "Elixirist", value: "Elixirist" }
+  "Elixirist": { name: "Elixirist", value: "Elixirist" },
+  "Fuluist": { name: "Fuluist", value: "Fuluist" },
+  "Musician": { name: "Musician", value: "Musician" },
+  "Painter": { name: "Painter", value: "Painter" },
+  "Formation Master": { name: "Formation Master", value: "Formation Master" },
+  "Plant Master": { name: "Plant Master", value: "Plant Master" },
+  "Fortune Teller": { name: "Fortune Teller", value: "Fortune Teller" },
 }
