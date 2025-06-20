@@ -3360,8 +3360,8 @@ module.exports = {
   "M - Cosmos Seal": {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/hBoLiOr.png",
-    "Phase": "Immortality",
-    "Effect": ["5/7/9 ATK\nQi+1/2/3\n**Active** the **Five Elements** in the next grid\nWhile in the deck, the deck is considered to have 2 additional types of **Five Elements** (non-stackable)"]
+    "Phase": "Incarnation",
+    "Effect": ["5//8/11 ATK\nQi+1/2/3\n**Active** the **Five Elements** in the next grid\nWhile in the deck, the deck is considered to have 2 additional types of **Five Elements** (non-stackable)"]
   },
   //* Duan Xuan Sect
   "M - Youthful Vigor": {
@@ -3969,6 +3969,7 @@ module.exports = {
     "Immortality": ["Everything Goes Your Way\nEverything is Unadvisable\nHeavenly Star - Pull / Heavenly Star - Guard"],
     "Incarnation": ["Envelop in Disaster\nCycle of Fate\nHeavenly Will - Comply / Heavenly Will - Defy"]
   },
+  //! do the same as above for spirit pet, sect enchantments, and talisman
 
   // "": {
   //   "sect": "",
