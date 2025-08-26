@@ -330,7 +330,7 @@ module.exports = {
     "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/jdsG2tX.png",
     "Phase": "Incarnation",
-    "Cost": ["1 Qi"],
+    // "Cost": ["1 Qi"],
     "Effect": ["Increase your existing Sword Intent stacks by 80/110/140%"]
   },
   "Rule Sky Sword Formation": {
@@ -3190,6 +3190,7 @@ module.exports = {
     "sect": "Ye Mingming",
     "image": "https://i.imgur.com/v5Pc4Hl.png",
     "Phase": "Immortality",
+    "Cost": ["3 HP"],
     "Effect": ["Gain 2/3/4 Styx"],
     "Continuous": ["When attacking with \"Crash Fist\", it increases 1 ATK for each stack of Debuff you have (up to 6/9/12)"]
   },

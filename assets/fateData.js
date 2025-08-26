@@ -447,7 +447,7 @@ module.exports = {
     "sect": "Long Yao",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
-    "Effect": ["Destiny+10\nWhen taking Destiny damage greater than 18 in battle, reduce to 18"]
+    "Effect": ["When taking Destiny damage greater than 18 in battle, reduce to 18"]
   },
   "Pray Rain": {
     "sect": "Long Yao",
@@ -689,7 +689,7 @@ module.exports = {
     "sect": "Wu Ce",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
-    "Effect": ["The first time you Exchange Card in each round, you will priority get the card of your Phase"]
+    "Effect": ["Exchange Card Chance+3\nThe first time you Exchange Card in each round, you will priority get the card of your Phase"]
   },
   "Act Underhand": {
     "sect": "Wu Ce",
