@@ -2855,7 +2855,7 @@ module.exports = {
     "sect": "Secret Enchantment - Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
-    "Effect": ["Lost 80% MAx HP\nGain 3/4/5 stacks of Force, Guard Up and Increase ATK"]
+    "Effect": ["Lost 80% Max HP\nGain 3/4/5 stacks of Force, Guard Up and Increase ATK"]
   },
   //? Immortality
   "Strength Driven Mad": {
