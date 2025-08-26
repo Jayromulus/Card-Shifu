@@ -3191,7 +3191,7 @@ module.exports = {
     "image": "https://i.imgur.com/v5Pc4Hl.png",
     "Phase": "Immortality",
     "Cost": ["3 HP"],
-    "Effect": ["Gain 2/3/4 Styx"],
+    "Effect": ["Gain 3/4/5 Styx"],
     "Continuous": ["When attacking with \"Crash Fist\", it increases 1 ATK for each stack of Debuff you have (up to 6/9/12)"]
   },
   "Styx Moon's Glow": {
