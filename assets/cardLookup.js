@@ -434,11 +434,16 @@ module.exports = {
   "Endless Crash": { name: "Endless Crash", value: "Endless Crash" },
   "Return to Simplicity": { name: "Return to Simplicity", value: "Return to Simplicity" },
   //! Character Cards
+  //? Cloud Spirit Sword Sect
+  // Mu Yifeng
   "Spring Course Tea - myf - mu yifeng": { name: "Spring Course Tea", value: "Spring Course Tea" },
+  // Yan Xue
   "cs - Cloud Sword - Avalanche - yx - yan xue": { name: "Cloud Sword - Avalanche", value: "Cloud Sword - Avalanche" },
   "us - Unrestrained Sword - Flame Dance - yx - yan xue": { name: "Unrestrained Sword - Flame Dance", value: "Unrestrained Sword - Flame Dance" },
+  // Long Yao
   "cs - Cloud Sword - Pray Rain - ly - long yao": { name: "Cloud Sword - Pray Rain", value: "Cloud Sword - Pray Rain" },
   "Sky Delicate Bracelet - ly - long yao": { name: "Sky Delicate Bracelet", value: "Sky Delicate Bracelet" },
+  // Lin Xiaoyue
   "cs - Cloud Sword - Flying Sand - lxy - lin xiaoyue": { name: "Cloud Sword - Flying Sand", value: "Cloud Sword - Flying Sand" },
   "Bronze Cat - lxy - lin xiaoyue": { name: "Bronze Cat", value: "Bronze Cat" },
   "Dried small fish - lxy - lin xiaoyue": { name: "Dried small fish", value: "Dried small fish" },
@@ -446,35 +451,60 @@ module.exports = {
   "Cat Teaser - lxy - lin xiaoyue": { name: "Cat Teaser", value: "Cat Teaser" },
   "cs - Cloud Sword - Cat Paw - lxy - lin xiaoyue": { name: "Cloud Sword - Cat Paw", value: "Cloud Sword - Cat Paw" },
   "Spirit Cat Chaos Sword - sccs - lxy - lin xiaoyue": { name: "Spirit Cat Chaos Sword", value: "Spirit Cat Chaos Sword" },
+  // Lu Jianshin
   "Clear Heart Sword Embryo - blacksmith - lj - lu jianshin": { name: "Clear Heart Sword Embryo", value: "Clear Heart Sword Embryo" },
+  // Li Chengyun
   "Yeying Sword Formation - lcy - li chengyun": { name: "Yeying Sword Formation", value: "Yeying Sword Formation" },
+  //? Heptastar Pavillion
+  // Tan Shuyan
   "Only Traces - ot - goose - tsy - tan shuyan": { name: "Only Traces", value: "Only Traces" },
+  // Yan Chen
   "Ultimate Hexagram Base - yc - yan chen - twink": { name: "Ultimate Hexagram Base", value: "Ultimate Hexagram Base" },
   "Within Reach - wr - yc - yan chen - twink": { name: "Within Reach", value: "Within Reach" },
   "Fury Thunder - ft - yc - yan chen - twink": { name: "Fury Thunder", value: "Fury Thunder" },
+  // Yao Ling
   "Flame Flutter - yl - yao ling - hampster - rat": { name: "Flame Flutter", value: "Flame Flutter" },
   "Rotary Divination Hexagram - yl - yao ling - hampster - rat": { name: "Rotary Divination Hexagram", value: "Rotary Divination Hexagram" },
+  // Jiang Ximing
   "Starburst - jx - jiang ximing - old man - grandpa": { name: "Starburst", value: "Starburst" },
   "Heptastar Soulstat - exodia - jx - jiang ximing - old man - grandpa": { name: "Heptastar Soulstat", value: "Heptastar Soulstat" },
+  // Wu Ce
   "Perfectly Planned - snack - yummy - 😋 - wc - wu ce": { name: "Perfectly Planned", value: "Perfectly Planned" },
   "Star Moon Folding Fan - wc - wu ce": { name: "Star Moon Folding Fan", value: "Star Moon Folding Fan" },
+  // Feng Xu
+  "Jade Scroll of Yin Symbol - fx - feng xu": { name: "Jade Scroll of Yin Symbol", value: "Jade Scroll of Yin Symbol" },
+  "Solitary Void Golden Scroll - fx - feng xu": { name: "Solitary Void Golden Scroll", value: "Solitary Void Golden Scroll" },
+  "Face Isolation - fx - feng xu": { name: "Face Isolation", value: "Face Isolation" },
+  "Strike Vacuity - fx - feng xu": { name: "Strike Vacuity", value: "Strike Vacuity" },
+  //? Five Elements Alliance
+  // Wu Xingzhe
   "Gourd Of Leisurely - wx - wu xingzhe - drunk - uncle": { name: "Gourd Of Leisurely", value: "Gourd Of Leisurely" },
   "Inheritance of Five Elements - wx - wu xingzhe - drunk - uncle": { name: "Inheritance of Five Elements", value: "Inheritance of Five Elements" },
+  // Du Lingyuan
   "Overcome with each other - dly - du lingyuan": { name: "Overcome with each other", value: "Overcome with each other" },
+  // Hua Qinrui
   "Wood Spirit - Peach Blossom Seal - hqr - hua qinrui": { name: "Wood Spirit - Peach Blossom Seal", value: "Wood Spirit - Peach Blossom Seal" },
   "Water Spirit - Spring Rain - hqr - hua qinrui": { name: "Water Spirit - Spring Rain", value: "Water Spirit - Spring Rain" },
+  // Mu Hu
   "Kun Wu Metal Ring - kw - kwmr - mh - mu hu - tiger - daddy": { name: "Kun Wu Metal Ring", value: "Kun Wu Metal Ring" },
   "Metal Spirit - Vigorous - mh - mu hu - tiger - daddy": { name: "Metal Spirit - Vigorous", value: "Metal Spirit - Vigorous" },
   "Earth Spirit - Landslide - mh - mu hu - tiger - daddy": { name: "Earth Spirit - Landslide", value: "Earth Spirit - Landslide" },
+  // Qi Wangyou
   "Heavenly Rain - hr - qwy - qi wangyou": { name: "Heavenly Rain", value: "Heavenly Rain" },
   "Forget Worries - fw - qwy - qi wangyou": { name: "Forget Worries", value: "Forget Worries" },
+  //? Duan Xuan Sect
+  // Xiao Bu
   "Unceasing Exercise - xb - xiao bu": { name: "Unceasing Exercise", value: "Unceasing Exercise" },
+  // Tu Kui
   "Overwhelming Power - tk - tu kui": { name: "Overwhelming Power", value: "Overwhelming Power" },
+  // Ye Mingming
   "Gone Crazy - ymm - ye mingming": { name: "Gone Crazy", value: "Gone Crazy" },
   "cf - Crash Fist - Styx Night - stygian - stigian - ymm - ye mingming": { name: "Crash Fist - Styx Night", value: "Crash Fist - Styx Night" },
   "Styx Moon's Glow - stygian - stigian - ymm - ye mingming": { name: "Styx Moon's Glow", value: "Styx Moon's Glow" },
+  // Ji Fangsheng
   "Meditation of Xuan - jfs - ji fangsheng": { name: "Meditation of Xuan", value: "Meditation of Xuan" },
   "Wan Xuan Demon Breaking Palm - dbp - jfs - ji fangsheng": { name: "Wan Xuan Demon Breaking Palm", value: "Wan Xuan Demon Breaking Palm" },
+  // Li Man
   "Double Stick - lm - li man - mortal": { name: "Double Stick", value: "Double Stick" },
   "Red Gold Dragon Stick - lm - li man - mortal": { name: "Red Gold Dragon Stick", value: "Red Gold Dragon Stick" },
   "Counter Move - lm - li man - mortal": { name: "Counter Move", value: "Counter Move" },

@@ -86,6 +86,7 @@ const sectIcons = {
   'Wu Ce': 'https://i.imgur.com/kyVvZ0T.png',
   'Jiang Ximing': 'https://i.imgur.com/bDJE7P4.png',
   'Yao Ling': 'https://i.imgur.com/a6390w3.png',
+  'Feng Xu': 'https://i.imgur.com/b7pCmgi.png', // update to icon
   'Xiao Bu': 'https://i.imgur.com/HHifHKr.png',
   'Tu Kui': 'https://i.imgur.com/gwJl2x0.png',
   'Ye Mingming': 'https://i.imgur.com/t8bMlIj.png',
@@ -97,7 +98,7 @@ const cards = require('../assets/cardData')
 const lookup = require('../assets/cardLookup')
 const cardNames = Object.keys(lookup)
 const uf = uFuzzy({ intraMode: 1 })
-let isPenguin = false;
+let isPenguin = false
 const penguin = 'https://i.imgur.com/0yrHc1V.png'
 
 module.exports = {

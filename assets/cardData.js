@@ -3066,6 +3066,34 @@ module.exports = {
     "Effect": ["If Qi >= 1, Star Power+1/2/3\nIf Star Power >= 3, Chase"],
     "Continuous": ["The Qi cost of cards on Star Point are reduced by 1"]
   },
+  "Jade Scroll of Yin Symbol": {
+    "sect": "Feng Xu",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Effect": ["**Qi**+1\nApply 1/2/3 **Weakened** and 2 **Flaw**"],
+    "Continuous": ["The **Weakened** and **Flaw** effects on the opponent are increased from 40% to 50%"]
+  },
+  "Solitary Void Golden Scroll": {
+    "sect": "Feng Xu",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Qi**+2/4/4"],
+    "Level 1": ["HP+6"],
+    "Level 2": ["**DEF**+6"],
+    "Level 3": ["For each of your **Qi**, apply 1 **Internal Injury**, then halve your **Qi**"]
+  },
+  "Face Isolation": {
+    "sect": "Feng Xu",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["When you are attacked next time, apply 1 **Weakened** to the opponent\nChase"],
+  },
+  "Strike Vacuity": {
+    "sect": "Feng Xu",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["When you attack next time, apply 1 **Flaw** to the opponent\nChase"],
+  },
   //* Five Elements Alliance
   "Gourd Of Leisurely": {
     "sect": "Wu Xingzhi",
