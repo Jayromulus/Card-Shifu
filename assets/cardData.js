@@ -3239,7 +3239,19 @@ module.exports = {
     "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/2znHts8.png",
     "Phase": "Immortality",
-    "Effect": ["Randomly play a **Regular Card** from hand that adds **Qi** (up to lv.1/2/3), if it is an Immortality Phase card or lower: 3 ATK x 2 (1 more ATK for every 2 point of **Qi**)"],
+    "Effect": ["Play the rightmost **Regular Card** from hand that adds **Qi** (up to lv.1/2/3), if it is an Immortality Phase card or lower: 3/5/7 ATK (1 more ATK for every 2 point of **Qi**)"],
+  },
+  "M - Flying Fang Sword": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/zvvbHVh.png",
+    "Phase": "Immortality",
+    "Effect": ["4/8/14 ATK\nChase\nReturn the **Sword Intent** used by this attack"]
+  },
+  "M - Diligent Sword": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/g54VnV8.png",
+    "Phase": "Immortality",
+    "Effect": ["6/10/14 ATK\nThe next 1 Sword card (excl. **Cloud** / **Unrestrained** / **Spirit** / **Formation**) gain Chase\nCultivation >= 85/80/75: the next 1 more such card gain Chase"],
   },
   "M - Cloud Sword - Touch Sky": {
     "sect": "Cloud Spirit Sword Sect",
@@ -3253,17 +3265,23 @@ module.exports = {
     "Phase": "Incarnation",
     "Cloud Hit": ["6/12/12 ATK (Add 2/2/3 more ATK for each attack performed in combat)"],
   },
+  "M - Cloud Dance Rhythm": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/LcBIZBC.png",
+    "Phase": "Incarnation",
+    "Cloud Hit": ["**Qi**+2/3/4\n**DEF**+4/6/8\n**Sword Intent**+2/3/4\nGain 1 **Sword Intent** for each card used"],
+  },
+  "M - Unrestrained Sword Dragon Coiled": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/DjxJGnI.png",
+    "Phase": "Incarnation",
+    "Cloud Hit": ["**DEF**+12/16/20\nFor each Sword Formation used, gain 3/4/5 **DEF** in your next turn.\nWhile in the deck, all Unrestrained Sword **Regular Card** are also counted as Sword Formation"],
+  },
   "M - Consonance Sword Formation": {
     "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/4rPscD2.png",
     "Phase": "Incarnation",
-    "Effect": ["**DEF**+2/10/18\nFor the next 1 attack with **Sword Intent**, after **Sword Intent** is used, add an equal amount of **Qi**"]
-  },
-  "M - Flying Fang Sword": {
-    "sect": "Cloud Spirit Sword Sect",
-    "image": "https://i.imgur.com/zvvbHVh.png",
-    "Phase": "Immortality",
-    "Effect": ["4/8/12 ATK\nChase\nReturn the **Sword Intent** used by this attack"]
+    "Effect": ["**DEF**+6/10/14\nAdd 1 **Qi** for every 4 **DEF** you have"]
   },
   //* Heptastar Pavillion
   "M - Cutting Weeds": {
@@ -3271,7 +3289,7 @@ module.exports = {
     "image": "https://i.imgur.com/9ocaE8w.png",
     "Phase": "Immortality",
     "Cost": ["1 Qi"],
-    "Effect": ["Reduces the opponent's Max HP to their current HP minus 8 (Exhaust Qi reduces 3/4/4 more, Exhaust Hexagram, each reduces 3/3/4 more)"],
+    "Effect": ["Reduces the opponent's Max HP to their current HP minus 8 (Exhasust Qi reduces 3/4/4 more, Exhaust **Qi** / **Hexagram**, each reduces 3/4/4 / 3/3/4 more)"],
   },
   "M - Ruthless Water": {
     "sect": "Heptastar Pavillion",
@@ -3281,26 +3299,6 @@ module.exports = {
     "Effect": ["Apply 2/3/5 **Internal Injury**"],
     "Continuous": ["Whenever the opponent gain 1 stack of **Debuff** other than **Internal Injury**, they also gain 1 **Internal Injury**"],
     "Notes": ["*Does not take effect on **Styx***"]
-  },
-  "M - Astral Fleche": {
-    "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/txmJNdI.png",
-    "Phase": "Immortality",
-    "Effect": ["5 ATK\n**Star Power**+1/2/3\nIf this card not on **Star Point**, Chase"],
-  },
-  "M - Shifting Stars": {
-    "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/RP4Z7xF.png",
-    "Phase": "Incarnation",
-    "Effect": ["The next slot **Become Star Point**"],
-    "Continuous": ["After each \"Astral Move\" card is played, the next slot **Become Star Point** and make an additional 2/4/6 ATK"]
-  },
-  "M - Incessant": {
-    "sect": "Heptastar Pavillion",
-    "image": "https://i.imgur.com/jHZBLyV.png",
-    "Phase": "Incarnation",
-    "Effect": ["6 ATK\nGain 2/3/4 **Regeneration**\nMax HP+6/9/12 (add 1 more for each **Regeneration**)"],
-    "Post Action": ["add Max HP and HP instead"]
   },
   "M - Earth Hexagram": {
     "sect": "Heptastar Pavillion",
@@ -3312,43 +3310,95 @@ module.exports = {
     "sect": "Heptastar Pavillion",
     "image": "https://i.imgur.com/ComYXol.png",
     "Phase": "Immortality",
-    "Effect": ["Qi+2/3/4\nStar Power+1/1/2\nThe next time you gain **Qi**, convert up to 4/8/12 points of it into **Star Power**"]
+    "Effect": ["Qi+2\nStar Power+1/1/2\nWhen you add **Qi**, add equal amount of **Star Power** (up to 3/5/7 this way)"]
+  },
+  "M - Vitality Blossom": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["HP and Max HP+10/15/20"],
+    "Continuous": ["At the end of your turn, add 8/12/16 HP (the excess increase Max HP by the same amount), then lose 8/12/16 HP"]
+  },
+  "M - Shifting Stars": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/RP4Z7xF.png",
+    "Phase": "Incarnation",
+    "Effect": ["The next slot **Become Star Point**"],
+    "Continuous": ["After each \"Astral Move\" card is played, the next slot **Become Star Point** and make an additional 2/4/6 ATK"]
+  },
+  "M - Astral Fleche": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/txmJNdI.png",
+    "Phase": "Immortality",
+    "Effect": ["5/9/9 ATK\n**Star Power**+1/1/2\nIf this card not on **Star Point**, Chase"],
+  },
+  "M - Incessant": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/jHZBLyV.png",
+    "Phase": "Incarnation",
+    "Effect": ["6 ATK\nGain 2/3/4 **Regeneration**\nMax HP+6/9/12 (add 1 more for each **Regeneration**)"],
+    "Post Action": ["add Max HP and HP instead"]
+  },
+  "M - Flower Sentient": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/ciN2CK5.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Qi**+3\nApply 1/2/3 **Internal Injury**\nEach time your opponent gains **Internal Injury**, 2 more are added, lasts for 3/4/5 turns"],
+  },
+  "M - Yin Yang Formation": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/CYbjBnL.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Qi**+0/1/2\nGain 1 **DEF**  and HP for each point of **Qi** or **Hexagram**\nSwap your **Qi** and **Hexagram**"],
   },
   //* Five Elements Alliance
-  "M - Fire Spirit - Flame Eater": {
+  "M - Fire Spirit Flame Eater": {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/s9ZoqEi.png",
     "Phase": "Immortality",
-    "Effect": ["**Qi**+3/4/5\nOpponent loses 3/5/7 HP and Max HP"],
-    "Fire Spirit": ["Cost 5 **Qi** to make the next Fire Spirit or Earth Spirit card trigger twice"]
+    "Effect": ["**Qi**+3/4/5\nOpponent loses 4/6/8 HP and Max HP"],
+    "Fire Spirit": ["Cost 4 **Qi** to make the next Fire Spirit or Earth Spirit card trigger twice"]
   },
-  "M - Wood Spirit - Recovery": {
+  "M - Wood Spirit Recovery": {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/gZg8cql.png",
     "Phase": "Immortality",
-    "Effect": ["**Qi**+1\nRestore your HP to what it was at the start of your last turn (up to 15)"],
+    "Effect": ["**Qi**+2\nRestore your HP to what it was at the start of your last turn (up to +15)"],
     "Wood Spirit": ["If you have already added HP, gain 1/2/3 **Increase ATK**"]
   },
-  "M - Metal Spirit - Needle": {
+  "M - Metal Spirit Needle": {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/1QFXoug.png",
     "Phase": "Immortality",
     "Effect": ["6 ATK (**Ignore DEF**)\n**Penetrate**+4/7/10"],
     "Metal Spirit": ["The next time you trigger **Penetrate**, return the triggered **Penetrate**"]
   },
-  "M - Water Spirit - Billows": {
+  "M - Earth Spirit Formation": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/TJYlgna.png",
+    "Phase": "Immortality",
+    "Effect": ["Gain 1 **Force of Water**\n**Activate Earth Spirit**, **Activate Water Spirit**"],
+    "Continuous": ["At the end of your turn, gain 1 ***DEF** for each **Force of Water** (up to 4/10/16)"]
+  },
+  "M - Fire Spirit Seal": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/OfwCcyP.png",
+    "Phase": "Immortality",
+    "Effect": ["**Qi**+2\nOpp loses 3 HP&Max HP\nWhen you gain **Penetrate**, lose all gained and opp loses 2 HP&Max HP per stack (3/4/5 turns)"],
+    "Opening": ["**Activate Fire and Metal Spirit**"]
+  },
+  "M - Water Spirit Billows": {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/nApFgd5.png",
     "Phase": "Incarnation",
-    "Effect": ["Gain 3/4/5 Force of Water.\nAt the end of your turn, Force of Water triggers an additional time (lasts 2 rounds)"],
+    "Effect": ["Gain 3/4/5 **Force of Water**.\nAt the end of your turn, **Force of Water** triggers an additional time (lasts 2 rounds)"],
     "Water Spirit": ["This card consumes 0 **Qi**"]
-    // "Water Spirit": ["Consumption of Qi is 0"]
   },
   "M - Five Elements Circulation": {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/zE8WxKF.png",
     "Phase": "Incarnation",
-    "Effect": ["Qi+2/2/3\nIf there is **Five Element Generating Interaction** between pre and next slot, **Activate** both and Chase\nGain 1/2/3 **DEF** for each **Five Elements Activated**"],
+    "Effect": ["Qi+2/3/4\nIf there is **Five Element Generating Interaction** between pre and next slot, **Activate** next slot and Chase\nGain 1/2/3 **DEF** for each **Five Elements Activated**"],
   },
   "M - Earth Spirit Mountains": {
     "sect": "Five Elements Alliance",
@@ -3363,52 +3413,76 @@ module.exports = {
     "Phase": "Incarnation",
     "Effect": ["5//8/11 ATK\nQi+1/2/3\n**Active** the **Five Elements** in the next grid\nWhile in the deck, the deck is considered to have 2 additional types of **Five Elements** (non-stackable)"]
   },
+  "M - Metal Spirit Seal": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/A6lW4hM.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Penetrate**+8/12/16\n**Activate Metal Spirit**\n**Activate Wood Spirit**\nWhen you add HP, convert it to **Penetrate** instead, lasts for 3/4/5 turns"]
+  },
   //* Duan Xuan Sect
   "M - Youthful Vigor": {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/F2AywE9.png",
     "Phase": "Immortality",
     "Cost": ["2 HP"],
-    "Effect": ["6/8/10 ATK x 2\nFor every 20/16/12 HP added in this battle, make an additional attack (up to 2 times)"],
+    "Effect": ["6 ATK x 2\nFor every 24/18/14 HP added in this battle, make an additional attack"],
   },
   "M - Exercise Bones": {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/rZ9FTUX.png",
     "Phase": "Immortality",
-    "Continuous": ["Whenever you add 1 **Physique**, gain 2/3/4 HP (If your **Physique** exceeds the cap, also deal 1 **DMG** to the opponent)"],
+    "Continuous": ["Whenever you add 1 **Physique**, If your **Physique** exceeds the cap, gain 2/3/4 HP and deal 1 **DMG** to the opponent"],
   },
   "M - Sinking Qi": {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/xGimJqh.png",
     "Phase": "Immortality",
-    "Effect": ["**Qi**+2/3/4\nHP+6/7/8\nIncrease 10% ATK for each **Qi** when attacking, lasts 2 turns"],
+    "Effect": ["**Qi**+2/3/3\nHP+6/7/7\nIncrease 10% ATK for each **Qi** when attacking, lasts 2/2/3 turns"],
+  },
+  "M - Standing Firm": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/bCw58wf.png",
+    "Phase": "Immortality",
+    "Effect": ["**Force**+2\n**DEF**+4\nAdd 2/3/4 **DEF** for each **Force**\nAdd 2 HP for each **Agility**\n**Agility** Decreased to 5"],
+  },
+  "M - Endless Entanglement": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["**Physique**+2/4/6\nBoth players gain 2/3/4 **Internal Injury**\nFor each 30 **Physique**, both players' **Internal Injury** will trigger an additional 1 time at their next turn"],
   },
   "M - Double Trouble": {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/BEuS8oo.png",
     "Phase": "Incarnation",
     "Cost": ["1 Qi"],
-    "Effect": ["6/8/10 ATK x 2\nBoth players gain 2/4/6 **Internal Injury**, 1 **Weakened** and 1 **Wound**"],
+    "Effect": ["6/8/10 ATK x 2\nBoth players gain 2/4/6 **Internal Injury**, 1 **Wound** and 1 **Weakened**"],
   },
   "M - Rakshasa Pouncing": {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/gf2wBVt.png",
     "Phase": "Incarnation",
     "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n12/18/24 ATK"],
-    // "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n6 ATK x 2"],
   },
   "M - Crash Fist Poke": {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/dT2jQ1J.png",
     "Phase": "Incarnation",
     "Cost": ["3 HP"],
-    "Effect": ["9 **ATK**\nFor every 8/7/6 **Physique**, the next Crash Fist increase 1 **ATK**"]
+    "Effect": ["12 **ATK**\nFor every 8/7/6 **Physique**, the next Crash Fist increase 1 **ATK**"]
   },
-  "M - Standing Firm": {
+  "M - Magnanimous Righteosness": {
     "sect": "Duan Xuan Sect",
-    "image": "https://i.imgur.com/bCw58wf.png",
-    "Phase": "Immortality",
-    "Effect": ["Force+2\nAdd 2/3/4 **DEF** for each **Force**\nExhasust **Agiligt**, add 2 **HP** for each point exhausted"],
+    "image": "https://i.imgur.com/fd1fg2E.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Qi**+2\n**Agility**+6\nRemove up to 4/6/8 stacks of **Debuff**, and for each stack removed, gain 1 **Agility** and **Force**"],
+  },
+  "M - Crash Fist Entangle": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/pzA9HtR.png",
+    "Phase": "Incarnation",
+    "Cost": ["4 HP"],
+    "Effect": ["Apply 2 **Wound**\n3 ATK x 2/3/4\nAfter you played the next Crash Fist, make 3 ATK x 2"],
   },
 
   //! Event Cards
