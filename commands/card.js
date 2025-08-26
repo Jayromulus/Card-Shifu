@@ -38,6 +38,7 @@ const sectColors = {
   'Tan Shuyan': 0x3f2d79,
   'Yan Chen': 0x3f2d79,
   'Wu Ce': 0x3f2d79,
+  'Feng Xu': 0x3f2d79,
   'Jiang Ximing': 0x3f2d79,
   'Yao Ling': 0x3f2d79,
   'Xiao Bu': 0x6b2121,
