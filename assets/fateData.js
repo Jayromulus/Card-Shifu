@@ -725,7 +725,7 @@ module.exports = {
     "sect": "Feng Xu",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
-    "Effect": ["At the start of battle, if your deck contains exactly the following 2 Hexagram cards, those cards increase the corresponding effects:\nZhen Hexagram: Apply 4 stacks of **Flaw**\nEarth Hexagram: Apply 2 stacks of **Weakened**\nWind Hexagram: **Qi**+4\nMountain Hexagram: HP and Max HP + 10\nWater Hexagram: Make 4 more slots in your deck **Become Star Point**\nLake Hexagram: Apply 3 stacks of **Internal Injury**\nFlame Hexagram: **Hexagram**+1\nHeaven Hexagram: Chase"]
+    "Effect": ["At the start of battle, if your deck contains exactly the following 2 Hexagram cards, those cards increase the corresponding effects:\n\nZhen Hexagram: Apply 4 stacks of **Flaw**\nEarth Hexagram: Apply 2 stacks of **Weakened**\nWind Hexagram: **Qi**+4\nMountain Hexagram: HP and Max HP + 10\nWater Hexagram: Make 4 more slots in your deck **Become Star Point**\nLake Hexagram: Apply 3 stacks of **Internal Injury**\nFlame Hexagram: **Hexagram**+1\nHeaven Hexagram: Chase"]
   },
   "Solitary Void Golden Scroll": {
     "sect": "Feng Xu",
