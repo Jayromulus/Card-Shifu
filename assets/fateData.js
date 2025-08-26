@@ -703,6 +703,36 @@ module.exports = {
     "Phase": "Incarnation",
     "Effect": ["Lost 3 Exchange Card Chance.\nThe seventh slot in your deck becomes Star Point.\nDraw 1 __Star Moon Folding Fan__"]
   },
+  "Wind in Sky": {
+    "sect": "Feng Xu",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Effect": ["Each time you break through the Phase, lose 4 Cul. and draw 4 cards"]
+  },
+  "Jade Scroll of Yin Symbol": {
+    "sect": "Feng Xu",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Effect": ["Gain 1 Jade Scroll of Yin Symbol"]
+  },
+  "Spirit Hexagram Evolves": {
+    "sect": "Feng Xu",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Effect": ["If you have added **Qi** om your turn, gain 1 **Hexagram** at the end of the turn"]
+  },
+  "Hexagrams Explain": {
+    "sect": "Feng Xu",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["At the start of battle, if your deck contains exactly the following 2 Hexagram cards, those cards increase the corresponding effects:\nZhen Hexagram: Apply 4 stacks of **Flaw**\nEarth Hexagram: Apply 2 stacks of **Weakened**\nWind Hexagram: **Qi**+4\nMountain Hexagram: HP and Max HP + 10\nWater Hexagram: Make 4 more slots in your deck **Become Star Point**\nLake Hexagram: Apply 3 stacks of **Internal Injury**\nFlame Hexagram: **Hexagram**+1\nHeaven Hexagram: Chase"]
+  },
+  "Solitary Void Golden Scroll": {
+    "sect": "Feng Xu",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Lose 2 Cultivation, gain 1 __Solitary Void Golden Scroll__.\nAt the beginning of the battle:\nIf the previous slot of __Solitary Void Golden Scroll__ is empty, temporarily generate __Face Isolation__, and if the next slot if empty, temporarily generate __Strike Vacuity__. For each slot without generation, upgrade __Solitary Void Golden Scroll__ by 1 level (restored after the battle)."]
+  },
 
   //* Five Elements Alliance
   "Battle Experience": {
