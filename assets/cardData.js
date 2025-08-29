@@ -3256,7 +3256,7 @@ module.exports = {
     "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/VxnPnP1.png",
     "Phase": "Immortality",
-    "Effect": ["4/8/12 ATK\nAdd 1 **DEF**(up to 4/12/20) for each **Qi**\nIf the number of Spirit Sword in the deck >= 3/2/1, Chase"],
+    "Effect": ["4/8/12 ATK\nAdd 2 **DEF**(up to 4/12/20) for each **Qi**\nIf the number of Spirit Sword in the deck >= 3/2/1, Chase"],
   },
   "M - Light Sword": {
     "sect": "Cloud Spirit Sword Sect",
@@ -3274,7 +3274,7 @@ module.exports = {
     "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/zvvbHVh.png",
     "Phase": "Immortality",
-    "Effect": ["4/8/14 ATK\nChase\nReturn the **Sword Intent** used by this attack"]
+    "Effect": ["4 ATK\nChase\nReturn the **Sword Intent** used by this attack and add an additional 1/2/3 **Sword Intent**"]
   },
   "M - Diligent Sword": {
     "sect": "Cloud Spirit Sword Sect",
@@ -3365,7 +3365,7 @@ module.exports = {
     "sect": "Heptastar Pavillion",
     "image": "https://i.imgur.com/jHZBLyV.png",
     "Phase": "Incarnation",
-    "Effect": ["6 ATK\nGain 2/3/4 **Regeneration**\nMax HP+6/9/12 (add 1 more for each **Regeneration**)"],
+    "Effect": ["6 ATK\nGain 2/3/4 **Regeneration**\nMax HP+9/12/15 (add 1 more for each **Regeneration**)"],
     "Post Action": ["add Max HP and HP instead"]
   },
   "M - Flower Sentient": {
@@ -3427,7 +3427,7 @@ module.exports = {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/zE8WxKF.png",
     "Phase": "Incarnation",
-    "Effect": ["Qi+2/3/4\nIf there is **Five Element Generating Interaction** between pre and next slot, **Activate** next slot and Chase\nGain 1/2/3 **DEF** for each **Five Elements Activated**"],
+    "Effect": ["Qi+2/3/4\nIf there is **Five Element Generating Interaction** between pre and next slot, **Activate** next slot and Chase\nGain 2/4/6 **DEF** for each **Five Elements Activated**"],
   },
   "M - Earth Spirit Mountains": {
     "sect": "Five Elements Alliance",
@@ -3491,7 +3491,7 @@ module.exports = {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/gf2wBVt.png",
     "Phase": "Incarnation",
-    "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n12/18/24 ATK"],
+    "Effect": ["Qi+1\nConvert all opponent's debuff to Wound\n12/18/24 ATK\nNext 3/4/5 ATK **Ignore DEF**"],
   },
   "M - Crash Fist Poke": {
     "sect": "Duan Xuan Sect",
