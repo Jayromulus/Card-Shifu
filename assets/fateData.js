@@ -719,7 +719,7 @@ module.exports = {
     "sect": "Feng Xu",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
-    "Effect": ["If you have added **Qi** om your turn, gain 1 **Hexagram** at the end of the turn"]
+    "Effect": ["If you have added **Qi** on your turn, gain 1 **Hexagram** at the end of the turn"]
   },
   "Hexagrams Explain": {
     "sect": "Feng Xu",
