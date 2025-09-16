@@ -7,3 +7,5 @@ assets/*/
 !assets/cardLookup.js
 !assets/fateData.js
 !assets/fateLookup.js
+!assets/sigilData.js
+!assets/sigilLookup.js
