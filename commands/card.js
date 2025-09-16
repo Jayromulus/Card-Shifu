@@ -172,7 +172,7 @@ async function displayEmbed(interaction, flippedName) {
   const level = 0
   const keys = Object.keys(selected)
 
-  const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}` }))
+  const fields = await keys.map((field) => ({ name: field, value: Array.isArray(selected[field]) ? `${selected[field][level]}` : `${selected[field]}`, inline: field === "Phase" || field === "Cost" }))
   fields.shift()
   const iconFromCard = fields.shift()
   const icon = (isPenguin && selectedName === 'Envelop in Disaster') ? penguin : iconFromCard.value !== 'https://i.imgur.com/AfFp7pu.png' ? iconFromCard.value : sectIcons[selected.sect]

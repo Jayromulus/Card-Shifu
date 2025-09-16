@@ -636,6 +636,7 @@ module.exports = {
     "sect": "Heptastar Pavillion",
     "image": "https://i.imgur.com/Rxw2XLj.png",
     "Phase": "Immortality",
+    "Cost": "1 Qi",
     "Effect": ["DEF+9/12/15\nHP+9/12/15"],
     "Post Action": ["Gain 1 stack of Guard Up"]
   },
