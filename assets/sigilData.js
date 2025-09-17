@@ -80,6 +80,46 @@ module.exports = {
     // "HP Modification": 0,
     "Effect": "When the opponent plays a card that can be **Downgraded** next time, **Downgrade** it (restored after the battle)"
   },
+  "Strong Attack": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Sigil Value": 1,
+    "HP Modification": 1,
+    "Effect": "Deal 2 more **ATK** in the next attack"
+  },
+  "Suppress": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Effect": "Deal 1 **DMG** (increase 1 **DMG** for every 1 Cultivation higher than the opponent, maximum increase of 6)"
+  },
+  "Dissipate Force": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 1,
+    "HP Modification": 4,
+    "Effect": "Remove 1 stack of the opponent's **Increase ATK** and **Guard Up**"
+  },
+  "Sigil Enhancement": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 1,
+    "HP Modification": 6,
+    "Passive Effect": "At the start of the battle, the **Sigil** in the next slot permanently increase 1 Phase (maximum up to Incarnation Phase)"
+  },
+  "Guard Up": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 2,
+    "HP Modification": 4,
+    "Effect": "Gain 2 **Guard Up**"
+  },
   //? Cloud Spirit Sword Sect
   "Cloud Rise": {
     "sect": "Cloud Spirit Sword Sect",
@@ -160,6 +200,46 @@ module.exports = {
     "Sigil Value": 3,
     "HP Modification": 12,
     "Passive Effect": "After playing the **Cloud Sword** in the first slot of the deck, trigger **Chase** if you **Injured** the opponent\nAll your **Cloud Sword - Dragon Roam** gain **Chase**"
+  },
+  "Sword Practice": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Effect": "Gain 1 **Sword Intent** after playing **Sword Slash** or **Sword Defence** next time"
+  },
+  "Flying Fang": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 2,
+    "HP Modification": 4,
+    "Effect": "After the next card attacks, refund the **Sword Intent** used for its attack (maximum 4 points)"
+  },
+  "Earth Fiend": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 1,
+    "HP Modification": 4,
+    "Effect": "Add **DEF** for each damage dealt to HP of your next ATK (maximum 8)"
+  },
+  "Concentrate on Formation": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 1,
+    // "HP Modification": 0,
+    "Effect": "When playing a **Sword Formation** card next time, gain 2 **DEF** for every 1 **Sword Intent**"
+  },
+  "Control Sword to Form Formation": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 3,
+    // "HP Modification": 0,
+    "Passive Effect": "Each time you gain **DEF**, gain an addition 2 **DEF** and deal 2 **DMG** to the opponent (can be triggered at most 15 times per battle)"
   },
   //? Heptastar Pavillion
   "Shift Stars": {
@@ -242,6 +322,46 @@ module.exports = {
     "HP Modification": 6,
     "Effect": "Double the opponent's **Internal Injury**\nIf the opponent has no **Internal Injury**, instead apply 6 **Internal Injury**"
   },
+  "Thunderbolt": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Passive Effect": "For ATK with a random range, increase their ATK upper limit by 1"
+  },
+  "Divine Hexagram": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Effect": "Gain an additional 1 when adding **Hexagram** next time"
+  },
+  "Yin-Yang": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 2,
+    "HP Modification": 2,
+    "Passive Effect": "When gaining **Qi** by playing **Yin Yang Formation**, also gain the same number of **Hexagram**"
+  },
+  "Shock Injury": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 2,
+    "HP Modification": 10,
+    "Passive Effect": "When **Repel Citta-Dharma** and **Hexagram Formacide** deal **DMG** each time, deal 1 more **DMG** for every 1 **Star Power** or **Increase ATK** you have"
+  },
+  "Heavenly Axis Reflects Stars": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 3,
+    "HP Modification": 8,
+    "Effect": "All slots are treated as **Star Point**\nTrigger **Chase** after playing **Polaris Citta-Dharma** for the first time"
+  },
   //? Five Elements Alliance
   "Sharp Thrust": {
     "sect": "Five Elements Alliance",
@@ -323,6 +443,46 @@ module.exports = {
     "HP Modification": 9,
     "Effect": "Permanently turn the **Metal Spirit** card on the far right of your hand into a Level 1 **Metal Spirit** card of the next higher phase (maximum up to Incarnation Phase)"
   },
+  "Nourish": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Sigil Value": 1,
+    // "HP Modification": 0,
+    "Effect": "Increase HP and Max HP when playing **Wood Spirit** or **Water Spirit** card next time"
+  },
+  "Heart Pierce": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Passive Effect": "After attacking with **Metal Spirit - Heart Pierce**, refund the **Penetrate** triggered by it (maximum 3)"
+  },
+  "Fire's Blaze": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Effect": "Reduce the opponent's HP and Max HP by 6 when playing a **Fire Spirit** card next time"
+  },
+  "Lava": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 1,
+    "HP Modification": 6,
+    "Passive Effect": "Each time you play a **Fire Spirit** card, reduce your own **DEF** by up to 20, then reduce the opponent's HP and Max HP by the same amount"
+  },
+  "Water Blade": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 2,
+    "HP Modification": 8,
+    "Passive Effect": "At the end of your turn, the **DMG** caused by **Force of Water** is changed to a single attack, and the HP reduced when **Injured** the opponent is increased by 50%"
+  },
   //? Duan Xuan Sect
   "Resist Xuan": {
     "sect": "Duan Xuan Sect",
@@ -403,6 +563,46 @@ module.exports = {
     "Sigil Value": 2,
     "HP Modification": 4,
     "Effect": "Gain 1 **Agility** for every 1 **HP** in cost when playing the next **HP Cost** card"
+  },
+  "Fist Wind": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Effect": "Deal 2 **DMG** to the opponent when p[laying the next **HP Cost** card"
+  },
+  "Lure Enemy": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Effect": "When you gain a **Debuff** next time, apply 2 stacks of **Flaw** on the opponent"
+  },
+  "Suspend Momentum": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 1,
+    "HP Modification": 4,
+    "Effect": "Add 1 **Force** first during your next 2 attacks"
+  },
+  "Xuan Healing": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 1,
+    "HP Modification": 4,
+    "Effect": "Gain 1 HP for each stack of **Debuff** you have"
+  },
+  "Initiate Heaven and Earth": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 3,
+    "HP Modification": 12,
+    "Passive Effect": "When **Physique** exceeds **Physique Cap** for the first time in battle, gain 2 **Increase ATK** and permanently increase **Physique Cap** by 3"
   },
 }
 
