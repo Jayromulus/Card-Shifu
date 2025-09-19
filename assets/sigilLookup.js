@@ -18,6 +18,11 @@ module.exports = {
   "Mechanism Shield": { name: "Mechanism Shield", value: "Mechanism Shield" },
   "Spirit Rune Mechanism": { name: "Spirit Rune Mechanism", value: "Spirit Rune Mechanism" },
   "Mechanism Engine": { name: "Mechanism Engine", value: "Mechanism Engine" },
+  "Smash DEF": { name: "Smash DEF", value: "Smash DEF" },
+  "Prevent": { name: "Prevent", value: "Prevent" },
+  "Poison Tempering": { name: "Poison Tempering", value: "Poison Tempering" },
+  "Immovable": { name: "Immovable", value: "Immovable" },
+  "Immortal Trapping": { name: "Immortal Trapping", value: "Immortal Trapping" },
   //? Cloud Spirit Sword Sect
   "Cloud Rise": { name: "Cloud Rise", value: "Cloud Rise" },
   "Clouds Gather and Stars Converge": { name: "Clouds Gather and Stars Converge", value: "Clouds Gather and Stars Converge" },
@@ -38,6 +43,9 @@ module.exports = {
   "Mechanism Sword - Slash": { name: "Mechanism Sword - Slash", value: "Mechanism Sword - Slash" },
   "Mechanism Turtle": { name: "Mechanism Turtle", value: "Mechanism Turtle" },
   "Mechanism Sword - Shock": { name: "Mechanism Sword - Shock", value: "Mechanism Sword - Shock" },
+  "Condense Sword Intent": { name: "Condense Sword Intent", value: "Condense Sword Intent" },
+  "Moon in Water": { name: "Moon in Water", value: "Moon in Water" },
+  "Swing Sword to Split Heaven": { name: "Swing Sword to Split Heaven", value: "Swing Sword to Split Heaven" },
   //? Heptastar Pavillion
   "Shift Stars": { name: "Shift Stars", value: "Shift Stars" },
   "Gather Star Power": { name: "Gather Star Power", value: "Gather Star Power" },
@@ -58,6 +66,9 @@ module.exports = {
   "Mechanism Cat": { name: "Mechanism Cat", value: "Mechanism Cat" },
   "Mechanism Rat": { name: "Mechanism Rat", value: "Mechanism Rat" },
   "Mechanism Snake": { name: "Mechanism Snake", value: "Mechanism Snake" },
+  "Catch Cicada": { name: "Catch Cicada", value: "Catch Cicada" },
+  "Trump Card": { name: "Trump Card", value: "Trump Card" },
+  "Ko Threat Extension": { name: "Ko Threat Extension", value: "Ko Threat Extension" },
   //? Five Elements Alliance
   "Sharp Thrust": { name: "Sharp Thrust", value: "Sharp Thrust" },
   "Five Elements Spirit Spin": { name: "Five Elements Spirit Spin", value: "Five Elements Spirit Spin" },
@@ -78,6 +89,9 @@ module.exports = {
   "Cosmos Mechanism": { name: "Cosmos Mechanism", value: "Cosmos Mechanism" },
   "Mechanism Crocodile": { name: "Mechanism Crocodile", value: "Mechanism Crocodile" },
   "Mechanism Deer": { name: "Mechanism Deer", value: "Mechanism Deer" },
+  "Cosmos Subdue": { name: "Cosmos Subdue", value: "Cosmos Subdue" },
+  "Cliff": { name: "Cliff", value: "Cliff" },
+  "Spirit Formation Deployment": { name: "Spirit Formation Deployment", value: "Spirit Formation Deployment" },
   //? Duan Xuan Sect
   "Resist Xuan": { name: "Resist Xuan", value: "Resist Xuan" },
   "Break Free": { name: "Break Free", value: "Break Free" },
@@ -98,4 +112,7 @@ module.exports = {
   "Mechanism Tiger": { name: "Mechanism Tiger", value: "Mechanism Tiger" },
   "Mechanism Lion": { name: "Mechanism Lion", value: "Mechanism Lion" },
   "Mechanism Leopard": { name: "Mechanism Leopard", value: "Mechanism Leopard" },
+  "Nether Heart": { name: "Nether Heart", value: "Nether Heart" },
+  "Inch Force": { name: "Inch Force", value: "Inch Force" },
+  "Nether Momentum": { name: "Nether Momentum", value: "Nether Momentum" },
 }

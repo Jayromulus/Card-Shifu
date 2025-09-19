@@ -152,6 +152,46 @@ module.exports = {
     "HP Modification": 4,
     "Passive Effect": "Gain 1 **Mechanism Rune** at the start of each of your turns"
   },
+  "Smash DEF": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Sigil Value": 1,
+    "HP Modification": 3,
+    "Effect": "Gain **Smash DEF** for the next 1 attacks"
+  },
+  "Prevent": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 2,
+    "HP Modification": 6,
+    "Effect": "First gain 7 **DEF** when receiving **ATK** or **DMG** next time"
+  },
+  "Poison Tempering": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 2,
+    "HP Modification": 2,
+    "Effect": "Apply 2 stacks of **Internal Injury** after the next attack"
+  },
+  "Immovable": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 1,
+    // "HP Modification": 0,
+    "Passive Effect": "At the end of each of your turns, if **Chase** was not triggered this turn, gain 3 **DEF**"
+  },
+  "Immortal Trapping": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 2,
+    "HP Modification": 8,
+    "Effect": "Both players cannot trigger **Chase**, each lasts for 2 turns"
+  },
   //? Cloud Spirit Sword Sect
   "Cloud Rise": {
     "sect": "Cloud Spirit Sword Sect",
@@ -304,6 +344,30 @@ module.exports = {
     "Sigil Value": 1,
     "HP Modification": 2,
     "Effect": "**Mechanism Rune** + 3\nFirst deal 2 **DMG** to the opponent in the next attack (repeat this **DMG** once for every 2 **Mechanism Rune** you have)"
+  },
+  "Condense Sword Intent": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 2,
+    "HP Modification": 10,
+    "Effect": "Gain an additional 2 when increasing **Sword Intent** next time"
+  },
+  "Moon in Water": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 2,
+    "HP Modification": 8,
+    "Effect": "DEF + 6; gain the effect of **Moon Water Sword Formation** for 2 turns (DEF is not halved at the start of the turn)"
+  },
+  "Swing Sword to Split Heaven": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 3,
+    "HP Modification": 10,
+    "Effect": "Make an additional 20 ATK after playing a card with ATK next time"
   },
   //? Heptastar Pavillion
   "Shift Stars": {
@@ -458,6 +522,30 @@ module.exports = {
     "HP Modification": 2,
     "Passive Effect": "**Mechanism Rune** + 3\nConsume 2 **Mechanism Rune** at the start of each of your turns to apply 1 **Internal Injury** to the opponent"
   },
+  "Catch Cicada": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 3,
+    "HP Modification": 6,
+    "Passive Effect": "After playing a card with **Post Action**, increase the HP and Max HP by 2; When playing **Hunter Becomes Preyer**, gain +1 HP and Max HP for each point of damage it does to the opponent"
+  },
+  "Trump Card": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 2,
+    // "HP Modification": 0,
+    "Passive Effect": "The card in the 8th slot of your deck can directly trigger its **Post Action** effect"
+  },
+  "Ko Threat Extension": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 3,
+    "HP Modification": 10,
+    "Effect": "The next card on **Star Point** takes effect one more time when played"
+  },
   //? Five Elements Alliance
   "Sharp Thrust": {
     "sect": "Five Elements Alliance",
@@ -611,6 +699,30 @@ module.exports = {
     "HP Modification": 6,
     "Passive Effect": "**Mechanism Rune** + 3\nConsume 2 **Mechanism Rune** when playing **Metal Spirit** card to gain 3 **Penetrate**; consume 2 **Mechanism Rune** when playing **Wood Spirit** card to gain 1 **Increase ATK**"
   },
+  "Cosmos Subdue": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 2,
+    "HP Modification": 12,
+    "Effect": "When **Activating** any **Five Elements** next time, additionally **Activate** the **Five Elements** that correspond to the **Overcoming Interaction of Five Elements**"
+  },
+  "Cliff": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 2,
+    "HP Modification": 6,
+    "PassiveEffect": "Double the **DMG** deal to the opponent when the effect of **Earth Spirit - Cliff** is triggered"
+  },
+  "Spirit Formation Deployment": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 3,
+    "HP Modification": 12,
+    "Effect": "Trigger **Chase** after playing a **Spirit Formation** card next time"
+  },
   //? Duan Xuan Sect
   "Resist Xuan": {
     "sect": "Duan Xuan Sect",
@@ -763,6 +875,30 @@ module.exports = {
     "Sigil Value": 1,
     "HP Modification": 2,
     "Passive Effect": "**Mechanism Rune** + 2\nAfter playing a card, if no attack has been made this turn, consume 2 **Mechanism Rune** to gain 2 **Agility**"
+  },
+  "Nether Heart": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 2,
+    "HP Modification": 9,
+    "Effect": "Gain 1 **Internal Injury** and 1 **Regeneration**"
+  },
+  "Inch Force": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 2,
+    "HP Modification": 6,
+    "Effect": "The attack of the next **Crash Fist** gains double **Force** bonus (cannot stack)"
+  },
+  "Nether Momentum": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 2,
+    "HP Modification": 6,
+    "Effect": "**Force** + 2 (gain an additional 1 if you have **Debuff**)"
   },
 }
 
