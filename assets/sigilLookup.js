@@ -14,6 +14,10 @@ module.exports = {
   "Dissipate Force": { name: "Dissipate Force", value: "Dissipate Force" },
   "Sigil Enhancement": { name: "Sigil Enhancement", value: "Sigil Enhancement" },
   "Guard Up": { name: "Guard Up", value: "Guard Up" },
+  "Mechanism Assembly": { name: "Mechanism Assembly", value: "Mechanism Assembly" },
+  "Mechanism Shield": { name: "Mechanism Shield", value: "Mechanism Shield" },
+  "Spirit Rune Mechanism": { name: "Spirit Rune Mechanism", value: "Spirit Rune Mechanism" },
+  "Mechanism Engine": { name: "Mechanism Engine", value: "Mechanism Engine" },
   //? Cloud Spirit Sword Sect
   "Cloud Rise": { name: "Cloud Rise", value: "Cloud Rise" },
   "Clouds Gather and Stars Converge": { name: "Clouds Gather and Stars Converge", value: "Clouds Gather and Stars Converge" },
@@ -30,6 +34,10 @@ module.exports = {
   "Earth Fiend": { name: "Earth Fiend", value: "Earth Fiend" },
   "Concentrate on Formation": { name: "Concentrate on Formation", value: "Concentrate on Formation" },
   "Control Sword to Form Formation": { name: "Control Sword to Form Formation", value: "Control Sword to Form Formation" },
+  "Mechanism Sword - Spirit": { name: "Mechanism Sword - Spirit", value: "Mechanism Sword - Spirit" },
+  "Mechanism Sword - Slash": { name: "Mechanism Sword - Slash", value: "Mechanism Sword - Slash" },
+  "Mechanism Turtle": { name: "Mechanism Turtle", value: "Mechanism Turtle" },
+  "Mechanism Sword - Shock": { name: "Mechanism Sword - Shock", value: "Mechanism Sword - Shock" },
   //? Heptastar Pavillion
   "Shift Stars": { name: "Shift Stars", value: "Shift Stars" },
   "Gather Star Power": { name: "Gather Star Power", value: "Gather Star Power" },
@@ -46,6 +54,10 @@ module.exports = {
   "Yin-Yang": { name: "Yin-Yang", value: "Yin-Yang" },
   "Shock Injury": { name: "Shock Injury", value: "Shock Injury" },
   "Heavenly Axis Reflects Stars": { name: "Heavenly Axis Reflects Stars", value: "Heavenly Axis Reflects Stars" },
+  "Mechanism Star Instrument": { name: "Mechanism Star Instrument", value: "Mechanism Star Instrument" },
+  "Mechanism Cat": { name: "Mechanism Cat", value: "Mechanism Cat" },
+  "Mechanism Rat": { name: "Mechanism Rat", value: "Mechanism Rat" },
+  "Mechanism Snake": { name: "Mechanism Snake", value: "Mechanism Snake" },
   //? Five Elements Alliance
   "Sharp Thrust": { name: "Sharp Thrust", value: "Sharp Thrust" },
   "Five Elements Spirit Spin": { name: "Five Elements Spirit Spin", value: "Five Elements Spirit Spin" },
@@ -62,6 +74,10 @@ module.exports = {
   "Fire's Blaze": { name: "Fire's Blaze", value: "Fire's Blaze" },
   "Lava": { name: "Lava", value: "Lava" },
   "Water Blade": { name: "Water Blade", value: "Water Blade" },
+  "Mechanism Spirit Seal": { name: "Mechanism Spirit Seal", value: "Mechanism Spirit Seal" },
+  "Cosmos Mechanism": { name: "Cosmos Mechanism", value: "Cosmos Mechanism" },
+  "Mechanism Crocodile": { name: "Mechanism Crocodile", value: "Mechanism Crocodile" },
+  "Mechanism Deer": { name: "Mechanism Deer", value: "Mechanism Deer" },
   //? Duan Xuan Sect
   "Resist Xuan": { name: "Resist Xuan", value: "Resist Xuan" },
   "Break Free": { name: "Break Free", value: "Break Free" },
@@ -78,4 +94,8 @@ module.exports = {
   "Suspend Momentum": { name: "Suspend Momentum", value: "Suspend Momentum" },
   "Xuan Healing": { name: "Xuan Healing", value: "Xuan Healing" },
   "Initiate Heaven and Earth": { name: "Initiate Heaven and Earth", value: "Initiate Heaven and Earth" },
+  "Training Mechanism": { name: "Training Mechanism", value: "Training Mechanism" },
+  "Mechanism Tiger": { name: "Mechanism Tiger", value: "Mechanism Tiger" },
+  "Mechanism Lion": { name: "Mechanism Lion", value: "Mechanism Lion" },
+  "Mechanism Leopard": { name: "Mechanism Leopard", value: "Mechanism Leopard" },
 }

@@ -120,6 +120,38 @@ module.exports = {
     "HP Modification": 4,
     "Effect": "Gain 2 **Guard Up**"
   },
+  "Mechanism Assembly": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 1,
+    // "HP Modification": 0,
+    "Effect": "**Mechanism Rune** + 3"
+  },
+  "Mechanism Shield": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Effect": "**Mechanism Rune** + 2\nGain 1 **DEF** for each stack of **Mechanism Rune**"
+  },
+  "Spirit Rune Mechanism": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 1,
+    "HP Modification": 4,
+    "Effect": "**Mechanism Rune** + 3\nConsume 1 **Qi** at the end of this turn: **Mechanism Rune** + 3"
+  },
+  "Mechanism Engine": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 1,
+    "HP Modification": 4,
+    "Passive Effect": "Gain 1 **Mechanism Rune** at the start of each of your turns"
+  },
   //? Cloud Spirit Sword Sect
   "Cloud Rise": {
     "sect": "Cloud Spirit Sword Sect",
@@ -240,6 +272,38 @@ module.exports = {
     "Sigil Value": 3,
     // "HP Modification": 0,
     "Passive Effect": "Each time you gain **DEF**, gain an addition 2 **DEF** and deal 2 **DMG** to the opponent (can be triggered at most 15 times per battle)"
+  },
+  "Mechanism Sword - Spirit": {
+    "sect": "Cloud Sword Spirit Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 1,
+    // "HP Modification": 0,
+    "Effect": "**Mechanism Rune** + 2\nConsume 1 **Mechanism Rune** in the next attack to deal 3 more ATK and gain **Ignore DEF** for that attack"
+  },
+  "Mechanism Sword - Slash": {
+    "sect": "Cloud Sword Spirit Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Effect": "**Mechanism Rune** + 3\nConsume all **Mechanism Rune** in the next attack, dealing 2 more ATK per stack"
+  },
+  "Mechanism Turtle": {
+    "sect": "Cloud Sword Spirit Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Passive Effect": "**Mechanism Rune** + 2\nConsume 1 **Mechanism Rune** each time you increase **DEF** to gain an additional 3 **DEF**"
+  },
+  "Mechanism Sword - Shock": {
+    "sect": "Cloud Sword Spirit Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Effect": "**Mechanism Rune** + 3\nFirst deal 2 **DMG** to the opponent in the next attack (repeat this **DMG** once for every 2 **Mechanism Rune** you have)"
   },
   //? Heptastar Pavillion
   "Shift Stars": {
@@ -362,6 +426,38 @@ module.exports = {
     "HP Modification": 8,
     "Effect": "All slots are treated as **Star Point**\nTrigger **Chase** after playing **Polaris Citta-Dharma** for the first time"
   },
+  "Mechanism Star Instrument": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 1,
+    "HP Modification": 4,
+    "Effect": "**Mechanism Rune** + 1\nFor the next 1 card not on **Star Point**, consume 2 **Mechanism Rune** to make that slot **Become Star Point**"
+  },
+  "Mechanism Cat": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Passive Effect": "**Mechanism Rune** + 2\nConsume 1 **Mechanism Rune** at the end of each of your turns to increase HP and Max HP by 3"
+  },
+  "Mechanism Rat": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Passive Effect": "**Mechanism Rune** + 3\nIf **Mechanism Rune** < 3 at the start of each of your turns, consume 1 **Qi** to increase **Mechanism Rune** by 3"
+  },
+  "Mechanism Snake": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Passive Effect": "**Mechanism Rune** + 3\nConsume 2 **Mechanism Rune** at the start of each of your turns to apply 1 **Internal Injury** to the opponent"
+  },
   //? Five Elements Alliance
   "Sharp Thrust": {
     "sect": "Five Elements Alliance",
@@ -483,6 +579,38 @@ module.exports = {
     "HP Modification": 8,
     "Passive Effect": "At the end of your turn, the **DMG** caused by **Force of Water** is changed to a single attack, and the HP reduced when **Injured** the opponent is increased by 50%"
   },
+  "Mechanism Spirit Seal": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 1,
+    "HP Modification": 4,
+    "Effect": "**Mechanism Rune** + 1\nIn this turn, when playing a card whose **Five Elements** is not **Activated**, consume 2 **Mechanism Rune** to **Activate** its **Five Elements**"
+  },
+  "Cosmos Mechanism": {
+    "sect": "Five Elements Alliance",
+    "image": "httpFive Elements Alliances://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 1,
+    // "HP Modification": 0,
+    "Effect": "**Mechanism Rune** + 1 (gain an additional 1 for each type of **Five Elements** in the deck)"
+  },
+  "Mechanism Crocodile": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 1,
+    "HP Modification": 6,
+    "Passive Effect": "**Mechanism Rune** + 2\nConsume 2 **Mechanism Rune** when playing **Water Spirit** card to gain 1 **Force of Water**; consume 2 **Mechanism Rune** when playing **Earth Spirit** card to gain 4 **DEF**"
+  },
+  "Mechanism Deer": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 1,
+    "HP Modification": 6,
+    "Passive Effect": "**Mechanism Rune** + 3\nConsume 2 **Mechanism Rune** when playing **Metal Spirit** card to gain 3 **Penetrate**; consume 2 **Mechanism Rune** when playing **Wood Spirit** card to gain 1 **Increase ATK**"
+  },
   //? Duan Xuan Sect
   "Resist Xuan": {
     "sect": "Duan Xuan Sect",
@@ -603,6 +731,38 @@ module.exports = {
     "Sigil Value": 3,
     "HP Modification": 12,
     "Passive Effect": "When **Physique** exceeds **Physique Cap** for the first time in battle, gain 2 **Increase ATK** and permanently increase **Physique Cap** by 3"
+  },
+  "Training Mechanism": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Sigil Value": 1,
+    // "HP Modification": 0,
+    "Effect": "**Physique** + 2\n**Mechanism Rune** + 1"
+  },
+  "Mechanism Tiger": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Passive Effect": "**Mechanism Rune** + 3\nConsume 1 **Mechanism Rune** each time you attack, dealing 2 more ATK for that attack"
+  },
+  "Mechanism Lion": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Passive Effect": "**Mechanism Rune** + 3\nConsume 1 **Mechanism Rune** at the start of each of your turns to gain 1 **Force**"
+  },
+  "Mechanism Leopard": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Passive Effect": "**Mechanism Rune** + 2\nAfter playing a card, if no attack has been made this turn, consume 2 **Mechanism Rune** to gain 2 **Agility**"
   },
 }
 
