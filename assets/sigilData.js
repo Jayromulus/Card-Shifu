@@ -274,7 +274,7 @@ module.exports = {
     "Passive Effect": "Each time you gain **DEF**, gain an addition 2 **DEF** and deal 2 **DMG** to the opponent (can be triggered at most 15 times per battle)"
   },
   "Mechanism Sword - Spirit": {
-    "sect": "Cloud Sword Spirit Sect",
+    "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Foundation",
     "Sigil Value": 1,
@@ -282,7 +282,7 @@ module.exports = {
     "Effect": "**Mechanism Rune** + 2\nConsume 1 **Mechanism Rune** in the next attack to deal 3 more ATK and gain **Ignore DEF** for that attack"
   },
   "Mechanism Sword - Slash": {
-    "sect": "Cloud Sword Spirit Sect",
+    "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
     "Sigil Value": 1,
@@ -290,7 +290,7 @@ module.exports = {
     "Effect": "**Mechanism Rune** + 3\nConsume all **Mechanism Rune** in the next attack, dealing 2 more ATK per stack"
   },
   "Mechanism Turtle": {
-    "sect": "Cloud Sword Spirit Sect",
+    "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
     "Sigil Value": 1,
@@ -298,7 +298,7 @@ module.exports = {
     "Passive Effect": "**Mechanism Rune** + 2\nConsume 1 **Mechanism Rune** each time you increase **DEF** to gain an additional 3 **DEF**"
   },
   "Mechanism Sword - Shock": {
-    "sect": "Cloud Sword Spirit Sect",
+    "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Sigil Value": 1,
