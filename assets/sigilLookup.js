@@ -23,8 +23,8 @@ module.exports = {
   "Poison Tempering": { name: "Poison Tempering", value: "Poison Tempering" },
   "Immovable": { name: "Immovable", value: "Immovable" },
   "Immortal Trapping": { name: "Immortal Trapping", value: "Immortal Trapping" },
-  "Normal Attack": { name: "Normal Attack", value: "Normal Attack" },
-  "Gather Qi": { name: "Gather Qi", value: "Gather Qi" },
+  "Carefree": { name: "Carefree", value: "Carefree" },
+  "Spirit Overflow": { name: "Spirit Overflow", value: "Spirit Overflow" },
   //? Cloud Spirit Sword Sect
   "Cloud Rise": { name: "Cloud Rise", value: "Cloud Rise" },
   "Clouds Gather and Stars Converge": { name: "Clouds Gather and Stars Converge", value: "Clouds Gather and Stars Converge" },
@@ -48,6 +48,7 @@ module.exports = {
   "Condense Sword Intent": { name: "Condense Sword Intent", value: "Condense Sword Intent" },
   "Moon in Water": { name: "Moon in Water", value: "Moon in Water" },
   "Swing Sword to Split Heaven": { name: "Swing Sword to Split Heaven", value: "Swing Sword to Split Heaven" },
+  "Kunpeng": { name: "Kunpeng", value: "Kunpeng" },
   //? Heptastar Pavillion
   "Shift Stars": { name: "Shift Stars", value: "Shift Stars" },
   "Gather Star Power": { name: "Gather Star Power", value: "Gather Star Power" },
@@ -71,6 +72,7 @@ module.exports = {
   "Catch Cicada": { name: "Catch Cicada", value: "Catch Cicada" },
   "Trump Card": { name: "Trump Card", value: "Trump Card" },
   "Ko Threat Extension": { name: "Ko Threat Extension", value: "Ko Threat Extension" },
+  "Derive Star Points": { name: "Derive Star Points", value: "Derive Star Points" },
   //? Five Elements Alliance
   "Sharp Thrust": { name: "Sharp Thrust", value: "Sharp Thrust" },
   "Five Elements Spirit Spin": { name: "Five Elements Spirit Spin", value: "Five Elements Spirit Spin" },

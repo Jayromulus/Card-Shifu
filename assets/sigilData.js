@@ -192,21 +192,21 @@ module.exports = {
     "HP Modification": 8,
     "Effect": "Both players cannot trigger **Chase**, each lasts for 2 turns"
   },
-  "Normal Attack": {
+  "Carefree": {
     "sect": "General",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
     "Sigil Value": 1,
     "HP Modification": 2,
-    "Effect": "The next time you play **Normal Attack**, it deals an additional 5 ATK"
+    "Effect": "Deal 5 more ATK in the next **Normal Attack**"
   },
-  "Gather Qi": {
+  "Spirit Overflow": {
     "sect": "General",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
     "Sigil Value": 3,
     "HP Modification": 6,
-    "Effect": "The next time you gain **Qi**, gain an additional 5 **Qi**"
+    "Effect": "Gain an additional 5 **Qi** when increasing **Qi** the next time"
   },
   //? Cloud Spirit Sword Sect
   "Cloud Rise": {
@@ -385,6 +385,14 @@ module.exports = {
     "HP Modification": 10,
     "Effect": "Make an additional 20 ATK after playing a card with ATK next time"
   },
+  "Kunpeng": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 2,
+    "HP Modification": 3,
+    "Passive Effect": "**Giant Roc Spirit Sword** and **Giant Kun Spirit Sword** deal 5 more ATK and gain **Smash DEF**"
+  },
   //? Heptastar Pavillion
   "Shift Stars": {
     "sect": "Heptastar Pavillion",
@@ -561,6 +569,14 @@ module.exports = {
     "Sigil Value": 3,
     "HP Modification": 10,
     "Effect": "The next card on **Star Point** takes effect one more time when played"
+  },
+  "Derive Star Points": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 2,
+    "HP Modification": 4,
+    "Passive Effect": "Slots 4 and 5 of the deck are treated as **Star Point**"
   },
   //? Five Elements Alliance
   "Sharp Thrust": {
@@ -739,6 +755,14 @@ module.exports = {
     "HP Modification": 12,
     "Effect": "Trigger **Chase** after playing a **Spirit Formation** card next time"
   },
+  "Turbulent": { //# Temporary Name
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 2,
+    "HP Modification": 4,
+    "Effect": "Next time you play **Water Spirit - Turbulent**, get a second attack"
+  },
   //? Duan Xuan Sect
   "Resist Xuan": {
     "sect": "Duan Xuan Sect",
@@ -915,6 +939,14 @@ module.exports = {
     "Sigil Value": 2,
     "HP Modification": 6,
     "Effect": "**Force** + 2 (gain an additional 1 if you have **Debuff**)"
+  },
+  "Defending Physique": { //# Temporary Name
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Sigil Value": 2,
+    "HP Modification": 4,
+    "Effect": "**Physique** + 1, Gain 1 **DEF** for every 4 **Physique**"
   },
 }
 
