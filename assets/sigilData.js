@@ -192,6 +192,22 @@ module.exports = {
     "HP Modification": 8,
     "Effect": "Both players cannot trigger **Chase**, each lasts for 2 turns"
   },
+  "Normal Attack": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Meditation",
+    "Sigil Value": 1,
+    "HP Modification": 2,
+    "Effect": "The next time you would play **Normal Attack**, it deals an additional 5 ATK"
+  },
+  "Gather Qi": {
+    "sect": "General",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Sigil Value": 3,
+    "HP Modification": 6,
+    "Effect": "The next time you would gain **Qi**, gain an additional 5 **Qi**"
+  },
   //? Cloud Spirit Sword Sect
   "Cloud Rise": {
     "sect": "Cloud Spirit Sword Sect",

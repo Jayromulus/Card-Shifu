@@ -23,6 +23,8 @@ module.exports = {
   "Poison Tempering": { name: "Poison Tempering", value: "Poison Tempering" },
   "Immovable": { name: "Immovable", value: "Immovable" },
   "Immortal Trapping": { name: "Immortal Trapping", value: "Immortal Trapping" },
+  "Normal Attack": { name: "Normal Attack", value: "Normal Attack" },
+  "Gather Qi": { name: "Gather Qi", value: "Gather Qi" },
   //? Cloud Spirit Sword Sect
   "Cloud Rise": { name: "Cloud Rise", value: "Cloud Rise" },
   "Clouds Gather and Stars Converge": { name: "Clouds Gather and Stars Converge", value: "Clouds Gather and Stars Converge" },
