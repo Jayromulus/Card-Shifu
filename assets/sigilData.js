@@ -198,7 +198,7 @@ module.exports = {
     "Phase": "Meditation",
     "Sigil Value": 1,
     "HP Modification": 2,
-    "Effect": "The next time you would play **Normal Attack**, it deals an additional 5 ATK"
+    "Effect": "The next time you play **Normal Attack**, it deals an additional 5 ATK"
   },
   "Gather Qi": {
     "sect": "General",
@@ -206,7 +206,7 @@ module.exports = {
     "Phase": "Incarnation",
     "Sigil Value": 3,
     "HP Modification": 6,
-    "Effect": "The next time you would gain **Qi**, gain an additional 5 **Qi**"
+    "Effect": "The next time you gain **Qi**, gain an additional 5 **Qi**"
   },
   //? Cloud Spirit Sword Sect
   "Cloud Rise": {
