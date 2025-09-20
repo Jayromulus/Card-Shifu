@@ -96,6 +96,7 @@ module.exports = {
   "Cosmos Subdue": { name: "Cosmos Subdue", value: "Cosmos Subdue" },
   "Cliff": { name: "Cliff", value: "Cliff" },
   "Spirit Formation Deployment": { name: "Spirit Formation Deployment", value: "Spirit Formation Deployment" },
+  "Turbulent": { name: "Turbulent", value: "Turbulent" },
   //? Duan Xuan Sect
   "Resist Xuan": { name: "Resist Xuan", value: "Resist Xuan" },
   "Break Free": { name: "Break Free", value: "Break Free" },
@@ -119,4 +120,5 @@ module.exports = {
   "Nether Heart": { name: "Nether Heart", value: "Nether Heart" },
   "Inch Force": { name: "Inch Force", value: "Inch Force" },
   "Nether Momentum": { name: "Nether Momentum", value: "Nether Momentum" },
+  "Defending Physique": { name: "Defending Physique", value: "Defending Physique" },
 }
