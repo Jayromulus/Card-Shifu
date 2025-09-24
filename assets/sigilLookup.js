@@ -8,7 +8,7 @@ module.exports = {
   "Expand Vitality": { name: "Expand Vitality", value: "Expand Vitality" },
   "Surge of Divine Power": { name: "Surge of Divine Power", value: "Surge of Divine Power" },
   "Bear - 🐻": { name: "Bear", value: "Bear" },
-  "Disaster": { name: "Disaster", value: "Disaster" },
+  "Disaster - penguin": { name: "Disaster", value: "Disaster" },
   "Strong Attack": { name: "Strong Attack", value: "Strong Attack" },
   "Suppress": { name: "Suppress", value: "Suppress" },
   "Dissipate Force": { name: "Dissipate Force", value: "Dissipate Force" },
