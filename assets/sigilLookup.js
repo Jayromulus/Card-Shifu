@@ -98,7 +98,7 @@ module.exports = {
   "Cosmos Subdue - Cosmos Overcoming": { name: "Cosmos Overcoming", value: "Cosmos Overcoming" },
   "Cliff": { name: "Cliff", value: "Cliff" },
   "Spirit Formation Deployment": { name: "Spirit Formation Deployment", value: "Spirit Formation Deployment" },
-  "Turbulent": { name: "Turbulent", value: "Turbulent" },
+  "Turbulence": { name: "Turbulence", value: "Turbulence" },
   //? Duan Xuan Sect
   "Resist Xuan": { name: "Resist Xuan", value: "Resist Xuan" },
   "Break Free": { name: "Break Free", value: "Break Free" },
