@@ -907,7 +907,7 @@ module.exports = {
     "sect": "Qi Wangyou",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
-    "Effect": ["Add 1 Qi whenever you activate any **Five Elements** during battle (limited to once per turn)"]
+    "Effect": ["Add 1 Qi whenever you activate any **Five Elements** during battle (limited to once per Five Elements)"]
   },
   "Forget Worries": {
     "sect": "Qi Wangyou",
@@ -1065,7 +1065,7 @@ module.exports = {
     "sect": "Li Man",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
-    "Effect": ["Restore lost Cultivation due to 'Mortal Body', then transform 'Mortal Body' into 'Surge of Qi'\n(Fist: Each time you gain Force, add 2 Agility; Stick: Each time you Chase, gain 1 Qi)."]
+    "Effect": ["Restore lost Cultivation due to 'Mortal Body', then transform 'Mortal Body' into 'Surge of Qi'\n(Fist: Each time you gain Force, add 2 Agility (limited once per turn); Stick: Each time you Chase, gain 1 Qi and 2 HP)."]
   },
 
   "random": {}

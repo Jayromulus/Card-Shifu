@@ -837,7 +837,7 @@ module.exports = {
     "Starting Phase": "Incarnation",
     "Sigil Value": 2,
     "HP Modification": 8,
-    "Effect": "Convert all **DEF** into equivalent HP and Max HP at the end of your turn, lasting for 2 turns"
+    "Effect": "Convert up to 24 **DEF** into equivalent HP and Max HP at the end of your turn, lasting for 2 turns"
   },
   "Spirit Formation Deployment": {
     "sect": "Five Elements Alliance",
@@ -1045,7 +1045,7 @@ module.exports = {
     "HP Modification": 6,
     "Effect": "**Force** + 2 (gain an additional 1 if you have **Debuff**)"
   },
-  "Initiate Heaven and Earth": {
+  "Imitate Heaven and Earth": {
     "sect": "Duan Xuan Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Incarnation",

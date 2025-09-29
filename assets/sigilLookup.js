@@ -115,7 +115,7 @@ module.exports = {
   "Lure Enemy": { name: "Lure Enemy", value: "Lure Enemy" },
   "Suspend Momentum": { name: "Suspend Momentum", value: "Suspend Momentum" },
   "Xuan Healing": { name: "Xuan Healing", value: "Xuan Healing" },
-  "Initiate Heaven and Earth": { name: "Initiate Heaven and Earth", value: "Initiate Heaven and Earth" },
+  "Imitate Heaven and Earth": { name: "Imitate Heaven and Earth", value: "Imitate Heaven and Earth" },
   "Training Mechanism": { name: "Training Mechanism", value: "Training Mechanism" },
   "Mechanism Tiger": { name: "Mechanism Tiger", value: "Mechanism Tiger" },
   "Mechanism Lion": { name: "Mechanism Lion", value: "Mechanism Lion" },
