@@ -39,7 +39,7 @@ module.exports = {
     "Starting Phase": "Meditation",
     "Sigil Value": 1,
     "HP Modification": 2,
-    "Effect": "Deal 5/7/9/12/15 more ATK in the next **Normal Attack**"
+    "Effect": "Deal 5/7/9/13/18 more ATK in the next **Normal Attack**"
   },
   //? Foundation
   "Regulate Breathing": {
@@ -234,7 +234,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Incarnation",
     "Sigil Value": 3,
-    "HP Modification": 6,
+    "HP Modification": 10,
     "Effect": "Gain an additional 5 **Qi** when increasing **Qi** the next time"
   },
   // Cloud Spirit Sword Sect
@@ -293,8 +293,8 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Foundation",
     "Sigil Value": 2,
-    "HP Modification": 4,
-    "Effect": "After the next card attacks, refund the **Sword Intent** used for its attack (maximum 4/5/6/7 points)"
+    "HP Modification": "4/5/6/8",
+    "Effect": "After the next card attacks, refund the **Sword Intent** used for its attack (maximum 4/5/6/8 points)"
   },
   //? Virtuoso
   "Madness": {
@@ -359,7 +359,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Immortality",
     "Sigil Value": 1,
-    "HP Modification": "0/2",
+    "HP Modification": "6/8",
     "Effect": "When playing a **Sword Formation** card next time, gain 2 **DEF** for every 1 **Sword Intent**"
   },
   "Mechanism Turtle": {
@@ -425,7 +425,7 @@ module.exports = {
     "Starting Phase": "Incarnation",
     "Sigil Value": 3,
     "HP Modification": 12,
-    "Passive Effect": "After playing the **Cloud Sword** in the first slot of the deck, trigger **Chase** if you **Injured** the opponent\nAll your **Cloud Sword - Dragon Roam** gain **Chase**"
+    "Passive Effect": "After playing the Card in the first slot of the deck, trigger **Chase** if you **Injured** the opponent\nAll your **Cloud Sword - Dragon Roam** gain **Chase**"
   },
   "Control Sword to Form Formation": {
     "sect": "Cloud Spirit Sword Sect",
@@ -440,8 +440,8 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Incarnation",
     "Sigil Value": 3,
-    "HP Modification": 10,
-    "Effect": "Make an additional 20 ATK after playing a card with ATK next time"
+    "HP Modification": 12,
+    "Effect": "Make an additional 24 ATK after playing a card with ATK next time"
   },
   // Heptastar Pavillion
   //? Meditation
@@ -540,7 +540,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Virtuoso",
     "Sigil Value": 2,
-    "HP Modification": "4/8/12",
+    "HP Modification": "7/11/15",
     "Passive Effect": "Slots 4 and 5 of the deck are treated as **Star Point**"
   },
   "Catch Cicada": {
@@ -548,7 +548,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Virtuoso",
     "Sigil Value": 3,
-    "HP Modification": "6/7/8",
+    "HP Modification": "2",
     "Passive Effect": "After playing a card with **Post Action**, increase the HP and Max HP by 2/3/4; When playing **Hunter Becomes Preyer**, gain +1 HP and Max HP for each point of damage it does to the opponent"
   },
   //? Immortality
@@ -573,7 +573,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Immortality",
     "Sigil Value": 2,
-    "HP Modification": "6/10",
+    "HP Modification": "12/16",
     "Effect": "**Ruthless Water** no longer consumes **Qi**, and deals 1 more ATK for every 1 stack of **Internal Injury** the opponent has"
   },
   "Trump Card": {
@@ -622,7 +622,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Incarnation",
     "Sigil Value": 2,
-    // "HP Modification": 0,
+    "HP Modification": 5,
     "Passive Effect": "When your HP drops to <= 0 for the first time in battle, increase HP and Max HP by 3 for each **Hexagram** you have, then continue fighting if HP > 0"
   },
   "Heavenly Axis Reflects Stars": {
@@ -630,7 +630,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Incarnation",
     "Sigil Value": 3,
-    "HP Modification": 8,
+    "HP Modification": 2,
     "Passive Effect": "All slots are treated as **Star Point**\nTrigger **Chase** after playing **Polaris Citta-Dharma** for the first time"
   },
   "Ko Threat Extension": {
@@ -638,7 +638,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Incarnation",
     "Sigil Value": 3,
-    "HP Modification": 10,
+    "HP Modification": 6,
     "Effect": "The next card on **Star Point** takes effect one more time when played"
   },
   "Aggravate Internal Injury": {
@@ -689,8 +689,8 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Foundation",
     "Sigil Value": 1,
-    "HP Modification": "2/3/3/3",
-    "Passive Effect": "After attacking with **Metal Spirit - Heart Pierce**, refund the **Penetrate** triggered by it (maximum 3/4/6/8)"
+    "HP Modification": "2/3/4/5",
+    "Passive Effect": "After attacking with **Metal Spirit - Heart Pierce**, refund the **Penetrate** triggered by it (maximum 3/5/7/9)"
   },
   "Mechanism Spirit Seal": {
     "sect": "Five Elements Alliance",
@@ -779,7 +779,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Immortality",
     "Sigil Value": 1,
-    "HP Modification": "6/8",
+    "HP Modification": "8/10",
     "Passive Effect": "Each time you play a **Fire Spirit** card, reduce your own **DEF** by up to 20, then reduce the opponent's HP and Max HP by the same amount"
   },
   "Mechanism Crocodile": {
@@ -871,7 +871,7 @@ module.exports = {
     "Starting Phase": "Meditation",
     "Sigil Value": 1,
     "HP Modification": "2/3/4/5/6",
-    "Effect": "Gain 1/2/3/4/5 **Physique** after playing **Exercise Fist** next time"
+    "Effect": "Gain 2/3/4/5/7 **Physique** after playing **Exercise Fist** next time"
   },
   "Fist Wind": {
     "sect": "Duan Xuan Sect",
@@ -1042,8 +1042,8 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Incarnation",
     "Sigil Value": 2,
-    "HP Modification": 6,
-    "Effect": "**Force** + 2 (gain an additional 1 if you have **Debuff**)"
+    "HP Modification": 4,
+    "Effect": "**Force** + 2 (gain an additional 2 if you have **Debuff**)"
   },
   "Imitate Heaven and Earth": {
     "sect": "Duan Xuan Sect",
