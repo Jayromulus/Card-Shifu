@@ -2273,7 +2273,7 @@ module.exports = {
     "sect": "Fortune Teller",
     "image": "https://i.imgur.com/cUa4fmA.png",
     "Phase": "Incarnation",
-    "Effect": ["Qi+2/4/6\nLasts for 3 turns, when you add DEF or HP, deal 60% to opponent (Rounded up)"],
+    "Effect": ["Qi+2/4/6\nLasts for 3 turns, when you add DEF or HP, deal 50% to opponent (Rounded down)"],
     "Switch": ["Heavenly Will - Comply"]
   },
 

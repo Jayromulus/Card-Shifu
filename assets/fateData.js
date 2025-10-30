@@ -405,7 +405,7 @@ module.exports = {
     "sect": "Yan Xue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
-    "Effect": ["Draw 1 card for every 18 Destiny you lost"]
+    "Effect": ["Draw 1 card for every 18 Destiny you lost (initial count 12)"]
   },
   "Fire Flame Blade": {
     "sect": "Yan Xue",
@@ -447,7 +447,7 @@ module.exports = {
     "sect": "Long Yao",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Virtuoso",
-    "Effect": ["When taking Destiny damage greater than 18 in battle, reduce to 18"]
+    "Effect": ["When taking Destiny damage greater than 20 in battle, reduce to 20. After the battle ends, if you Destiny is <20 for the first time, permanently upgrade 1 random Level 1 card in your deck (prioritizing your Immortal Fate card)"]
   },
   "Pray Rain": {
     "sect": "Long Yao",
@@ -489,7 +489,7 @@ module.exports = {
     "sect": "Lin Xiaoyue",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
-    "Effect": ["Draw 1 \"Cloud Sword\" Card (Above Virtuoso Phase);\nEach time you play \"Cloud Sword\" card, add 1 Qi."]
+    "Effect": ["Lose 1 Cultivation. Draw 1 \"Cloud Sword\" Card (Above Virtuoso Phase);\nEach time you play \"Cloud Sword\" card, add 1 Qi."]
   },
   "Swordsmith": {
     "sect": "Lu Jianxin",
@@ -671,13 +671,13 @@ module.exports = {
     "sect": "Jiang Ximing",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
-    "Effect": ["Draw 1 \"Astral Move\" Card (Above Virtuoso Phase);\nWhen playing a \"Astral Move\" card, add 1 Hexagram"]
+    "Effect": ["Lose 1 Cultivation. Draw 1 \"Astral Move\" Card (Above Virtuoso Phase);\nWhen playing a \"Astral Move\" card, add 1 Hexagram"]
   },
   "Perfectly Planned": {
     "sect": "Wu Ce",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Meditation",
-    "Effect": ["Initially get __Perfectly Planned__.\n__Perfectly Planned__ will be upgraded when you break through the Phase.\nIf you Absorb it, add 10 Destiny.\nIf you Exchange it, add 3 Card Exchange Chance."]
+    "Effect": ["Initially get __Perfectly Planned__.\n__Perfectly Planned__ will be upgraded when you break through the Phase.\nIf you Absorb it, add 12 Destiny.\nIf you Exchange it, add 4 Card Exchange Chance."]
   },
   "Rest and Outwit": {
     "sect": "Wu Ce",
@@ -695,7 +695,7 @@ module.exports = {
     "sect": "Wu Ce",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Immortality",
-    "Effect": ["Lost 10 Destiny (minimum to 1)\nThe Post Action effect has a 1% chance to trigger on first use (can be added to 100% by Hexagram)"]
+    "Effect": ["The Post Action effect has a 1% chance to trigger on first use (can be added to 100% by Hexagram)"]
   },
   "Star Moon Folding Fan": {
     "sect": "Wu Ce",
@@ -731,7 +731,7 @@ module.exports = {
     "sect": "Feng Xu",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
-    "Effect": ["Lose 2 Cultivation, gain 1 __Solitary Void Golden Scroll__.\nAt the beginning of the battle:\nIf the previous slot of __Solitary Void Golden Scroll__ is empty, temporarily generate __Face Isolation__, and if the next slot if empty, temporarily generate __Strike Vacuity__. For each slot without generation, upgrade __Solitary Void Golden Scroll__ by 1 level (restored after the battle)."]
+    "Effect": ["Gain 1 __Solitary Void Golden Scroll__.\nAt the beginning of the battle:\nIf the previous slot of __Solitary Void Golden Scroll__ is empty, temporarily generate __Face Isolation__, and if the next slot if empty, temporarily generate __Strike Vacuity__. For each slot without generation, upgrade __Solitary Void Golden Scroll__ by 1 level (restored after the battle)."]
   },
 
   //* Five Elements Alliance
@@ -913,7 +913,8 @@ module.exports = {
     "sect": "Qi Wangyou",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Phase": "Incarnation",
-    "Effect": ["Draw 1 **Forget Worries**; If this Card is stored in the Pure Vase, both player add 15 HP and Max HP when battle starts"]
+    "Effect": ["Draw 1 **Forget Worries**; If this Card is stored in the Pure Vase, At the beginning of each battle **Activate Wood Spirit**"]
+    // "Effect": ["Draw 1 **Forget Worries**; If this Card is stored in the Pure Vase, both player add 15 HP and Max HP when battle starts"]
   },
 
   //* Duan Xuan Sect

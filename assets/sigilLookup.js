@@ -51,6 +51,7 @@ module.exports = {
   "Swing Sword to Split Heaven": { name: "Swing Sword to Split Heaven", value: "Swing Sword to Split Heaven" },
   "Kunpeng": { name: "Kunpeng", value: "Kunpeng" },
   "Flash Wind": { name: "Flash Wind", value: "Flash Wind" },
+  "Zero Form": { name: "Zero Form", value: "Zero Form" },
   //? Heptastar Pavillion
   "Shift Stars": { name: "Shift Stars", value: "Shift Stars" },
   "Gather Star Power": { name: "Gather Star Power", value: "Gather Star Power" },

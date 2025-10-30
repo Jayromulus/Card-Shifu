@@ -268,8 +268,8 @@ module.exports = {
     "sect": "Cloud Spirit Sword Sect",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Foundation",
-    "Sigil Value": 1,
-    "HP Modification": "2/4/6/8",
+    "Sigil Value": 2,
+    "HP Modification": "8/12/16/20",
     "Passive Effect": "After playing **Cloud Sword - Touch Sky** or **Cloud Sword - Pierce the Star**, all your cards are treated as **Cloud Sword** until the end of battle"
   },
   "Harm the Body": {
@@ -326,7 +326,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Virtuoso",
     "Sigil Value": 2,
-    "HP Modification": "8/12/16",
+    "HP Modification": "10/14/18",
     "Passive Effect": "When gaining **Ignore DEF** via **Cloud Sword - Necessity**, also gain the same number of **Increase ATK**"
   },
   "Condense Sword Intent": {
@@ -359,7 +359,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Immortality",
     "Sigil Value": 1,
-    "HP Modification": "6/8",
+    "HP Modification": "8/10",
     "Effect": "When playing a **Sword Formation** card next time, gain 2 **DEF** for every 1 **Sword Intent**"
   },
   "Mechanism Turtle": {
@@ -532,7 +532,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Virtuoso",
     "Sigil Value": 2,
-    "HP Modification": "2/6/10",
+    "HP Modification": "4/8/12",
     "Passive Effect": "When gaining **Qi** by playing **Yin Yang Formation**, also gain the same number of **Hexagram**"
   },
   "Derive Star Points": {
@@ -557,7 +557,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Immortality",
     "Sigil Value": 1,
-    "HP Modification": 2,
+    "HP Modification": 4,
     "Passive Effect": "**Mechanism Rune** + 3/4\nIf **Mechanism Rune** < 3 at the start of each of your turns, consume 1 **Qi** to increase **Mechanism Rune** by 3"
   },
   "Spring Return": {
@@ -572,8 +572,8 @@ module.exports = {
     "sect": "Heptastar Pavillion",
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Immortality",
-    "Sigil Value": 2,
-    "HP Modification": "12/16",
+    "Sigil Value": 1,
+    "HP Modification": "2/4",
     "Effect": "**Ruthless Water** no longer consumes **Qi**, and deals 1 more ATK for every 1 stack of **Internal Injury** the opponent has"
   },
   "Trump Card": {
@@ -631,7 +631,7 @@ module.exports = {
     "Starting Phase": "Incarnation",
     "Sigil Value": 3,
     "HP Modification": 2,
-    "Passive Effect": "All slots are treated as **Star Point**\nTrigger **Chase** after playing **Polaris Citta-Dharma** for the first time"
+    "Passive Effect": "All slots are treated as **Star Point**;Lose 1 Star Power and trigger **Chase** after playing **Polaris Citta-Dharma** for the first time"
   },
   "Ko Threat Extension": {
     "sect": "Heptastar Pavillion",
@@ -690,7 +690,7 @@ module.exports = {
     "Starting Phase": "Foundation",
     "Sigil Value": 1,
     "HP Modification": "2/3/4/5",
-    "Passive Effect": "After attacking with **Metal Spirit - Heart Pierce**, refund the **Penetrate** triggered by it (maximum 3/5/7/9)"
+    "Passive Effect": "After attacking with **Metal Spirit - Heart Pierce**, refund the **Penetrate** triggered by it (maximum 3/6/9/12)"
   },
   "Mechanism Spirit Seal": {
     "sect": "Five Elements Alliance",
@@ -780,7 +780,7 @@ module.exports = {
     "Starting Phase": "Immortality",
     "Sigil Value": 1,
     "HP Modification": "8/10",
-    "Passive Effect": "Each time you play a **Fire Spirit** card, reduce your own **DEF** by up to 20, then reduce the opponent's HP and Max HP by the same amount"
+    "Passive Effect": "Each time you play a **Fire Spirit** card, reduce your own **DEF** by up to 24/30, then reduce the opponent's HP and Max HP by the same amount"
   },
   "Mechanism Crocodile": {
     "sect": "Five Elements Alliance",
@@ -887,7 +887,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Foundation",
     "Sigil Value": 1,
-    "HP Modification": "3/5/7/9",
+    "HP Modification": "4/6/8/10",
     "Effect": "At the end of this turn, reduce **Weakened**, **Flaw**, and **Entangled** by an additional 2 stacks each"
   },
   "Resurrection": {
@@ -928,7 +928,7 @@ module.exports = {
     "image": "https://i.imgur.com/AfFp7pu.png",
     "Starting Phase": "Virtuoso",
     "Sigil Value": 1,
-    "HP Modification": "4/5/6",
+    "HP Modification": "4/6/8",
     "Effect": "The maximum DEF increase limit of **Detect-Horse Palms** is increased by 4/6/8, and the maximum ATK increase limit of **Windward Palms** is increased by 2/3/4"
   },
   "Suspend Momentum": {
