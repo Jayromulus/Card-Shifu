@@ -1,6 +1,6 @@
 {
   "name": "yi-xian-helper",
-  "version": "1.10.2",
+  "version": "1.26.1.18",
   "description": "a discord helper bot to provide information about cards, fates, and mechanics",
   "main": "index.js",
   "scripts": {
