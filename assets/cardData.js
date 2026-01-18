@@ -3097,19 +3097,19 @@ module.exports = {
   },
   //* Five Elements Alliance
   "Gourd Of Leisurely": {
-    "sect": "Wu Xingzhi",
+    "sect": "Wu Xingzhe",
     "image": "https://i.imgur.com/YCvc0uJ.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+2/3/4\nMax HP and HP+3/6/9\nIf any Five Elements has been activated, Chase"]
   },
   "Water Spirit - Leisurely": { //! resonance season exclusive
-    "sect": "Wu Xingzhi",
+    "sect": "Wu Xingzhe",
     "image": "https://i.imgur.com/YCvc0uJ.png",
     "Phase": "Virtuoso",
     "Effect": ["Qi+1/2/3\nHP+3/5/7\nIf any Five Elements has been activated, Chase"]
   },
   "Inheritance of Five Elements": {
-    "sect": "Wu Xingzhi",
+    "sect": "Wu Xingzhe",
     "image": "https://i.imgur.com/oAatB6h.png",
     "Phase": "Incarnation",
     "Absorb": ["Draw 2 Five Elements cards (Above Virtuoso Phase and Priority is given to the first Five Elements card of the deck)"]
