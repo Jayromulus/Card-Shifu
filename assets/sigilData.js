@@ -879,7 +879,7 @@ module.exports = {
     "Starting Phase": "Meditation",
     "Sigil Value": 1,
     "HP Modification": 2,
-    "Effect": "Deal 2/4/6/8/10 **DMG** to the opponent when p[laying the next **HP Cost** card"
+    "Effect": "Deal 2/4/6/8/10 **DMG** to the opponent when playing the next **HP Cost** card"
   },
   //? Foundation
   "Break Free": {

@@ -640,7 +640,7 @@ module.exports = {
     "Effect": ["DEF+9/12/15\nHP+9/12/15"],
     "Post Action": ["Gain 1 stack of Guard Up"]
   },
-  "Extremely Suspicious": {
+  "Snake in Reflection": {
     "sect": "Heptastar Pavillion",
     "image": "https://i.imgur.com/6HrUZDW.png",
     "Phase": "Immortality",
@@ -1760,7 +1760,7 @@ module.exports = {
     "Phase": "Foundation",
     "Effect": ["Max HP+10/15/20\nQi+2/3/4"]
   },
-  "Gild The Lily": {
+  "Paint Feet on Snake": {
     "sect": "Painter",
     "image": "https://i.imgur.com/dua4C5K.png",
     "Phase": "Foundation",
