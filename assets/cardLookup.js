@@ -94,7 +94,7 @@ module.exports = {
   "Flame Hexagram": { name: "Flame Hexagram", value: "Flame Hexagram" },
   "Star Trail Divination": { name: "Star Trail Divination", value: "Star Trail Divination" },
   "Dance Of The Dragonfly": { name: "Dance Of The Dragonfly", value: "Dance Of The Dragonfly" },
-  "Thunder And Lightning": { name: "Thunder And Lightning", value: "Thunder And Lightning" },
+  "t&l - Thunder And Lightning": { name: "Thunder And Lightning", value: "Thunder And Lightning" },
   "Repel Citta-Dharma": { name: "Repel Citta-Dharma", value: "Repel Citta-Dharma" },
   "Escape Plan": { name: "Escape Plan", value: "Escape Plan" },
   "Snake in Reflection": { name: "Snake in Reflection", value: "Snake in Reflection" },
