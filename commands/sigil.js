@@ -192,6 +192,8 @@ async function displayEmbed(interaction, flippedName) {
   //     .addComponents(switchButton)
   // }
 
+  // is this being tracked now?
+
   // console.warn({row});
 
   const sigilEmbed = new EmbedBuilder()
