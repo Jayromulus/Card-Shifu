@@ -419,7 +419,7 @@ module.exports = {
     "Cost": ["1 Qi"],
     "Effect": ["9/10/11 ATK\n10% chance make an additional 5/7/9 ATK"]
   },
-  "Striding Into the Wind": {
+  "Wild Horses Part the Mane": {
     "sect": "Heptastar Pavillion",
     "image": "https://i.imgur.com/649ZTz9.png",
     "Phase": "Meditation",
@@ -595,7 +595,7 @@ module.exports = {
     "Effect": ["1 ATK x 3"],
     "Star Point": ["Apply 1/2/3 stack(s) Weakened"]
   },
-  "Hexagram Formacide": {
+  "Six Lines Formacide": {
     "sect": "Heptastar Pavillion",
     "image": "https://i.imgur.com/OU0DY7I.png",
     "Phase": "Immortality",
@@ -1058,7 +1058,7 @@ module.exports = {
     "Effect": ["Gain 3/4/5 stacks of Force of Water"],
     "Water Spirit": ["Add 6/8/10 HP and Max HP\n(for every stack of Force of Water increase by 1)"]
   },
-  "Ultimate World Formation": {
+  "Primordial Infinity Formation": {
     "sect": "Five Elements Alliance",
     "image": "https://i.imgur.com/60SZ2yz.png",
     "Phase": "Incarnation",
@@ -1432,7 +1432,7 @@ module.exports = {
   //-------------------------------------
   //* Elixirist
   //? Meditation
-  "Earth Spirit Elixir": {
+  "Terra Spirit Elixir": {
     "sect": "Elixirist",
     "image": "https://i.imgur.com/T9Jlytb.png",
     "Phase": "Meditation",
@@ -2309,6 +2309,13 @@ module.exports = {
     "Cost": ["1 Qi"],
     "Effect": ["11/15/19 ATK\nIf your HP is less than 12, this card's ATK is doubled"]
   },
+  "Dark Quench Dagger": {
+    "sect": "Talisman",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Effect": ["Gain 1 **Internal Injury**\n2 ATK"],
+    "Injured": ["Apply 2 **Internal Injury** (1 more for each stack of **Internal Injury** you have)"]
+  },
   //? Virtuoso
   "Fire Soul Refinement Flag": {
     "sect": "Talisman",
@@ -2331,7 +2338,7 @@ module.exports = {
     "Effect": ["Lost 15% of current HP\nGain 4/5/6 stacks of Increase ATK"]
   },
   //? Immortality
-  "Cosmos Seal Divine Orb": {
+  "Primordial Spirit-Suppression Orb": {
     "sect": "Talisman",
     "image": "https://i.imgur.com/yiZINcy.png",
     "Phase": "Immortality",
@@ -2382,12 +2389,18 @@ module.exports = {
     "Cost": ["3 Qi"],
     "Effect": ["30/35/40 ATK\nOpponent loses 4/7/10 Destiny"]
   },
-  "Mysterious Gates Devil Seal Tower": {
+  "Qimen Monster-Locking Tower": {
     "sect": "Talisman",
     "image": "https://i.imgur.com/RPFQ8ID.png",
     "Phase": "Divinity",
     "Cost": ["3 Qi"],
     "Effect": ["Deal 25/32/32 DMG\nOpponent cannot act for 1/1/2 turns"]
+  },
+  "Myriad Manifestations Seed": {
+    "sect": "Talisman",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Divinity",
+    "Effect": ["10/13/16 ATK\nFor each different phase card in your deck, make an additional attack"],
   },
 
   //* Spiritual Pet
@@ -2447,7 +2460,7 @@ module.exports = {
     "Phase": "Immortality",
     "Continuous": ["For the next time when the HP is less or equal to 0, revive with 10/15/20 HP and add 10/15/20 Max HP"]
   },
-  "Three Tailed Cat": {
+  "Three-tailed Huan": {
     "sect": "Spiritual Pet",
     "image": "https://i.imgur.com/MI8qhCD.png",
     "Phase": "Immortality",
@@ -2483,6 +2496,13 @@ module.exports = {
     "Cost": ["2 Qi"],
     "Effect": ["Deal 1/5/9 DMG"],
     "Continuous": ["The next card played by the opponent will be changed to Normal Attack until the end of battle"]
+  },
+  "Nameless White Deer": {
+    "sect": "Spiritual Pet",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Divinity",
+    "Effect": ["Qi+2/4/6"],
+    "Passive": ["When either plays a Continuous Card within the first 2/3/4 slots of deck, **Skip** that card instead"]
   },
 
   //! Secret Enchantments
@@ -4006,14 +4026,248 @@ module.exports = {
     "Phase": "Meditation",
     "Effect": ["3/6/9 ATK"],
   },
-  //! Get a Random Card
 
+  //! Dao of Hundred Schools Season
+  //* Cloud Spirit Sword Sect
+  "Flying Swallow Spirit Sword": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Cost": ["1 Qi"],
+    "Effect": ["5/7/9 ATK x 2"],
+    "Opening": ["If you have no **Qi**, gain 1 **Qi**"]
+  },
+  "Unrestrained Sword - Crimson Sky": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Effect": ["Gain 1 **Increase ATK** per Unrestrained Sword used (max 1/2/3)\n6 ATK"],
+  },
+  "Giant Elephant Spirit Sword": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Cost": ["2 Qi"],
+    "Effect": ["3 ATK x 3\nGain 2/3/4 **Increase ATK**"],
+  },
+  "Cloud Sword - Spirit Sea": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["1 ATK\n**Qi**+3/4/5\n**Cloud Sea**+2"],
+    "Cloud Hit": ["This card counds as 2/3/4 Cloud Sword"]
+  },
+  "Floating Cloud Wandering Step": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Qi**+1\n**Cloud Sea**+3/4/5"],
+    "Odd Slot": ["HP+9 (+2/3/4 extra per **Qi**); excess over cap becomes **DEF**."],
+    "Even Slot": ["**Agility**+10/13/16"]
+  },
+  "Cloud Sword - Moonlight": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["HP and Max HP+8/13/18 (+2 extra per **Increase ATK** or **Sword Intent**, up to 100/200/300)"],
+    "Cloud Hit": ["1 ATK x 3/4/5"]
+  },
+  "Sword Shadow Flowing Light": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Cost": ["1 Qi"],
+    "Effect": ["**Sword Intent**+1/1/2\nFor each remaining **Qi** or **Sword Intent**, gain 1 DEF (max 8/16/18)\n**Chase**"],
+  },
+  "Thousand Blades Sword Formation": {
+    "sect": "Cloud Spirit Sword Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["1 ATK x 4/5/6 (+1 extra ATK per 5 DEF)"],
+  },
+  //* Heptastar Pavillion
+  "Thunder Golden Lotus": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Effect": ["1~11/13/15 ATK\n1% chance to make an additional 5/7/9 ATK\nGain 2 **Hexproof**"],
+  },
+  "Divine Dragon Swings Tail": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Effect": ["HP+7/11/15"],
+    "First Use": ["**Skip To** your previous card."],
+    "Post Action": ["For every 2 HP gained this turn, gain 1 **DEF**."]
+  },
+  "Astral Move - Connect": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["1 ATK\n**Qi**+2/3/4\nNext 2/3/4 Astral Move card played: if on a ** Star Point slot, gain 1 **Star Power**, otherwise **Become Star Point** and gain 5 HP."],
+  },
+  "Parting Grass to Seek Snake": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Cost": ["1 Qi"],
+    "Effect": ["Apply 0/1/2 **Internal Injury**\nApply 1 **Shadow Snake**\n**Chase**"],
+  },
+  "Spirit Essence Release": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Lasts for 4/5/6 turns, excess HP gained above Max HP deals equal **Damage** to the opponent\n**Qi**+2/3/4\nHP+4/6/8 (+1 extra per **Qi**)"],
+  },
+  "Astral Move - Push": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Cost": ["1 Qi"],
+    "Effect": ["5 ATK x 2/3/4"],
+    "Odd Slot": ["**Star Power**+3"],
+    "Even Slot": ["Convert up to 2 **Star Power** to **Guard Up**"]
+  },
+  "Wind Thunder Surge": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Qi**+1\n**DEF**+1~11/16/21 (when **Adjacent** to another \"Thunder\" card, this card's **DEF** becomes **ATK**)\n10% chance: **Chase**"],
+  },
+  "Soul Curse Hexagram Formula": {
+    "sect": "Heptastar Pavillion",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Hexagram**+2/3/4 (gain 2 extra **Hexagram** if the opponent has **Debuff**)"],
+    "Odd Slot": ["Apply 1/2/3 **Internal Injury**."],
+    "Even Slot": ["Apply 1/1/2 **Wound**"]
+  },
+  //* Five Elements Alliance
+  "Five Elements Jade": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Exchange": ["Randomly gain 1 **Five Elements** card (prioritizing the **Five Elements** of the first card in your deck)"],
+  },
+  "Twin Seal": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Effect": ["4/5/6 ATK x 2\n**Activate** the **Five elements** of cards in the next 2 slots; if they follow the **Five Elements Generating Interaction** order, gain 3/6/9 extra **DEF**."],
+  },
+  "Five Elements Formation Flag": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Effect": ["Play the 1st **Five Elements Spirit Formation** from your hand (max level 1/2/3)."],
+    "Odd Slot": ["Lost 10 HP and **Chase**"],
+    "Even Slot": ["Play the first **Five Elements Spirit Seal** from hand."]
+  },
+  "Wood Spirit - Spreading Branches": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Qi**+3/4/5"],
+    "Wood Spirit": ["For the next 3/4/5 card plays, drain 1 HP from the opponent (+1 extra per **Increase ATK**)"]
+  },
+  "Fire Spirit - Burn to Ashes": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["Reduce opponent's HP and Max HP by 9/12/15."],
+    "Fire Spirit": ["Reduce 2/3/4 extra per **Increase ATK**."],
+    "Earth Spirit": ["Reduce 1 extra per 3 **DEF**."],
+    "Metal Spirit": ["Reduce 1 extra per 2 **Penetrate**."]
+  },
+  "Earth Spirit - Chasing Dust Step": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["For next attack, gain 1 **DEF** per 3 HP **Injured**"],
+    "Earth Spirit": ["**Agility**+10"]
+  },
+  "Metal Spirit - Waves Washing Sand": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["**Qi**+1/2/3\n**Penetrate**+2/4/6"],
+    "Metal Spirit or Water Spirit": ["**Chase**"]
+  },
+  "Water Spirit - Falling Rain": {
+    "sect": "Five Elements Alliance",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Cost": ["1 Qi"],
+    "Effect": ["**Force of Water**+1/2/3\nHP and Max HP + 10/13/16"],
+    "Water Spirit": ["1 ATK (+1 extra per **Force of Water**)"],
+    "Wood Spirit": ["1 ATK (+1 extra per **Qi**)"]
+  },
+  //* Duan Xuan Sect
+  "Overlord Lifting the Cauldron": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Foundation",
+    "Effect": ["**Qi**+1/2/3\n**Physique**+2/3/4\nGain 1 **Increase ATK**"],
+  },
+  "High Spirits": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Virtuoso",
+    "Cost": ["3 HP"],
+    "Effect": ["**Force** and **Max Force**+1\n8/11/14 ATK (+1 extra per **Qi** or **Force**, max +4/6/8"],
+  },
+  "Mountain-Surpressing Palm": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Cost": ["4 HP"],
+    "Odd Slot": ["**Physique**+4"],
+    "Even Slot": ["**Force**+3"],
+    "Effect": ["6/11/16 ATK (+1 extra per 10 **Physique**)"]
+  },
+  "Crash Fist - Flying Elbow": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Immortality",
+    "Cost": ["5 HP"],
+    "Effect": ["6/9/12 ATK\n**Agility**+5/6/7\nWhen you play the next Crash Fist, apply 1 **Flaw**"],
+  },
+  "Dodge Side Strike": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Cost": ["2 HP"],
+    "Effect": ["8/13/14 ATK\nGain 1 **Increase ATK**.\nSpend up to 2 **Qi** (may spend **Force** when **Qi** is insufficient): +5 **Agility** per point spent."],
+  },
+  "Hundred Healing Hands": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Effect": ["HP+6/8/10 (boosted by **Increase ATK** and **Force**)\n2 ATK x 3/4/5 (+1 extra ATK per 15 HP gained this battle)"],
+  },
+  "Nether Spirit Blood Shadow Step": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Cost": ["2/3/4 HP"],
+    "Effect": ["**Qi**+2/3/4\nHP+5\nGain 1/2/3 **Internal Injury**\nFor each **Qi** or **Debuff** you have, gain 1 **Agility** (max 11/13/15)"],
+  },
+  "Shura Mystic Qi Slash": {
+    "sect": "Duan Xuan Sect",
+    "image": "https://i.imgur.com/AfFp7pu.png",
+    "Phase": "Incarnation",
+    "Cost": ["2 HP"],
+    "Effect": ["5/8/11 ATK (+1 extra per **Qi**)\n5/8/11 ATK (+1 extra per **Debuff**)\nFor every 3 HP this card **Injured**, gain 1 HP"],
+  },
+
+
+  
   //! Dictionary Entries
   //? Used for `/card Fuluist` to list all cards in a given sect/side job
   "Elixirist": {
     "sect": "Elixirist",
     "image": "https://i.imgur.com/AfFp7pu.png",
-    "Meditation": ["Earth Spirit Elixir\nFundamental Elixir\nSmall Recover Elixir"],
+    "Meditation": ["Terra Spirit Elixir\nFundamental Elixir\nSmall Recover Elixir"],
     "Foundation": ["Bodybuilding Elixir\nCloud Elixir\nExorcism Elixir"],
     "Virtuoso": ["Resurrection Elixir\nHealing Elixir\nDivine Power Elixir"],
     "Immortality": ["Great Recover Elixir\nSpiritage Elixir\nTalent Elixir"],
@@ -4074,13 +4328,14 @@ module.exports = {
     "Incarnation": ["Envelop in Disaster\nCycle of Fate\nHeavenly Will - Comply / Heavenly Will - Defy"]
   },
   //! do the same as above for spirit pet, sect enchantments, and talisman
-
+  
   // "": {
   //   "sect": "",
   //   "image": "https://i.imgur.com/AfFp7pu.png",
   //   "Phase": "",
   //   "Effect": [""],
   // },
+  //! Get a Random Card
   "random": {}
-}
-// Last Updated: 5/2/2025
+  }
+// Last Updated: 10/26/2026

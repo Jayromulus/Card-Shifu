@@ -64,7 +64,7 @@ module.exports = {
   "Palm Thunder": { name: "Palm Thunder", value: "Palm Thunder" },
   "White Crane Bright Wings": { name: "White Crane Bright Wings", value: "White Crane Bright Wings" },
   "Sparrow's Tail": { name: "Sparrow's Tail", value: "Sparrow's Tail" },
-  "Striding Into the Wind - horse": { name: "Striding Into the Wind", value: "Striding Into the Wind" },
+  "Striding Into the Wind - horse - Wild Horses Part the Mane": { name: "Wild Horses Part the Mane", value: "Wild Horses Part the Mane" },
   "Incessant": { name: "Incessant", value: "Incessant" },
   "Astral Fleche": { name: "Astral Fleche", value: "Astral Fleche" },
   "am - Astral Move - Point": { name: "Astral Move - Point", value: "Astral Move - Point" },
@@ -90,7 +90,7 @@ module.exports = {
   "Drag Moon In Sea": { name: "Drag Moon In Sea", value: "Drag Moon In Sea" },
   "am - Astral Move - Fly": { name: "Astral Move - Fly", value: "Astral Move - Fly" },
   "am - Astral Move - Tiger": { name: "Astral Move - Tiger", value: "Astral Move - Tiger" },
-  "Hexagram Formacide": { name: "Hexagram Formacide", value: "Hexagram Formacide" },
+  "Hexagram Six Lines Formacide": { name: "Six Lines Formacide", value: "Six Lines Formacide" },
   "Flame Hexagram": { name: "Flame Hexagram", value: "Flame Hexagram" },
   "Star Trail Divination": { name: "Star Trail Divination", value: "Star Trail Divination" },
   "Dance Of The Dragonfly": { name: "Dance Of The Dragonfly", value: "Dance Of The Dragonfly" },
@@ -150,13 +150,13 @@ module.exports = {
   "Metal Spirit - Iron Potassium Bone": { name: "Metal Spirit - Iron Bone", value: "Metal Spirit - Iron Bone" },
   "Water Spirit - Great Waves": { name: "Water Spirit - Great Waves", value: "Water Spirit - Great Waves" },
   "Water Spirit - Dive": { name: "Water Spirit - Dive", value: "Water Spirit - Dive" },
-  "World Smash - ws": { name: "World Smash", value: "World Smash" },
+  "World Smash - Primordial Smash - ws - ps": { name: "World Smash", value: "World Smash" },
   "Wood Spirit - Willow Leaf": { name: "Wood Spirit - Willow Leaf", value: "Wood Spirit - Willow Leaf" },
   "Fire Spirit - Blazing Prairie - bazinga": { name: "Fire Spirit - Blazing Prairie", value: "Fire Spirit - Blazing Prairie" },
   "Earth Spirit - Combine World - cw": { name: "Earth Spirit - Combine World", value: "Earth Spirit - Combine World" },
   "Metal Spirit - Giant Tripod": { name: "Metal Spirit - Giant Tripod", value: "Metal Spirit - Giant Tripod" },
   "Water Spirit - Combine Rivers": { name: "Water Spirit - Combine Rivers", value: "Water Spirit - Combine Rivers" },
-  "Ultimate World Formation": { name: "Ultimate World Formation", value: "Ultimate World Formation" },
+  "Primordial Infinity Ultimate World Formation": { name: "Primordial Infinity Formation", value: "Primordial Infinity Formation" },
   "Five Elements Heavenly Marrow Rhythm": { name: "Five Elements Heavenly Marrow Rhythm", value: "Five Elements Heavenly Marrow Rhythm" },
   //! Duan Xuan Sect
   "cf - Crash Fist - Poke": { name: "Crash Fist - Poke", value: "Crash Fist - Poke" },
@@ -212,7 +212,7 @@ module.exports = {
   "Gather Intense Force - gif": { name: "Gather Intense Force", value: "Gather Intense Force" },
   "Vast Universe": { name: "Vast Universe", value: "Vast Universe" },
   //! Elixirist
-  "Earth Spirit Elixir": { name: "Earth Spirit Elixir", value: "Earth Spirit Elixir" },
+  "Terra Earth Spirit Elixir": { name: "Terra Spirit Elixir", value: "Terra Spirit Elixir" },
   "Fundamental Elixir": { name: "Fundamental Elixir", value: "Fundamental Elixir" },
   "Small Recover Elixir": { name: "Small Recover Elixir", value: "Small Recover Elixir" },
   "Bodybuilding Elixir": { name: "Bodybuilding Elixir", value: "Bodybuilding Elixir" },
@@ -238,7 +238,7 @@ module.exports = {
   "Spirit Absorb Fulu": { name: "Spirit Absorb Fulu", value: "Spirit Absorb Fulu" },
   "Miasma Fulu": { name: "Miasma Fulu", value: "Miasma Fulu" },
   "Spiritage Incantation": { name: "Spiritage Incantation", value: "Spiritage Incantation" },
-  "Distubing Fulu": { name: "Distubing Fulu", value: "Distubing Fulu" },
+  "Distubing Disturbing Fulu": { name: "Disturbing Fulu", value: "Disturbing Fulu" },
   "Weaken Fulu": { name: "Weaken Fulu", value: "Weaken Fulu" },
   "Soul Requiem Fulu": { name: "Soul Requiem Fulu", value: "Soul Requiem Fulu" },
   "Divine Walk Fulu - dwf": { name: "Divine Walk Fulu", value: "Divine Walk Fulu" },
@@ -345,17 +345,19 @@ module.exports = {
   "Thorns Spear": { name: "Thorns Spear", value: "Thorns Spear" },
   "Dew Jade Vase": { name: "Dew Jade Vase", value: "Dew Jade Vase" },
   "Nameless Ancient Sword": { name: "Nameless Ancient Sword", value: "Nameless Ancient Sword" },
+  "Dark Quench Dagger": { name: "Dark Quench Dagger", value: "Dark Quench Dagger" }, //! TODO
   "Fire Soul Refinement Flag": { name: "Fire Soul Refinement Flag", value: "Fire Soul Refinement Flag" },
   "Requiem Jade Lotus": { name: "Requiem Jade Lotus", value: "Requiem Jade Lotus" },
   "Blood Crystal of Wolf King": { name: "Blood Crystal of Wolf King", value: "Blood Crystal of Wolf King" },
-  "Cosmos Seal Divine Orb": { name: "Cosmos Seal Divine Orb", value: "Cosmos Seal Divine Orb" },
+  "Primordial Spirit-Suppression Orb - Cosmos Seal Divine Orb": { name: "Primordial Spirit-Suppression Orb", value: "Primordial Spirit-Suppression Orb" },
   "Metal Tri-Thorn Spear": { name: "Metal Tri-Thorn Spear", value: "Metal Tri-Thorn Spear" },
   "Carefree Guqin": { name: "Carefree Guqin", value: "Carefree Guqin" },
   "Nether Seal Evil Signet - nss": { name: "Nether Seal Evil Signet", value: "Nether Seal Evil Signet" },
   "Dark Crystal Heart Shield": { name: "Dark Crystal Heart Shield", value: "Dark Crystal Heart Shield" },
   "Bow of Hunting Owl": { name: "Bow of Hunting Owl", value: "Bow of Hunting Owl" },
   "Void Split Spear - vss": { name: "Void Split Spear", value: "Void Split Spear" },
-  "Mysterious Gates Devil Seal Tower - exodia": { name: "Mysterious Gates Devil Seal Tower", value: "Mysterious Gates Devil Seal Tower" },
+  "Qimen Monster-Locking Tower - exodia": { name: "Qimen Monster-Locking Tower", value: "Qimen Monster-Locking Tower" },
+  "Myriad Manifestations Seed": { name: "Myriad Manifestations Seed", value: "Myriad Manifestations Seed" }, //! TODO
   //! Spirit Pet
   "Break Sky Eagle": { name: "Break Sky Eagle", value: "Break Sky Eagle" },
   "Fat Immortal Raccoon": { name: "Fat Immortal Raccoon", value: "Fat Immortal Raccoon" },
@@ -363,13 +365,15 @@ module.exports = {
   "Lonely Night Wolf": { name: "Lonely Night Wolf", value: "Lonely Night Wolf" },
   "Black Earth Turtle": { name: "Black Earth Turtle", value: "Black Earth Turtle" },
   "Brocade Rat": { name: "Brocade Rat", value: "Brocade Rat" },
+  "": { name: "", value: "" }, //! TODO
   "Scarlet-Eye The Sky Consumer": { name: "Scarlet-Eye The Sky Consumer", value: "Scarlet-Eye The Sky Consumer" },
   "Ashes Phoenix": { name: "Ashes Phoenix", value: "Ashes Phoenix" },
-  "Three Tailed Cat": { name: "Three Tailed Cat", value: "Three Tailed Cat" },
+  "Three-tailed Huan": { name: "Three-tailed Huan", value: "Three-tailed Huan" },
   "Colorful Spirit Crane": { name: "Colorful Spirit Crane", value: "Colorful Spirit Crane" },
   "Shadow Owl Rabbit": { name: "Shadow Owl Rabbit", value: "Shadow Owl Rabbit" },
   "Void The Spirit Consumer": { name: "Void The Spirit Consumer", value: "Void The Spirit Consumer" },
   "Nether Void Canine - dog - doggo": { name: "Nether Void Canine", value: "Nether Void Canine" },
+  "Nameless White Deer": { name: "Nameless White Deer", value: "Nameless White Deer" }, //! TODO
   //! Secret Enchantment - Cloud Spirit Sword Sect
   "Rhyme Spirit Sword": { name: "Rhyme Spirit Sword", value: "Rhyme Spirit Sword" },
   "Diligent Sword": { name: "Diligent Sword", value: "Diligent Sword" },
@@ -557,6 +561,45 @@ module.exports = {
   "M - Magnanimous Righteosness+": { name: "M - Magnanimous Righteosness", value: "M - Magnanimous Righteosness" },
   "cf - M - Crash Fist Entangle+": { name: "M - Crash Fist Entangle", value: "M - Crash Fist Entangle" },
 
+  //* Dao of Hundred Schools
+  //! Cloud Spirit Sword Sect
+  "Flying Swallow Spirit Sword": { name: "Flying Swallow Spirit Sword", value: "Flying Swallow Spirit Sword" },
+  "Unrestrained Sword - Crimson Sky": { name: "Unrestrained Sword - Crimson Sky", value: "Unrestrained Sword - Crimson Sky" },
+  "Giant Elephant Spirit Sword": { name: "Giant Elephant Spirit Sword", value: "Giant Elephant Spirit Sword" },
+  "Cloud Sword - Spirit Sea": { name: "Cloud Sword - Spirit Sea", value: "Cloud Sword - Spirit Sea" },
+  "Floating Cloud Wandering Step": { name: "Floating Cloud Wandering Step", value: "Floating Cloud Wandering Step" },
+  "Cloud Sword - Moonlight": { name: "Cloud Sword - Moonlight", value: "Cloud Sword - Moonlight" },
+  "Sword Shadow Flowing Light": { name: "Sword Shadow Flowing Light", value: "Sword Shadow Flowing Light" },
+  "Thousand Blades Sword Formation": { name: "Thousand Blades Sword Formation", value: "Thousand Blades Sword Formation" },
+  //! Heptastar Pavillion
+  "Thunder Golden Lotus": { name: "Thunder Golden Lotus", value: "Thunder Golden Lotus" },
+  "Divine Dragon Swings Tail": { name: "Divine Dragon Swings Tail", value: "Divine Dragon Swings Tail" },
+  "am - Astral Move - Connect": { name: "Astral Move - Connect", value: "Astral Move - Connect" },
+  "Parting Grass to Seek Snake": { name: "Parting Grass to Seek Snake", value: "Parting Grass to Seek Snake" },
+  "Spirit Essence Release": { name: "Spirit Essence Release", value: "Spirit Essence Release" },
+  "am - Astral Move - Push": { name: "Astral Move - Push", value: "Astral Move - Push" },
+  "Wind Thunder Surge": { name: "Wind Thunder Surge", value: "Wind Thunder Surge" },
+  "Soul Curse Hexagram Formula": { name: "Soul Curse Hexagram Formula", value: "Soul Curse Hexagram Formula" },
+  //! Five Elements Alliance
+  "Five Elements Jade": { name: "Five Elements Jade", value: "Five Elements Jade" },
+  "Twin Seal": { name: "Twin Seal", value: "Twin Seal" },
+  "Five Elements Formation Flag": { name: "Five Elements Formation Flag", value: "Five Elements Formation Flag" },
+  "Wood Spirit - Spreading Branches": { name: "Wood Spirit - Spreading Branches", value: "Wood Spirit - Spreading Branches" },
+  "Fire Spirit - Burn to Ashes": { name: "Fire Spirit - Burn to Ashes", value: "Fire Spirit - Burn to Ashes" },
+  "Earth Spirit - Chasing Dust Step": { name: "Earth Spirit - Chasing Dust Step", value: "Earth Spirit - Chasing Dust Step" },
+  "Metal Spirit - Waves Washing Sand": { name: "Metal Spirit - Waves Washing Sand", value: "Metal Spirit - Waves Washing Sand" },
+  "Water Spirit - Falling Rain": { name: "Water Spirit - Falling Rain", value: "Water Spirit - Falling Rain" },
+  //! Duan Xuan Sect
+  "Overlord Lifting the Cauldron": { name: "Overlord Lifting the Cauldron", value: "Overlord Lifting the Cauldron" },
+  "High Spirits": { name: "High Spirits", value: "High Spirits" },
+  "Mountain-Surpressing Palm": { name: "Mountain-Surpressing Palm", value: "Mountain-Surpressing Palm" },
+  "cf - Crash Fist - Flying Elbow": { name: "Crash Fist - Flying Elbow", value: "Crash Fist - Flying Elbow" },
+  "Dodge Side Strike": { name: "Dodge Side Strike", value: "Dodge Side Strike" },
+  "Hundred Healing Hands": { name: "Hundred Healing Hands", value: "Hundred Healing Hands" },
+  "Nether Spirit Blood Shadow Step": { name: "Nether Spirit Blood Shadow Step", value: "Nether Spirit Blood Shadow Step" },
+  "Shura Mystic Qi Slash": { name: "Shura Mystic Qi Slash", value: "Shura Mystic Qi Slash" },
+
+
   //* Feast of Zongzi
   "Red Bean Zongzi": { name: "Red Bean Zongzi", value: "Red Bean Zongzi" },
   "Jujube Zongzi": { name: "Jujube Zongzi", value: "Jujube Zongzi" },
@@ -613,6 +656,7 @@ module.exports = {
   "Demonic Dragon's Chaotic Dance": { name: "Demonic Dragon's Chaotic Dance", value: "Demonic Dragon's Chaotic Dance" },
   "Loong": { name: "Loong", value: "Loong" },
   "Pure Merpeople Pearl": { name: "Pure Merpeople Pearl", value: "Pure Merpeople Pearl" },
+
   //* Misc. Cards
   "Azure Dragon Sword Formation": { name: "Azure Dragon Sword Formation", value: "Azure Dragon Sword Formation" },
   "Cloud Sword - Sunset Glow": { name: "Cloud Sword - Sunset Glow", value: "Cloud Sword - Sunset Glow" },
@@ -636,3 +680,5 @@ module.exports = {
   "Plant Master": { name: "Plant Master", value: "Plant Master" },
   "Fortune Teller": { name: "Fortune Teller", value: "Fortune Teller" },
 }
+
+// Last Updated: 10/26/2026
